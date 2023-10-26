@@ -1,0 +1,33 @@
+{
+  "songwriters": [
+    {
+      "id": 1,
+      "name": "Celine Dion",
+      "age" : 55,
+      "photoUrl" : "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Mabel-42317.jpg/640px-Mabel-42317.jpg",
+      "childrens": ["René-Charles Angélil", "Riki Angeli"],
+      "parrents": ["Thérèse Dion", "Adhémar Dion"],
+      "born": "Canada, Toronto.",
+      "biography" : "Celine Dion was born on March 30, 1968, in Charlemagne, Québec, a little town 50 kilometers from Montréal. She was the 14th child of Thérèse Tanguay and Adhémar Dion. The Dion family was a humble one of modest means, but never lacked for love. The house was jam-packed with children, and Celine mom even had to lay her littlest one to sleep in a drawer."
+    },
+    {
+      "id": 2,
+      "name": "Ligitas Kernagis",
+      "age" : 60,
+      "photoUrl" : "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Mabel-42317.jpg/640px-Mabel-42317.jpg",
+      "childrens": [],
+      "parrents": ["Petras Kernagis", "Jovita Kernagienė"],
+      "born": "Lietuva, Kėdainiai",
+      "biography" : "1981 m. baigė Jonavos 1-ąją vidurinę mokyklą, įstojo į Kauno politechnikos instituto dabartinis KTU, Elektrotechnikos fakultetą. 1986 m. jį baigė ir įgijo inžinieriaus-energetiko specialybę."
+    },{
+      "id": 3,
+      "name": "Justin Bieber",
+      "age" : 31,
+      "photoUrl" : "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Mabel-42317.jpg/640px-Mabel-42317.jpg",
+      "childrens": ["René-Charles Angélil"],
+      "parrents": ["Thérèse Dion", "Adhémar Dion"],
+      "born": "Canada, Toronto.",
+      "biography" : "Celine Dion was born on March 30, 1968, in Charlemagne, Québec, a little town 50 kilometers from Montréal. She was the 14th child of Thérèse Tanguay and Adhémar Dion. The Dion family was a humble one of modest means, but never lacked for love. The house was jam-packed with children, and Celine mom even had to lay her littlest one to sleep in a drawer."
+    }
+  ]
+}
