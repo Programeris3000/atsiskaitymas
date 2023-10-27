@@ -5,12 +5,14 @@ import { SERVER } from '../../Patrials/Config'
 import { useParams } from 'react-router-dom'
 import Card from '../../Card/Card'
 import { TailSpin } from 'react-loader-spinner'
+import { useNavigate } from 'react-router-dom'
 
 const WriterPage = () => {
   const [userData, setUserData] = useState('')
   console.log(userData)
-  const {albums, songs, name} = userData
+  const {albums, songs, name, biography, activityYears} = userData
   const {ID} = useParams()
+  const navigation = useNavigate()
 
   useEffect(()=>{
     const getSongWriter = async () => {
@@ -20,14 +22,19 @@ const WriterPage = () => {
     getSongWriter()
   },[ID])
 
+  const backButtonHandler = ()=>{
+    navigation(`/project/songwriterslist`)
+  }
+
 
   return (
     <Card>
       {userData ? (
         <>
+          <button onClick={backButtonHandler}>Get back to Song writers...</button>
           <h1>{name}</h1>
-          <span>Created albums: {albums.length}</span>
-          <span>Created songs: {songs.length}</span>
+          <span>{activityYears}</span>
+          <p>{biography}</p>
         </>
       ) : 
       (<TailSpin

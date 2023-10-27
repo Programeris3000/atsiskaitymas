@@ -1,9 +1,10 @@
+import { Link } from 'react-router-dom'
 import Card from '../../Card/Card'
 import './SongItem.css'
 
 const SongItem = ({data}, {key}) => {
   console.log(data)
-  const {songTitle, duration, lyrics, songwriter, songThumbnail, album} = data
+  const {songTitle, duration, lyrics, songwriter, songThumbnail, album, id} = data
   const {name} = songwriter
   const {title} = album
 
@@ -12,11 +13,12 @@ const SongItem = ({data}, {key}) => {
     <div>
       {data ? (
       <Card key={key}>
+        <Link to={`/project/songslist/${id}`}>Read more about this song...</Link>
         <h2>{songTitle}</h2>
         <img src={songThumbnail} alt={songTitle}/>
-        <span>Song created by {name}</span>
-        <span>Album: {title}</span>
-        <span>Duration : {duration}min.</span>
+        <p>Song created by {name}</p>
+        <p>Album: {title}</p>
+        <p>Duration : {duration}min.</p>
         <p>Lyrics part {lyrics}</p>
 
       </Card>) : (<p></p>)}

@@ -4,6 +4,7 @@
       "id": 1,
       "name": "Celine Dion",
       "age": 55,
+      "activityYears": "1968 - 1980 ",
       "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Mabel-42317.jpg/640px-Mabel-42317.jpg",
       "childrens": [
         "René-Charles Angélil",
@@ -20,6 +21,7 @@
       "id": 2,
       "name": "Ligitas Kernagis",
       "age": 60,
+      "activityYears": "1968 - 1980 ",
       "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Mabel-42317.jpg/640px-Mabel-42317.jpg",
       "childrens": [],
       "parents": [
@@ -34,6 +36,7 @@
       "name": "Justin Bieber",
       "age": 31,
       "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Mabel-42317.jpg/640px-Mabel-42317.jpg",
+      "activityYears": "1968 - 1980 ",
       "childrens": [
         "René-Charles Angélil"
       ],
@@ -50,61 +53,91 @@
       "songwriterId": 1,
       "id": 1,
       "title": "Fly my to the moon",
-      "photoUrl": "https://u-static.fotor.com/images/text-to-image/result/PRO-296b2bd0c88b4a09a022f7d715d2ec78.jpg"
+      "photoUrl": "https://u-static.fotor.com/images/text-to-image/result/PRO-296b2bd0c88b4a09a022f7d715d2ec78.jpg",
+      "realeaseDate": "2023-05-16",
+      "genre": "rock",
+      "description": "In 2010, the scrappy Chino punks in Abe Vigoda shared a producer with Beach House, tour dates with Vampire Weekend, and a cinematic ’80s revivalism with the year’s buzziest bands. With its hyperkinetic “tropical punk” draped in Pretty in Pink pastels, Crush was the most commercially appealing album to emerge from Los Angeles DIY venue the Smell and, therefore, the biggest challenge to its egalitarian philosophy. But whether Abe Vigoda were truly going for the gold was a moot point: They quietly disbanded a year later and Crush remained a hidden gem that sounded like nothing else. At least until now, as Michael Vidal and Juan Velasquez reunite as Cupid & Psyche on the alluring Romantic Music, sounding like “the next Abe Vigoda album” but with a sober, measured perspective that required another decade to access."
     },
     {
       "songwriterId": 1,
       "id": 2,
       "title": "Pasion",
-      "photoUrl": "https://u-static.fotor.com/images/text-to-image/result/PRO-296b2bd0c88b4a09a022f7d715d2ec78.jpg"
+      "photoUrl": "https://u-static.fotor.com/images/text-to-image/result/PRO-296b2bd0c88b4a09a022f7d715d2ec78.jpg",
+      "realeaseDate": "2023-05-16",
+      "genre": "rock",
+      "description": "In 2010, the scrappy Chino punks in Abe Vigoda shared a producer with Beach House, tour dates with Vampire Weekend, and a cinematic ’80s revivalism with the year’s buzziest bands. With its hyperkinetic “tropical punk” draped in Pretty in Pink pastels, Crush was the most commercially appealing album to emerge from Los Angeles DIY venue the Smell and, therefore, the biggest challenge to its egalitarian philosophy. But whether Abe Vigoda were truly going for the gold was a moot point: They quietly disbanded a year later and Crush remained a hidden gem that sounded like nothing else. At least until now, as Michael Vidal and Juan Velasquez reunite as Cupid & Psyche on the alluring Romantic Music, sounding like “the next Abe Vigoda album” but with a sober, measured perspective that required another decade to access."
     },
     {
       "songwriterId": 1,
       "id": 3,
       "title": "Amber city",
-      "photoUrl": "https://u-static.fotor.com/images/text-to-image/result/PRO-296b2bd0c88b4a09a022f7d715d2ec78.jpg"
+      "photoUrl": "https://u-static.fotor.com/images/text-to-image/result/PRO-296b2bd0c88b4a09a022f7d715d2ec78.jpg",
+      "realeaseDate": "2023-05-16",
+      "genre": "rock",
+      "description": "In 2010, the scrappy Chino punks in Abe Vigoda shared a producer with Beach House, tour dates with Vampire Weekend, and a cinematic ’80s revivalism with the year’s buzziest bands. With its hyperkinetic “tropical punk” draped in Pretty in Pink pastels, Crush was the most commercially appealing album to emerge from Los Angeles DIY venue the Smell and, therefore, the biggest challenge to its egalitarian philosophy. But whether Abe Vigoda were truly going for the gold was a moot point: They quietly disbanded a year later and Crush remained a hidden gem that sounded like nothing else. At least until now, as Michael Vidal and Juan Velasquez reunite as Cupid & Psyche on the alluring Romantic Music, sounding like “the next Abe Vigoda album” but with a sober, measured perspective that required another decade to access."
     },
     {
       "songwriterId": 1,
       "id": 4,
       "title": "Night city sky",
-      "photoUrl": "https://u-static.fotor.com/images/text-to-image/result/PRO-296b2bd0c88b4a09a022f7d715d2ec78.jpg"
+      "photoUrl": "https://u-static.fotor.com/images/text-to-image/result/PRO-296b2bd0c88b4a09a022f7d715d2ec78.jpg",
+      "realeaseDate": "2023-05-16",
+      "genre": "rock",
+      "description": "In 2010, the scrappy Chino punks in Abe Vigoda shared a producer with Beach House, tour dates with Vampire Weekend, and a cinematic ’80s revivalism with the year’s buzziest bands. With its hyperkinetic “tropical punk” draped in Pretty in Pink pastels, Crush was the most commercially appealing album to emerge from Los Angeles DIY venue the Smell and, therefore, the biggest challenge to its egalitarian philosophy. But whether Abe Vigoda were truly going for the gold was a moot point: They quietly disbanded a year later and Crush remained a hidden gem that sounded like nothing else. At least until now, as Michael Vidal and Juan Velasquez reunite as Cupid & Psyche on the alluring Romantic Music, sounding like “the next Abe Vigoda album” but with a sober, measured perspective that required another decade to access."
     },
     {
       "songwriterId": 2,
       "id": 5,
       "title": "Ocean trip",
-      "photoUrl": "https://u-static.fotor.com/images/text-to-image/result/PRO-337abcac1efe42a48dc21fb1607fa4b4.jpg"
+      "photoUrl": "https://u-static.fotor.com/images/text-to-image/result/PRO-337abcac1efe42a48dc21fb1607fa4b4.jpg",
+      "realeaseDate": "2023-05-16",
+      "genre": "rock",
+      "description": "In 2010, the scrappy Chino punks in Abe Vigoda shared a producer with Beach House, tour dates with Vampire Weekend, and a cinematic ’80s revivalism with the year’s buzziest bands. With its hyperkinetic “tropical punk” draped in Pretty in Pink pastels, Crush was the most commercially appealing album to emerge from Los Angeles DIY venue the Smell and, therefore, the biggest challenge to its egalitarian philosophy. But whether Abe Vigoda were truly going for the gold was a moot point: They quietly disbanded a year later and Crush remained a hidden gem that sounded like nothing else. At least until now, as Michael Vidal and Juan Velasquez reunite as Cupid & Psyche on the alluring Romantic Music, sounding like “the next Abe Vigoda album” but with a sober, measured perspective that required another decade to access."
     },
     {
       "songwriterId": 2,
       "id": 6,
       "title": "Yellow bus",
-      "photoUrl": "https://u-static.fotor.com/images/text-to-image/result/PRO-337abcac1efe42a48dc21fb1607fa4b4.jpg"
+      "photoUrl": "https://u-static.fotor.com/images/text-to-image/result/PRO-337abcac1efe42a48dc21fb1607fa4b4.jpg",
+      "realeaseDate": "2023-05-16",
+      "genre": "rock",
+      "description": "In 2010, the scrappy Chino punks in Abe Vigoda shared a producer with Beach House, tour dates with Vampire Weekend, and a cinematic ’80s revivalism with the year’s buzziest bands. With its hyperkinetic “tropical punk” draped in Pretty in Pink pastels, Crush was the most commercially appealing album to emerge from Los Angeles DIY venue the Smell and, therefore, the biggest challenge to its egalitarian philosophy. But whether Abe Vigoda were truly going for the gold was a moot point: They quietly disbanded a year later and Crush remained a hidden gem that sounded like nothing else. At least until now, as Michael Vidal and Juan Velasquez reunite as Cupid & Psyche on the alluring Romantic Music, sounding like “the next Abe Vigoda album” but with a sober, measured perspective that required another decade to access."
     },
     {
       "songwriterId": 2,
       "id": 7,
       "title": "Roses are red",
-      "photoUrl": "https://u-static.fotor.com/images/text-to-image/result/PRO-337abcac1efe42a48dc21fb1607fa4b4.jpg"
+      "photoUrl": "https://u-static.fotor.com/images/text-to-image/result/PRO-337abcac1efe42a48dc21fb1607fa4b4.jpg",
+      "realeaseDate": "2023-05-16",
+      "genre": "rock",
+      "description": "In 2010, the scrappy Chino punks in Abe Vigoda shared a producer with Beach House, tour dates with Vampire Weekend, and a cinematic ’80s revivalism with the year’s buzziest bands. With its hyperkinetic “tropical punk” draped in Pretty in Pink pastels, Crush was the most commercially appealing album to emerge from Los Angeles DIY venue the Smell and, therefore, the biggest challenge to its egalitarian philosophy. But whether Abe Vigoda were truly going for the gold was a moot point: They quietly disbanded a year later and Crush remained a hidden gem that sounded like nothing else. At least until now, as Michael Vidal and Juan Velasquez reunite as Cupid & Psyche on the alluring Romantic Music, sounding like “the next Abe Vigoda album” but with a sober, measured perspective that required another decade to access."
     },
     {
       "songwriterId": 3,
       "id": 8,
       "title": "Dark moon",
-      "photoUrl": "https://u-static.fotor.com/images/text-to-image/result/PRO-57e0bb44f0b0414593e99250aa492549.jpg"
+      "photoUrl": "https://u-static.fotor.com/images/text-to-image/result/PRO-57e0bb44f0b0414593e99250aa492549.jpg",
+      "realeaseDate": "2023-05-16",
+      "genre": "rock",
+      "description": "In 2010, the scrappy Chino punks in Abe Vigoda shared a producer with Beach House, tour dates with Vampire Weekend, and a cinematic ’80s revivalism with the year’s buzziest bands. With its hyperkinetic “tropical punk” draped in Pretty in Pink pastels, Crush was the most commercially appealing album to emerge from Los Angeles DIY venue the Smell and, therefore, the biggest challenge to its egalitarian philosophy. But whether Abe Vigoda were truly going for the gold was a moot point: They quietly disbanded a year later and Crush remained a hidden gem that sounded like nothing else. At least until now, as Michael Vidal and Juan Velasquez reunite as Cupid & Psyche on the alluring Romantic Music, sounding like “the next Abe Vigoda album” but with a sober, measured perspective that required another decade to access."
     },
     {
       "songwriterId": 3,
       "id": 9,
       "title": "Expresso",
-      "photoUrl": "https://u-static.fotor.com/images/text-to-image/result/PRO-57e0bb44f0b0414593e99250aa492549.jpg"
+      "photoUrl": "https://u-static.fotor.com/images/text-to-image/result/PRO-57e0bb44f0b0414593e99250aa492549.jpg",
+      "realeaseDate": "2023-05-16",
+      "genre": "rock",
+      "description": "In 2010, the scrappy Chino punks in Abe Vigoda shared a producer with Beach House, tour dates with Vampire Weekend, and a cinematic ’80s revivalism with the year’s buzziest bands. With its hyperkinetic “tropical punk” draped in Pretty in Pink pastels, Crush was the most commercially appealing album to emerge from Los Angeles DIY venue the Smell and, therefore, the biggest challenge to its egalitarian philosophy. But whether Abe Vigoda were truly going for the gold was a moot point: They quietly disbanded a year later and Crush remained a hidden gem that sounded like nothing else. At least until now, as Michael Vidal and Juan Velasquez reunite as Cupid & Psyche on the alluring Romantic Music, sounding like “the next Abe Vigoda album” but with a sober, measured perspective that required another decade to access."
     },
     {
       "songwriterId": 3,
       "id": 10,
       "title": "Tea in the garden",
-      "photoUrl": "https://u-static.fotor.com/images/text-to-image/result/PRO-57e0bb44f0b0414593e99250aa492549.jpg"
+      "photoUrl": "https://u-static.fotor.com/images/text-to-image/result/PRO-57e0bb44f0b0414593e99250aa492549.jpg",
+      "realeaseDate": "2023-05-16",
+      "genre": "rock",
+      "description": "In 2010, the scrappy Chino punks in Abe Vigoda shared a producer with Beach House, tour dates with Vampire Weekend, and a cinematic ’80s revivalism with the year’s buzziest bands. With its hyperkinetic “tropical punk” draped in Pretty in Pink pastels, Crush was the most commercially appealing album to emerge from Los Angeles DIY venue the Smell and, therefore, the biggest challenge to its egalitarian philosophy. But whether Abe Vigoda were truly going for the gold was a moot point: They quietly disbanded a year later and Crush remained a hidden gem that sounded like nothing else. At least until now, as Michael Vidal and Juan Velasquez reunite as Cupid & Psyche on the alluring Romantic Music, sounding like “the next Abe Vigoda album” but with a sober, measured perspective that required another decade to access."
     }
   ],
   "songs": [
@@ -322,6 +355,24 @@
       "albumId": 10,
       "songwriterId": 3,
       "id": 22,
+      "songTitle": "accusamdadwm similique qui sunt",
+      "musicStyle": "Electronic",
+      "duration": 2.30,
+      "lyrics": "https://via.placeholder.com/600/92c952",
+      "songThumbnail": "https://via.placeholder.com/150/92c952"
+    },{
+      "albumId": 10,
+      "songwriterId": 3,
+      "id": 23,
+      "songTitle": "accusamdadwm similique qui sunt",
+      "musicStyle": "Electronic",
+      "duration": 2.30,
+      "lyrics": "https://via.placeholder.com/600/92c952",
+      "songThumbnail": "https://via.placeholder.com/150/92c952"
+    },{
+      "albumId": 10,
+      "songwriterId": 3,
+      "id": 24,
       "songTitle": "accusamdadwm similique qui sunt",
       "musicStyle": "Electronic",
       "duration": 2.30,
