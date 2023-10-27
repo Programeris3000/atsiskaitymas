@@ -1,12 +1,12 @@
 import { Route, Routes } from "react-router-dom"
 import './App.css'
-import SongWritersPage from "./Components/SongWritersPage/SongWritersPage";
+import SongWritersList from "./Components/SongWritersPage/SongWritersList";
 import NavigationPage from "./Components/NavigationPage/NavigationPage";
 import MainPage from "./Components/MainPage/MainPage";
-import AlbumsPage from "./Components/AlbumsPage/AlbumsPage";
-import SongsPage from "./Components/SongsPage/SongsPage";
 import Container from "./Components/Container/Container";
-import WriterPage from "./SingleComponents/WriterPage";
+import AlbumsList from "./Components/AlbumsPage/AlbumsList";
+import SongsList from "./Components/SongsPage/SongsList";
+import WriterPage from "./Components/SingleComponents/WriterPage/WriterPage";
 
 function App() {
   return (
@@ -16,10 +16,10 @@ function App() {
 
         <Routes>
           <Route path='/' element={<MainPage />} />
-          <Route path="/project/songwriters" element={<SongWritersPage />} />
-          <Route path="/project/songwriters/:ID" element={<WriterPage />} />
-          <Route path='/project/albumspage' element={<AlbumsPage />} />
-          <Route path='/project/songspage' element={<SongsPage />} />
+          <Route path="/project/songwriterslist" element={<SongWritersList />} />
+          <Route path="/project/songwriterslist/:ID" element={<WriterPage />} />
+          <Route path='/project/albumslist' element={<AlbumsList />} />
+          <Route path='/project/songslist' element={<SongsList />} />
         </Routes>
       </Container>
 

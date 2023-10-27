@@ -1,11 +1,11 @@
-import { useEffect, useState } from "react"
-import { SERVER } from "../Patrials/Config"
-import axios from "axios"
-import WriterPage from "../../SingleComponents/WriterPage"
-import Card from "../Card/Card"
+import { useEffect, useState } from 'react'
+import { SERVER } from '../Patrials/Config'
+import axios from 'axios'
+import './SongWritersList.css'
+import WriterItem from '../SingleComponents/WriterItem/WriterPage'
 
 
-const SongWritersPage = () => {
+const SongWritersList = () => {
 
   const [writers, setWriters] = useState([])
     console.log(writers)
@@ -21,7 +21,7 @@ const SongWritersPage = () => {
   const splitWriters = writers.map((data, index)=>{
     return(
       <div className="song-writers-list">
-        <WriterPage data={data} key={index}/>
+        <WriterItem data={data} key={index}/>
       </div>
     )
   })     
@@ -34,4 +34,4 @@ const SongWritersPage = () => {
   )
 }
 
-export default SongWritersPage
+export default SongWritersList

@@ -3,31 +3,330 @@
     {
       "id": 1,
       "name": "Celine Dion",
-      "age" : 55,
-      "photoUrl" : "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Mabel-42317.jpg/640px-Mabel-42317.jpg",
-      "childrens": ["René-Charles Angélil", "Riki Angeli"],
-      "parrents": ["Thérèse Dion", "Adhémar Dion"],
+      "age": 55,
+      "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Mabel-42317.jpg/640px-Mabel-42317.jpg",
+      "childrens": [
+        "René-Charles Angélil",
+        "Riki Angeli"
+      ],
+      "parents": [
+        "Thérèse Dion",
+        "Adhémar Dion"
+      ],
       "born": "Canada, Toronto.",
-      "biography" : "Celine Dion was born on March 30, 1968, in Charlemagne, Québec, a little town 50 kilometers from Montréal. She was the 14th child of Thérèse Tanguay and Adhémar Dion. The Dion family was a humble one of modest means, but never lacked for love. The house was jam-packed with children, and Celine mom even had to lay her littlest one to sleep in a drawer."
+      "biography": "Celine Dion was born on March 30, 1968, in Charlemagne, Québec, a little town 50 kilometers from Montréal. She was the 14th child of Thérèse Tanguay and Adhémar Dion. The Dion family was a humble one of modest means, but never lacked for love. The house was jam-packed with children, and Celine mom even had to lay her littlest one to sleep in a drawer."
     },
     {
       "id": 2,
       "name": "Ligitas Kernagis",
-      "age" : 60,
-      "photoUrl" : "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Mabel-42317.jpg/640px-Mabel-42317.jpg",
+      "age": 60,
+      "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Mabel-42317.jpg/640px-Mabel-42317.jpg",
       "childrens": [],
-      "parrents": ["Petras Kernagis", "Jovita Kernagienė"],
+      "parents": [
+        "Petras Kernagis",
+        "Jovita Kernagienė"
+      ],
       "born": "Lietuva, Kėdainiai",
-      "biography" : "1981 m. baigė Jonavos 1-ąją vidurinę mokyklą, įstojo į Kauno politechnikos instituto dabartinis KTU, Elektrotechnikos fakultetą. 1986 m. jį baigė ir įgijo inžinieriaus-energetiko specialybę."
-    },{
+      "biography": "1981 m. baigė Jonavos 1-ąją vidurinę mokyklą, įstojo į Kauno politechnikos instituto dabartinis KTU, Elektrotechnikos fakultetą. 1986 m. jį baigė ir įgijo inžinieriaus-energetiko specialybę."
+    },
+    {
       "id": 3,
       "name": "Justin Bieber",
-      "age" : 31,
-      "photoUrl" : "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Mabel-42317.jpg/640px-Mabel-42317.jpg",
-      "childrens": ["René-Charles Angélil"],
-      "parrents": ["Thérèse Dion", "Adhémar Dion"],
+      "age": 31,
+      "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Mabel-42317.jpg/640px-Mabel-42317.jpg",
+      "childrens": [
+        "René-Charles Angélil"
+      ],
+      "parents": [
+        "Thérèse Dion",
+        "Adhémar Dion"
+      ],
       "born": "Canada, Toronto.",
-      "biography" : "Celine Dion was born on March 30, 1968, in Charlemagne, Québec, a little town 50 kilometers from Montréal. She was the 14th child of Thérèse Tanguay and Adhémar Dion. The Dion family was a humble one of modest means, but never lacked for love. The house was jam-packed with children, and Celine mom even had to lay her littlest one to sleep in a drawer."
+      "biography": "Celine Dion was born on March 30, 1968, in Charlemagne, Québec, a little town 50 kilometers from Montréal. She was the 14th child of Thérèse Tanguay and Adhémar Dion. The Dion family was a humble one of modest means, but never lacked for love. The house was jam-packed with children, and Celine mom even had to lay her littlest one to sleep in a drawer."
+    }
+  ],
+  "albums": [
+    {
+      "songwriterId": 1,
+      "id": 1,
+      "title": "Fly my to the moon",
+      "photoUrl": "https://u-static.fotor.com/images/text-to-image/result/PRO-296b2bd0c88b4a09a022f7d715d2ec78.jpg"
+    },
+    {
+      "songwriterId": 1,
+      "id": 2,
+      "title": "Pasion",
+      "photoUrl": "https://u-static.fotor.com/images/text-to-image/result/PRO-296b2bd0c88b4a09a022f7d715d2ec78.jpg"
+    },
+    {
+      "songwriterId": 1,
+      "id": 3,
+      "title": "Amber city",
+      "photoUrl": "https://u-static.fotor.com/images/text-to-image/result/PRO-296b2bd0c88b4a09a022f7d715d2ec78.jpg"
+    },
+    {
+      "songwriterId": 1,
+      "id": 4,
+      "title": "Night city sky",
+      "photoUrl": "https://u-static.fotor.com/images/text-to-image/result/PRO-296b2bd0c88b4a09a022f7d715d2ec78.jpg"
+    },
+    {
+      "songwriterId": 2,
+      "id": 5,
+      "title": "Ocean trip",
+      "photoUrl": "https://u-static.fotor.com/images/text-to-image/result/PRO-337abcac1efe42a48dc21fb1607fa4b4.jpg"
+    },
+    {
+      "songwriterId": 2,
+      "id": 6,
+      "title": "Yellow bus",
+      "photoUrl": "https://u-static.fotor.com/images/text-to-image/result/PRO-337abcac1efe42a48dc21fb1607fa4b4.jpg"
+    },
+    {
+      "songwriterId": 2,
+      "id": 7,
+      "title": "Roses are red",
+      "photoUrl": "https://u-static.fotor.com/images/text-to-image/result/PRO-337abcac1efe42a48dc21fb1607fa4b4.jpg"
+    },
+    {
+      "songwriterId": 3,
+      "id": 8,
+      "title": "Dark moon",
+      "photoUrl": "https://u-static.fotor.com/images/text-to-image/result/PRO-57e0bb44f0b0414593e99250aa492549.jpg"
+    },
+    {
+      "songwriterId": 3,
+      "id": 9,
+      "title": "Expresso",
+      "photoUrl": "https://u-static.fotor.com/images/text-to-image/result/PRO-57e0bb44f0b0414593e99250aa492549.jpg"
+    },
+    {
+      "songwriterId": 3,
+      "id": 10,
+      "title": "Tea in the garden",
+      "photoUrl": "https://u-static.fotor.com/images/text-to-image/result/PRO-57e0bb44f0b0414593e99250aa492549.jpg"
+    }
+  ],
+  "songs": [
+    {
+      "albumId": 1,
+      "songwriterId": 1,
+      "id": 1,
+      "songTitle": "accusamus beatae ad facilis cum similique qui sunt",
+      "musicStyle": "Electronic",
+      "duration": 2.30,
+      "lyrics": "asdasdasdasdasdasdasdasdasdasdasdasdasd",
+      "songThumbnail": "https://via.placeholder.com/150/92c952"
+    },
+    {
+      "albumId": 1,
+      "songwriterId": 1,
+      "id": 2,
+      "songTitle": "Papposooodoo",
+      "musicStyle": "Regi",
+      "duration": 2.57,
+      "lyrics": "aaaaaaaaaaaaaaa",
+      "songThumbnail": "https://via.placeholder.com/150/92c952"
+    },
+    {
+      "albumId": 2,
+      "songwriterId": 1,
+      "id": 3,
+      "songTitle": "similique qui sunt",
+      "musicStyle": "Pop",
+      "duration": 3.10,
+      "lyrics": "qqeqeeeeeeeeeeeeeee",
+      "songThumbnail": "https://via.placeholder.com/150/92c952"
+    },
+    {
+      "albumId": 2,
+      "songwriterId": 1,
+      "id": 4,
+      "songTitle": "accusamus beatae ad ",
+      "musicStyle": "Dub-step",
+      "duration": 2.39,
+      "lyrics": "13131312asdasdasdasd",
+      "songThumbnail": "https://via.placeholder.com/150/92c952"
+    },
+    {
+      "albumId": 3,
+      "songwriterId": 1,
+      "id": 5,
+      "songTitle": " ad facilis cum similique q",
+      "musicStyle": "Pop-Regi",
+      "duration": 2.35,
+      "lyrics": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "songThumbnail": "https://via.placeholder.com/150/92c952"
+    },
+    {
+      "albumId": 3,
+      "songwriterId": 1,
+      "id": 6,
+      "songTitle": "aarrri sunt",
+      "musicStyle": "Funk",
+      "duration": 2.31,
+      "lyrics": "eeeeeeeeeeeeeeeeeee",
+      "songThumbnail": "https://via.placeholder.com/150/92c952"
+    },
+    {
+      "albumId": 4,
+      "songwriterId": 1,
+      "id": 7,
+      "songTitle": "accusamus bqeqessaffi sunt",
+      "musicStyle": "Koko",
+      "duration": 2.31,
+      "lyrics": "asdasdasdqeeeee",
+      "songThumbnail": "https://via.placeholder.com/150/92c952"
+    },
+    {
+      "albumId": 4,
+      "songwriterId": 1,
+      "id": 8,
+      "songTitle": "asdascasdcasd facilis cum siasdue qui sunt",
+      "musicStyle": "Electronic-Modern",
+      "duration": 2.10,
+      "lyrics": "123123assadasd",
+      "songThumbnail": "https://via.placeholder.com/150/92c952"
+    },
+    {
+      "albumId": 5,
+      "songwriterId": 2,
+      "id": 9,
+      "songTitle": "qui sunt",
+      "musicStyle": "Electronic",
+      "duration": 2.59,
+      "lyrics": "asda312323asdeasd",
+      "songThumbnail": "https://via.placeholder.com/150/92c952"
+    },
+    {
+      "albumId": 5,
+      "songwriterId": 2,
+      "id": 10,
+      "songTitle": "aaas  qeqe cilis cum similique qui sunt",
+      "musicStyle": "Electronic",
+      "duration": 1.30,
+      "lyrics": "asd12312asdasdasd",
+      "songThumbnail": "https://via.placeholder.com/150/92c952"
+    },
+    {
+      "albumId": 6,
+      "songwriterId": 2,
+      "id": 11,
+      "songTitle": "Laba qui sunt",
+      "musicStyle": "Electronic",
+      "duration": 2.30,
+      "lyrics": "asdd123123asdasd",
+      "songThumbnail": "https://via.placeholder.com/150/92c952"
+    },
+    {
+      "albumId": 6,
+      "songwriterId": 2,
+      "id": 12,
+      "songTitle": "cum similique qui simoni kalss sunt",
+      "musicStyle": "Electronic",
+      "duration": 2.30,
+      "lyrics": "asdasd12312312asdsa",
+      "songThumbnail": "https://via.placeholder.com/150/92c952"
+    },
+    {
+      "albumId": 7,
+      "songwriterId": 2,
+      "id": 13,
+      "songTitle": "pardaise ocean t",
+      "musicStyle": "Electronic",
+      "duration": 2.30,
+      "lyrics": "asdasd123123asdasdasdaaffafaf",
+      "songThumbnail": "https://via.placeholder.com/150/92c952"
+    },
+    {
+      "albumId": 7,
+      "songwriterId": 2,
+      "id": 14,
+      "songTitle": "adaddmilique qui sunt",
+      "musicStyle": "Electronic",
+      "duration": 2.30,
+      "lyrics": "agagagagttrtruyrt",
+      "songThumbnail": "https://via.placeholder.com/150/92c952"
+    },
+    {
+      "albumId": 8,
+      "songwriterId": 3,
+      "id": 15,
+      "songTitle": "accusamus beatae ad faqweqweilique qui sunt",
+      "musicStyle": "Electronic",
+      "duration": 2.30,
+      "lyrics": "rurtuyjhkjhjkh",
+      "songThumbnail": "https://via.placeholder.com/150/92c952"
+    },
+    {
+      "albumId": 8,
+      "songwriterId": 3,
+      "id": 16,
+      "songTitle": "accusamus qeqeeqqeqeqe milique qui sunt",
+      "musicStyle": "Electronic",
+      "duration": 2.30,
+      "lyrics": "ghjnmmghjgh",
+      "songThumbnail": "https://via.placeholder.com/150/92c952"
+    },
+    {
+      "albumId": 9,
+      "songwriterId": 3,
+      "id": 17,
+      "songTitle": "accusamus e qui sunt",
+      "musicStyle": "Electronic",
+      "duration": 2.30,
+      "lyrics": "tweweds",
+      "songThumbnail": "https://via.placeholder.com/150/92c952"
+    },
+    {
+      "albumId": 9,
+      "songwriterId": 3,
+      "id": 18,
+      "songTitle": "accusamus bea sunt",
+      "musicStyle": "Electronic",
+      "duration": 2.30,
+      "lyrics": "https://via.placeholder.com/600/92c952",
+      "songThumbnail": "https://via.placeholder.com/150/92c952"
+    },
+    {
+      "albumId": 10,
+      "songwriterId": 3,
+      "id": 19,
+      "songTitle": "accum similique qui sunt",
+      "musicStyle": "Electronic",
+      "duration": 2.30,
+      "lyrics": "https://via.placeholder.com/600/92c952",
+      "songThumbnail": "https://via.placeholder.com/150/92c952"
+    },
+    {
+      "albumId": 10,
+      "songwriterId": 3,
+      "id": 20,
+      "songTitle": "accique qui sunt",
+      "musicStyle": "Electronic",
+      "duration": 2.30,
+      "lyrics": "https://via.placeholder.com/600/92c952",
+      "songThumbnail": "https://via.placeholder.com/150/92c952"
+    },
+    {
+      "albumId": 10,
+      "songwriterId": 3,
+      "id": 21,
+      "songTitle": "accusamus beatae ad facil",
+      "musicStyle": "Electronic",
+      "duration": 2.30,
+      "lyrics": "https://via.placeholder.com/600/92c952",
+      "songThumbnail": "https://via.placeholder.com/150/92c952"
+    },
+    {
+      "albumId": 10,
+      "songwriterId": 3,
+      "id": 22,
+      "songTitle": "accusamdadwm similique qui sunt",
+      "musicStyle": "Electronic",
+      "duration": 2.30,
+      "lyrics": "https://via.placeholder.com/600/92c952",
+      "songThumbnail": "https://via.placeholder.com/150/92c952"
     }
   ]
 }

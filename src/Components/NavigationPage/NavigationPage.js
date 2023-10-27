@@ -15,15 +15,15 @@ const NavigationPage = () => {
           </li>
 
           <li className="navigation-list-item">
-            <NavLink className="navigation-link-item" to='/project/songwriters'>Song Writers</NavLink>
+            <NavLink className="navigation-link-item" to='/project/songwriterslist'>Song Writers</NavLink>
           </li>
 
           <li className="navigation-list-item">
-            <NavLink className="navigation-link-item" to='/project/albumspage'>Albums</NavLink>
+            <NavLink className="navigation-link-item" to='/project/albumslist'>Albums</NavLink>
           </li>
 
           <li className="navigation-list-item">
-            <NavLink className="navigation-link-item" to='/project/songspage'>Songs</NavLink>
+            <NavLink className="navigation-link-item" to='/project/songslist'>Songs</NavLink>
           </li>
 
 
