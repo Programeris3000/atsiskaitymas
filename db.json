@@ -138,6 +138,60 @@
       "realeaseDate": "2023-05-16",
       "genre": "rock",
       "description": "In 2010, the scrappy Chino punks in Abe Vigoda shared a producer with Beach House, tour dates with Vampire Weekend, and a cinematic ’80s revivalism with the year’s buzziest bands. With its hyperkinetic “tropical punk” draped in Pretty in Pink pastels, Crush was the most commercially appealing album to emerge from Los Angeles DIY venue the Smell and, therefore, the biggest challenge to its egalitarian philosophy. But whether Abe Vigoda were truly going for the gold was a moot point: They quietly disbanded a year later and Crush remained a hidden gem that sounded like nothing else. At least until now, as Michael Vidal and Juan Velasquez reunite as Cupid & Psyche on the alluring Romantic Music, sounding like “the next Abe Vigoda album” but with a sober, measured perspective that required another decade to access."
+    },
+    {
+      "title": "adad",
+      "photoUrl": "asdasd",
+      "realeaseDate": "asdasd",
+      "genre": "asdasd",
+      "description": "asdasdasdasdasdasd",
+      "songwriterId": 1,
+      "id": 11
+    },
+    {
+      "title": "414141Test",
+      "photoUrl": "321",
+      "realeaseDate": "asdasd",
+      "genre": "asdasd",
+      "description": "asdasdasd",
+      "songwriterId": 1,
+      "id": 12
+    },
+    {
+      "title": "asdasd",
+      "photoUrl": "asdasd",
+      "realeaseDate": "asdasd",
+      "genre": "asdasd",
+      "description": "asdasd",
+      "songwriterId": 1,
+      "id": 13
+    },
+    {
+      "title": "asdasd",
+      "photoUrl": "asdasd",
+      "realeaseDate": "asdasd",
+      "genre": "asdasd",
+      "description": "asdasdasdasd",
+      "songwriterId": 1,
+      "id": 15
+    },
+    {
+      "title": "asddasdsa",
+      "photoUrl": "asdasdasd",
+      "realeaseDate": "asdsad",
+      "genre": "asd",
+      "description": "asdasd",
+      "songwriterId": 1,
+      "id": 16
+    },
+    {
+      "title": "asddasdsaasdasd",
+      "photoUrl": "asdsad",
+      "realeaseDate": "asdasd",
+      "genre": "asdasd",
+      "description": "asdasdasd",
+      "songwriterId": 1,
+      "id": 17
     }
   ],
   "songs": [
@@ -147,7 +201,7 @@
       "id": 1,
       "songTitle": "accusamus beatae ad facilis cum similique qui sunt",
       "musicStyle": "Electronic",
-      "duration": 2.30,
+      "duration": 2.3,
       "lyrics": "asdasdasdasdasdasdasdasdasdasdasdasdasd",
       "songThumbnail": "https://via.placeholder.com/150/92c952"
     },
@@ -167,7 +221,7 @@
       "id": 3,
       "songTitle": "similique qui sunt",
       "musicStyle": "Pop",
-      "duration": 3.10,
+      "duration": 3.1,
       "lyrics": "qqeqeeeeeeeeeeeeeee",
       "songThumbnail": "https://via.placeholder.com/150/92c952"
     },
@@ -217,7 +271,7 @@
       "id": 8,
       "songTitle": "asdascasdcasd facilis cum siasdue qui sunt",
       "musicStyle": "Electronic-Modern",
-      "duration": 2.10,
+      "duration": 2.1,
       "lyrics": "123123assadasd",
       "songThumbnail": "https://via.placeholder.com/150/92c952"
     },
@@ -237,7 +291,7 @@
       "id": 10,
       "songTitle": "aaas  qeqe cilis cum similique qui sunt",
       "musicStyle": "Electronic",
-      "duration": 1.30,
+      "duration": 1.3,
       "lyrics": "asd12312asdasdasd",
       "songThumbnail": "https://via.placeholder.com/150/92c952"
     },
@@ -247,7 +301,7 @@
       "id": 11,
       "songTitle": "Laba qui sunt",
       "musicStyle": "Electronic",
-      "duration": 2.30,
+      "duration": 2.3,
       "lyrics": "asdd123123asdasd",
       "songThumbnail": "https://via.placeholder.com/150/92c952"
     },
@@ -257,7 +311,7 @@
       "id": 12,
       "songTitle": "cum similique qui simoni kalss sunt",
       "musicStyle": "Electronic",
-      "duration": 2.30,
+      "duration": 2.3,
       "lyrics": "asdasd12312312asdsa",
       "songThumbnail": "https://via.placeholder.com/150/92c952"
     },
@@ -267,7 +321,7 @@
       "id": 13,
       "songTitle": "pardaise ocean t",
       "musicStyle": "Electronic",
-      "duration": 2.30,
+      "duration": 2.3,
       "lyrics": "asdasd123123asdasdasdaaffafaf",
       "songThumbnail": "https://via.placeholder.com/150/92c952"
     },
@@ -277,7 +331,7 @@
       "id": 14,
       "songTitle": "adaddmilique qui sunt",
       "musicStyle": "Electronic",
-      "duration": 2.30,
+      "duration": 2.3,
       "lyrics": "agagagagttrtruyrt",
       "songThumbnail": "https://via.placeholder.com/150/92c952"
     },
@@ -287,7 +341,7 @@
       "id": 15,
       "songTitle": "accusamus beatae ad faqweqweilique qui sunt",
       "musicStyle": "Electronic",
-      "duration": 2.30,
+      "duration": 2.3,
       "lyrics": "rurtuyjhkjhjkh",
       "songThumbnail": "https://via.placeholder.com/150/92c952"
     },
@@ -297,7 +351,7 @@
       "id": 16,
       "songTitle": "accusamus qeqeeqqeqeqe milique qui sunt",
       "musicStyle": "Electronic",
-      "duration": 2.30,
+      "duration": 2.3,
       "lyrics": "ghjnmmghjgh",
       "songThumbnail": "https://via.placeholder.com/150/92c952"
     },
@@ -307,7 +361,7 @@
       "id": 17,
       "songTitle": "accusamus e qui sunt",
       "musicStyle": "Electronic",
-      "duration": 2.30,
+      "duration": 2.3,
       "lyrics": "tweweds",
       "songThumbnail": "https://via.placeholder.com/150/92c952"
     },
@@ -317,7 +371,7 @@
       "id": 18,
       "songTitle": "accusamus bea sunt",
       "musicStyle": "Electronic",
-      "duration": 2.30,
+      "duration": 2.3,
       "lyrics": "https://via.placeholder.com/600/92c952",
       "songThumbnail": "https://via.placeholder.com/150/92c952"
     },
@@ -327,7 +381,7 @@
       "id": 19,
       "songTitle": "accum similique qui sunt",
       "musicStyle": "Electronic",
-      "duration": 2.30,
+      "duration": 2.3,
       "lyrics": "https://via.placeholder.com/600/92c952",
       "songThumbnail": "https://via.placeholder.com/150/92c952"
     },
@@ -337,7 +391,7 @@
       "id": 20,
       "songTitle": "accique qui sunt",
       "musicStyle": "Electronic",
-      "duration": 2.30,
+      "duration": 2.3,
       "lyrics": "https://via.placeholder.com/600/92c952",
       "songThumbnail": "https://via.placeholder.com/150/92c952"
     },
@@ -347,7 +401,7 @@
       "id": 21,
       "songTitle": "accusamus beatae ad facil",
       "musicStyle": "Electronic",
-      "duration": 2.30,
+      "duration": 2.3,
       "lyrics": "https://via.placeholder.com/600/92c952",
       "songThumbnail": "https://via.placeholder.com/150/92c952"
     },
@@ -357,25 +411,27 @@
       "id": 22,
       "songTitle": "accusamdadwm similique qui sunt",
       "musicStyle": "Electronic",
-      "duration": 2.30,
+      "duration": 2.3,
       "lyrics": "https://via.placeholder.com/600/92c952",
       "songThumbnail": "https://via.placeholder.com/150/92c952"
-    },{
+    },
+    {
       "albumId": 10,
       "songwriterId": 3,
       "id": 23,
       "songTitle": "accusamdadwm similique qui sunt",
       "musicStyle": "Electronic",
-      "duration": 2.30,
+      "duration": 2.3,
       "lyrics": "https://via.placeholder.com/600/92c952",
       "songThumbnail": "https://via.placeholder.com/150/92c952"
-    },{
+    },
+    {
       "albumId": 10,
       "songwriterId": 3,
       "id": 24,
       "songTitle": "accusamdadwm similique qui sunt",
       "musicStyle": "Electronic",
-      "duration": 2.30,
+      "duration": 2.3,
       "lyrics": "https://via.placeholder.com/600/92c952",
       "songThumbnail": "https://via.placeholder.com/150/92c952"
     }

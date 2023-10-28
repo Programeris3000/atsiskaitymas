@@ -1,5 +1,4 @@
 import { Route, Routes } from "react-router-dom"
-import './App.css'
 import SongWritersList from "./Components/SongWritersPage/SongWritersList";
 import NavigationPage from "./Components/NavigationPage/NavigationPage";
 import MainPage from "./Components/MainPage/MainPage";
@@ -9,8 +8,15 @@ import SongsList from "./Components/SongsPage/SongsList";
 import WriterPage from "./Components/SingleComponents/WriterPage/WriterPage";
 import AlbumPage from "./Components/SingleComponents/AlbumPage/AlbumPage";
 import SongPage from "./Components/SingleComponents/SongPage/SongPage";
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+
+import './App.css'
+import CreateAlbumPage from "./Components/CreateComponents/CreateAlbumPage";
 
 function App() {
+
+
   return (
     <>
       <Container>
@@ -22,10 +28,24 @@ function App() {
           <Route path="/project/songwriterslist/:ID" element={<WriterPage />} />
           <Route path='/project/albumslist' element={<AlbumsList />} />
           <Route path='/project/albumslist/:ID' element={<AlbumPage />} />
+          <Route path='/project/albumslist/createalbumpage' element={<CreateAlbumPage />} />
           <Route path='/project/songslist' element={<SongsList />} />
           <Route path='/project/songslist/:ID' element={<SongPage />} />
         </Routes>
       </Container>
+      
+      <ToastContainer
+        position="bottom-right"
+        autoClose={2000}
+        hideProgressBar={false}
+        newestOnTop={false}
+        closeOnClick
+        rtl={false}
+        pauseOnFocusLoss
+        draggable
+        pauseOnHover
+        theme="dark"
+      />
 
       
     </>

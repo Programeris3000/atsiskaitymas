@@ -2,7 +2,10 @@ import './MainPage.css'
 
 const MainPage = () => {
   return (
-    <div>MainPage</div>
+    <>
+    <div className="scss-test">MainPage</div>
+  
+    </>
   )
 }
 

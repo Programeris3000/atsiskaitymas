@@ -1,8 +1,9 @@
 import { useEffect, useState } from 'react'
 import axios from 'axios'
-import './AlbumsList.css'
 import { SERVER } from '../Patrials/Config'
 import AlbumItem from '../SingleComponents/AlbumItem/AlbumItem'
+import './AlbumList.css'
+import { Link } from 'react-router-dom'
 
 
 const AlbumsList = () => {
@@ -27,8 +28,9 @@ const AlbumsList = () => {
 
   return (
     <>
-    <h1>Albums Page</h1>
-    <div>{splitAlbums}</div>
+    <h1 className="albums-page-title">Albums Page</h1>
+    <Link to='/project/albumslist/createalbumpage'>Create Album</Link>
+    <div className="albums-page-wrapper">{splitAlbums}</div>
     </>
   )
 }

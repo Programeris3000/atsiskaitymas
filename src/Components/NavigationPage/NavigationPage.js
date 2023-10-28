@@ -6,7 +6,7 @@ import './NavigationPage.css'
 const NavigationPage = () => {
 
   return (
-    <Container>
+
       <nav className="navigation-element">
         <ul className="navigation-list">
 
@@ -33,7 +33,7 @@ const NavigationPage = () => {
         </ul>
 
       </nav>
-    </Container>
+
   )
 }
 
