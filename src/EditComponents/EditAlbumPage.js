@@ -1,19 +1,20 @@
-// import './CreateAlbumPage.css'
-
 import { useEffect, useState } from "react"
-import { SERVER } from "../Patrials/Config"
+import { SERVER } from "../Components/Patrials/Config"
 import axios from 'axios'
+import { Link, useNavigate, useParams } from "react-router-dom"
+import { toast } from "react-toastify"
 
-const CreateAlbumPage = ({onCreateAlbumHandler}) => {
+const EditAlbumPage = ({albumId}) => {
+  
+  const {ID} = useParams()
+  const navigation = useNavigate()
 
   const [albumTitle, setAlbumTitle] = useState('')
   const [albumCover, setAlbumCover] = useState('')
   const [albumRealease, setAlbumRealease] = useState('')
   const [albumGenre, setAlbumGenre] = useState('')
   const [albumDescription, setAlbumDescription] = useState('')
-
   const [selectedUser, setSelectedUser] = useState('')
-
   const [songWriters, setSongWriters] = useState('')
 
 
@@ -22,7 +23,6 @@ const CreateAlbumPage = ({onCreateAlbumHandler}) => {
   const albumRealeaseHandler = event => setAlbumRealease(event.target.value)
   const albumGenreHandler = event => setAlbumGenre(event.target.value)
   const albumDescriptionHandler = event => setAlbumDescription(event.target.value)
-
   const albumUserHandler = event => setSelectedUser(event.target.value)
   
 
@@ -30,10 +30,25 @@ const CreateAlbumPage = ({onCreateAlbumHandler}) => {
     const getSongWriters = async () => {
       const {data} = await axios(`${SERVER}/songwriters`)
       setSongWriters(data)
-      setSelectedUser(data[0].id)
+      // setSelectedUser(data[0].id)
     }
     getSongWriters()
   },[])
+
+  useEffect(()=>{
+    const getAlbumToEdit = async () => {
+      const {data} = await axios (`${SERVER}/albums/${ID}`)
+      console.log(data)
+      const {title, songwriterId, realeaseDate, photoUrl, genre, description} = data
+      setAlbumTitle(title)
+      setAlbumCover(photoUrl)
+      setAlbumRealease(realeaseDate)
+      setAlbumGenre(genre)
+      setAlbumDescription(description)
+      setSelectedUser(songwriterId)
+    }
+    getAlbumToEdit()
+  },[ID])
 
 
   const optionElements = songWriters && songWriters.length > 0 && songWriters.map((writer, index)=>{
@@ -44,7 +59,7 @@ const CreateAlbumPage = ({onCreateAlbumHandler}) => {
 
 
 
-  const createAlbumFormHandler = async (event) => {
+  const editAlbumFormHandler = async (event) => {
     event.preventDefault()
 
     console.log(albumTitle)
@@ -53,26 +68,32 @@ const CreateAlbumPage = ({onCreateAlbumHandler}) => {
     console.log(albumGenre)
     console.log(albumDescription)
 
-    const newAlbum = {
+    const editedAlbum = {
+      id: Number(ID),
       title: albumTitle,
       photoUrl: albumCover,
       realeaseDate: albumRealease,
       genre: albumGenre,
       description: albumDescription,
       songwriterId: Number(selectedUser)
-    }
+    }    
 
-    onCreateAlbumHandler(newAlbum)
-    
+    const res = await axios.put(`${SERVER}/albums/${ID}`, editedAlbum)
+    if(res.status === 200){
+      toast.success('Album successfully edited')
+      navigation('/project/albumslist')
+    }
+    console.log(res)
   }
 
 
-
-
   return (
-    <form onSubmit={createAlbumFormHandler}>
+    <>
+    <h1>Edit album {ID}</h1>
+    <Link to='/project/albumslist'>Back to albums</Link>
+    <form onSubmit={editAlbumFormHandler}>
       <div form-control>
-      <label htmlFor="create-album-title">Enter Album title</label>
+      <label htmlFor="create-album-title">Edit Album title</label>
       <input 
       // required
       type="text" 
@@ -84,7 +105,7 @@ const CreateAlbumPage = ({onCreateAlbumHandler}) => {
       </div>
 
       <div form-control>
-      <label htmlFor="create-album-cover">Enter Cover Photo Url</label>
+      <label htmlFor="create-album-cover">Edit Cover Photo Url</label>
       <input 
       // required
       type="text" 
@@ -96,7 +117,7 @@ const CreateAlbumPage = ({onCreateAlbumHandler}) => {
       </div>
 
       <div form-control>
-      <label htmlFor="create-album-realease">Enter Album Realease date</label>
+      <label htmlFor="create-album-realease">Edit Album Realease date</label>
       <input 
       // required
       type="text" 
@@ -108,7 +129,7 @@ const CreateAlbumPage = ({onCreateAlbumHandler}) => {
       </div>
 
       <div form-control>
-      <label htmlFor="create-album-genre">Enter Album genre</label>
+      <label htmlFor="create-album-genre">Edit Album genre</label>
       <input 
       // required
       type="text" 
@@ -120,7 +141,7 @@ const CreateAlbumPage = ({onCreateAlbumHandler}) => {
       </div>
 
       <div form-control>
-      <label htmlFor="create-album-description">Enter Album description</label>
+      <label htmlFor="create-album-description">Edit Album description</label>
       <textarea
       // required
       type="text" 
@@ -137,9 +158,10 @@ const CreateAlbumPage = ({onCreateAlbumHandler}) => {
       </select>
     </div>
     
-      <input type="submit" value="Create album"/>
+      <input type="submit" value="Edit album"/>
     </form>
+      </>
   )
 }
 
-export default CreateAlbumPage
+export default EditAlbumPage

@@ -26,8 +26,8 @@ console.log(song)
         <>
         <Link to='/project/songslist'>Get back to song list</Link>
         <h2>{songTitle}</h2>
-        <p>Song created by {songwriter.name}</p>
-        <p>From album: {album.title}</p>
+        <p>Song created by {songwriter && songwriter.name}</p>
+        <p>From album: {album && album.title}</p>
         <p>Duration: {duration}</p>
         <p>Part of lyrics : {lyrics}</p>
         <p>Music style: {musicStyle}</p>

@@ -6,7 +6,6 @@ const SongItem = ({data}, {key}) => {
   console.log(data)
   const {songTitle, duration, lyrics, songwriter, songThumbnail, album, id} = data
   const {name} = songwriter
-  const {title} = album
 
 
   return (
@@ -17,7 +16,7 @@ const SongItem = ({data}, {key}) => {
         <h2>{songTitle}</h2>
         <img src={songThumbnail} alt={songTitle}/>
         <p>Song created by {name}</p>
-        <p>Album: {title}</p>
+        <p>Album: {album && album.title}</p>
         <p>Duration : {duration}min.</p>
         <p>Lyrics part {lyrics}</p>
 

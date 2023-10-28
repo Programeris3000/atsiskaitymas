@@ -13,6 +13,7 @@ import 'react-toastify/dist/ReactToastify.css';
 
 import './App.css'
 import CreateAlbumPage from "./Components/CreateComponents/CreateAlbumPage";
+import EditAlbumPage from "./EditComponents/EditAlbumPage";
 
 function App() {
 
@@ -29,6 +30,7 @@ function App() {
           <Route path='/project/albumslist' element={<AlbumsList />} />
           <Route path='/project/albumslist/:ID' element={<AlbumPage />} />
           <Route path='/project/albumslist/createalbumpage' element={<CreateAlbumPage />} />
+          <Route path='/project/albumslist/:ID/editalbumpage' element={<EditAlbumPage />} />
           <Route path='/project/songslist' element={<SongsList />} />
           <Route path='/project/songslist/:ID' element={<SongPage />} />
         </Routes>

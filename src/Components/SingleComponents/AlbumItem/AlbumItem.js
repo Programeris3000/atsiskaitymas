@@ -6,24 +6,36 @@ import './AlbumItem.css'
 import { Link } from 'react-router-dom'
 
 
-const AlbumItem = ({data}, {key}) => {
-  const {title, id, songwriterId, photoUrl, songwriter} = data
-  const {name} = songwriter
+const AlbumItem = ({data, key, onDeleteAlbumHandler, editAlbumHandler}) => {
+
+  const {title, id, songwriterId, photoUrl} = data
+  const [songWriter, setSongWriter] = useState('')
   
-  const deleteAlbumHandler = () => {
-    axios.delete(`${SERVER}/albums/${id}`)
-    console.log(id)
+  const idForDeleteHandler = () => {
+    onDeleteAlbumHandler(id)
   }
+
+
   
+  useEffect(()=>{
+    const getSongWriter = async () => {
+      const {data} = await axios (`${SERVER}/songwriters/${songwriterId}`)
+      setSongWriter(data)
+    }
+    getSongWriter()
+  },[])
+
+
 
   return (
     <>
     {data ? (
       <Card key={key}>
-        <button onClick={deleteAlbumHandler}>Delete Album</button>
+        <button onClick={idForDeleteHandler}>Delete Album</button>
+        <Link to={`/project/albumslist/${id}/editalbumpage`}>Edit Album</Link>
         <Link to={`/project/albumslist/${id}`}>
-        <h2>{title}{songwriterId}</h2>
-        <span>Created by {name}</span>
+        <h2>{title}</h2>
+        <span>Created by {songWriter.name}</span>
         <img className="album-item-image" src={photoUrl} alt={title}/>
         </Link>
       </Card>
