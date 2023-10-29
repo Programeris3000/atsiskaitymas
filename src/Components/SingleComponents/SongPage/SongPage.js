@@ -10,7 +10,6 @@ const SongPage = () => {
   const [song, setSong] = useState('')
   const {ID} = useParams()
   const {album, duration, lyrics, musicStyle, songThumbnail, songTitle, songwriter} = song
-console.log(song)
   useEffect(()=>{
     const getSong = async () => {
       const {data} = await axios(`${SERVER}/songs/${ID}?_expand=album&_expand=songwriter`)
