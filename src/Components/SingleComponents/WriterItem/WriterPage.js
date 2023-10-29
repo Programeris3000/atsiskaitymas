@@ -1,9 +1,8 @@
 import { Link, useParams } from "react-router-dom"
 import { TailSpin } from "react-loader-spinner"
-import Card from "../../Card/Card"
 import './WriterItem.css'
 
-const WriterItem = ({ data }, { key }) => {
+const WriterItem = ({ data , key }) => {
 
   const { age, biography, born, childrens, id, parents, name, photoUrl } = data
 
@@ -54,18 +53,22 @@ let childrensChecker = childrens && childrens.length >= 2 ? <ul>{childrensElemen
   return (
     <>
       {data ? (
-        <Card className="border-medium" key={key}>
-          <Link to={`/project/songwriterslist/${id}`}>Read more about {name}</Link>
-          <h2>{ID}Artist {name}</h2>
-          <span>Age {age}</span>
-          <span>Born date {born}</span>
-          <p>Biography: {biography}</p>
-          <div className="childrens-wrapper">
-          <h3>{name} childrens: </h3>
-          {childrensChecker}
+          <div key={key} className="song-writer-item">
+            
+            <h2>{name}</h2>
+            <img style={{width: '300px'}}src={photoUrl} alt={name}/>
+            <span>Age {age}</span>
+            <span>Born date {born}</span>
+            <p>Biography: {biography}</p>
+
+            <div className="childrens-wrapper">
+              <h3>{name} childrens: </h3>
+              {childrensChecker}
+            </div>
+
+            {parentsChecker}
+            <Link to={`/project/songwriterslist/${id}`}>Read more about {name}</Link>
           </div>
-          {parentsChecker}
-        </Card>
       ) : (
         <TailSpin
           height="80"

@@ -20,17 +20,18 @@ const SongWritersList = () => {
 
   const splitWriters = writers.map((data, index)=>{
     return(
-      <div className="song-writers-list">
         <WriterItem data={data} key={index}/>
-      </div>
     )
   })     
 
   return (
     <>
-   <h1>Song writers</h1>
-    {splitWriters}
+    <h1 className="song-writers-title">Song writers</h1>
+    <div className="song-writers-wrapper">
+      {splitWriters}
+    </div>
     </>
+    
   )
 }
 

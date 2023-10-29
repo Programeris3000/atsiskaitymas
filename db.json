@@ -5,7 +5,7 @@
       "name": "Celine Dion",
       "age": 55,
       "activityYears": "1968 - 1980 ",
-      "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Mabel-42317.jpg/640px-Mabel-42317.jpg",
+      "photoUrl": "https://cdn.smehost.net/celinedioncom-caprod/wp-content/uploads/2021/09/Celine-Dion-022-Photo-By-Alix-Malka-1-880x621.jpg",
       "childrens": [
         "René-Charles Angélil",
         "Riki Angeli"
@@ -142,24 +142,24 @@
   ],
   "songs": [
     {
-      "albumId": 1,
-      "songwriterId": 1,
-      "id": 1,
-      "songTitle": "accusamus beatae ad facilis cum similique qui sunt",
-      "musicStyle": "Electronic",
-      "duration": 2.3,
+      "albumId": 6,
+      "songwriterId": "2",
+      "songTitle": "accusamus (edited)",
+      "musicStyle": "Electronic(edited)",
+      "duration": "2.3(edited)",
       "lyrics": "asdasdasdasdasdasdasdasdasdasdasdasdasd",
-      "songThumbnail": "https://via.placeholder.com/150/92c952"
+      "songThumbnail": "https://via.placeholder.com/150/92c952",
+      "id": 1
     },
     {
       "albumId": 1,
-      "songwriterId": 1,
-      "id": 2,
-      "songTitle": "Papposooodoo",
+      "songwriterId": "3",
+      "songTitle": "Papposooodoo(eit)",
       "musicStyle": "Regi",
       "duration": 2.57,
       "lyrics": "aaaaaaaaaaaaaaa",
-      "songThumbnail": "https://via.placeholder.com/150/92c952"
+      "songThumbnail": "https://via.placeholder.com/150/92c952",
+      "id": 2
     },
     {
       "albumId": 2,
@@ -264,12 +264,12 @@
     {
       "albumId": 7,
       "songwriterId": 2,
-      "id": 13,
       "songTitle": "pardaise ocean t",
       "musicStyle": "Electronic",
       "duration": 2.3,
       "lyrics": "asdasd123123asdasdasdaaffafaf",
-      "songThumbnail": "https://via.placeholder.com/150/92c952"
+      "songThumbnail": "https://via.placeholder.com/150/92c952",
+      "id": 13
     },
     {
       "albumId": 7,
@@ -320,6 +320,40 @@
       "duration": 2.3,
       "lyrics": "https://via.placeholder.com/600/92c952",
       "songThumbnail": "https://via.placeholder.com/150/92c952"
+    }
+  ],
+  "studioAwards" :[
+    {
+      "id": 1,
+      "awardTitle": "M.A.M.A 2023",
+      "awardDescription": "The 'Award Name' is a prestigious and coveted recognition in the world of [Music/Entertainment/Your Industry]. It celebrates and honors outstanding achievements, innovation, and excellence in [Music/Entertainment/Your Field]. This award is a symbol of artistic brilliance, dedication, and the relentless pursuit of excellence.\n\nWith a rich history spanning [Number of Years] years, the 'Award Name' has become a hallmark of industry success, showcasing the crème de la crème of talent and contributions. Each year, this award brings together the most influential and talented individuals who have left an indelible mark on their respective fields.",
+      "awardPhoto": "https://res.heraldm.com/content/image/2023/10/19/20231019000615_0.jpg",
+      "companyLogo": "https://www.muzikosapdovanojimai.lt/wp-content/themes/m.a.m.a.2014/img/trophy.jpg",
+      "companyName" : "Music awards company M.A.M.A"
+    },
+    {
+      "id": 2,
+      "awardTitle": "MelodyMasters Gala 2021",
+      "awardDescription": "Located in the heart of Los Angeles, California, Studio X stands as a shining example of musical and sonic brilliance. This prestigious record studio has earned its place in the limelight by being awarded the highly coveted Best Recording Studio of the Year in the category of Studio Excellence for the year 2023.",
+      "awardPhoto": "https://upload.wikimedia.org/wikipedia/en/c/c6/O-music-awards-2013-logo.jpg",
+      "companyLogo": "https://www.creativefabrica.com/wp-content/uploads/2021/06/16/Logo-for-Music-Company-Graphics-13485974-1.jpg",
+      "companyName" : "MelodyMasters Gala awards company"
+    },
+    {
+      "id": 3,
+      "awardTitle": "Melodic Milestones Awards 2020",
+      "awardDescription": "The studio's achievement is a testament to its commitment to audio perfection. Studio X is celebrated for its exceptional sound quality, state-of-the-art equipment, and a team of outstanding recording engineers who bring musical dreams to life. They have redefined the industry's standards by consistently delivering top-notch recordings that enchant the senses and touch the soul.",
+      "awardPhoto": "https://www.goldderby.com/wp-content/uploads/2018/06/CMT-Awards-2018-Country-Music-Television-Awards.jpg",
+      "companyLogo": "https://www.designevo.com/res/templates/thumb_small/music-note-and-violin-string.webp",
+      "companyName" : "Melodic Milestones Awards company"
+    },
+    {
+      "id": 4,
+      "awardTitle": "SoundWave Accolades",
+      "awardDescription": "The jury, comprised of industry experts, musicians, and critics, was profoundly impressed by Studio X's dedication to delivering sonic excellence. The exceptional sound quality and professional service provided by Studio X have made them a clear standout in the competitive world of recording studios. Their commitment to innovation and unwavering passion for music and sound have earned them this well-deserved recognition.",
+      "awardPhoto": "https://assets.apraamcos.com.au/images/Awards/_1200x630_crop_center-center_82_none/MUSIC_Generic-3_2.jpg",
+      "companyLogo": "https://graphicsfamily.com/wp-content/uploads/2020/10/Free-music-logo-design-on-wall-presentation-scaled.jpg",
+      "companyName" : "SoundWave Accolades awards company"
     }
   ]
 }

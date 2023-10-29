@@ -13,6 +13,7 @@ const SongItem = ({data, key, onDeleteSongHandler}) => {
     <div>
       {data ? (
       <Card key={key}>
+        <Link to={`/project/songslist/${id}/editsongpage`}>Edit Song</Link>
         <button onClick={deleteSongHandler}>Delete song</button>
         <Link to={`/project/songslist/${id}`}>Read more about this song...</Link>
         <h2>{songTitle}</h2>

@@ -1,0 +1,28 @@
+.navigation-element {
+  background-image: url("/src/Images/pexels-vishnu-r-nair-1105666.jpg");
+  object-fit: contain;
+  width: 100%;
+  background-position: center;
+  display: flex;
+  justify-content: flex-end;
+
+  .navigation-list {
+    display: flex;
+    gap: 30px;
+    margin-right: 30px;
+
+    .navigation-list-item{
+      list-style: none;
+      .navigation-link-item {
+        text-decoration: none;
+        color: rgb(0, 0, 0);
+        font-size: 18px;
+        font-weight: 600;
+        font-family: Arial, Helvetica, sans-serif
+      }
+      .active {
+        color: red;
+      }
+    }
+  }
+}

@@ -1,0 +1,113 @@
+.main-page-wrapper {
+  background-color: whitesmoke;
+  .main-page-header {
+
+    .main-page-studio-title {
+      margin: 0px;
+      text-align: center;
+      background-color: black;
+      padding-bottom: 10px;
+      color: white;
+    }
+    .main-page-studio-subtitle{
+      margin: 0px;
+      padding-bottom: 10px;
+      text-align: center;
+      background-color: black;
+      color: white;
+      font-size: 12px;
+      font-weight: 300;
+      display: block;
+    }
+  }
+
+  .main-content-wrapper{
+    
+    .awards-wrapper{
+
+      .studio-awards-title{
+        background-image: url("/src/Images/pexels-vishnu-r-nair-1105666.jpg");
+        object-fit: contain;
+        width: 100%;
+        padding-bottom: 20px;
+        color: whitesmoke;
+        text-align: left;
+        padding-left: 20px;
+        padding-top: 20px;
+        margin: 0;
+        margin-top: 20px;
+        font-size: 30px;
+        text-transform: uppercase;
+      }
+    
+      .award-element-wrapper {
+        background-color: black;
+        .award-title {
+          text-align: center;
+          font-size: 36px;
+          font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+          background-color: rgb(246, 67, 255);
+          margin-bottom: 0px;
+        }
+
+        .award-description {
+          text-align: center;
+          font-family: 'Courier New', Courier, monospace;
+          color: whitesmoke;
+        }
+
+        .award-logo-content-wrapper {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          gap: 10px;
+          margin-top: 20px;
+
+          .award-image-title {
+            font-size: 20px;
+            margin: 0px;
+            color: whitesmoke;
+          }
+
+          .award-logo {
+            max-width: 50px;
+            height: 50px;
+            border-radius: 25px;
+          }
+
+        }
+        .award-image-content-wrapper{
+          display: flex;
+          justify-content: center;
+          .award-image {
+            max-width: 100%;
+            height: 300px;
+            object-fit: cover;
+            display: block;
+            text-align: center;
+          }
+        }
+      }
+    }
+
+    .song-writers-wrapper{
+
+      .song-writers-list-title{
+        background-image: url("/src/Images/pexels-vishnu-r-nair-1105666.jpg");
+        object-fit: contain;
+        width: 100%;
+        padding-bottom: 20px;
+        color: whitesmoke;
+        text-align: left;
+        padding-left: 20px;
+        padding-top: 20px;
+        margin: 0;
+        margin-top: 20px;
+        font-size: 30px;
+        text-transform: uppercase;
+      }
+      
+    }
+
+  }
+}
