@@ -30,9 +30,34 @@ const SongsList = () => {
         }
   }
 
+
+
+  const deleteSongHandler = songId => {
+    axios.delete(`${SERVER}/songs/${songId}`)
+      .then((res) => {
+        setSongs(prevState => {
+          let updatedSong = { ...prevState };
+          updatedSong = prevState.filter(song => song.id !== songId)
+          return updatedSong
+        })
+
+        if (res.statusText === 'OK') {
+          toast.success('Album successfuly deleted')
+        } else {
+          toast.error('Something went wrong, Album was not deleted...')
+        }
+      })
+  }
+
+
+
+
+
+
+
   const splitSongs = songs && songs.map((song, index)=>{
     return(
-      <SongItem data={song} key={index}/>
+      <SongItem onDeleteSongHandler={deleteSongHandler} data={song} key={index}/>
     )
   })
 

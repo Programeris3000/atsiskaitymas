@@ -129,6 +129,15 @@
       "realeaseDate": "2023-05-16",
       "genre": "rock",
       "description": "In 2010, the scrappy Chino punks in Abe Vigoda shared a producer with Beach House, tour dates with Vampire Weekend, and a cinematic ’80s revivalism with the year’s buzziest bands. With its hyperkinetic “tropical punk” draped in Pretty in Pink pastels, Crush was the most commercially appealing album to emerge from Los Angeles DIY venue the Smell and, therefore, the biggest challenge to its egalitarian philosophy. But whether Abe Vigoda were truly going for the gold was a moot point: They quietly disbanded a year later and Crush remained a hidden gem that sounded like nothing else. At least until now, as Michael Vidal and Juan Velasquez reunite as Cupid & Psyche on the alluring Romantic Music, sounding like “the next Abe Vigoda album” but with a sober, measured perspective that required another decade to access."
+    },
+    {
+      "title": "Svajojanti afrika",
+      "photoUrl": "https://images.pexels.com/photos/15030874/pexels-photo-15030874/free-photo-of-grayscale-photo-of-a-man-closing-his-eyes.jpeg",
+      "realeaseDate": "2022-03-05",
+      "genre": "Rock",
+      "description": "Realy cool album",
+      "songwriterId": 2,
+      "id": 10
     }
   ],
   "songs": [
