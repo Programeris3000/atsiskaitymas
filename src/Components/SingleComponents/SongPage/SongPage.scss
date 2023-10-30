@@ -1,0 +1,73 @@
+@import '../../StyleComponents/Mixins.scss';
+
+.button-1{
+  @include button-style
+}
+
+.song-title{
+  background-color: black;
+  color: white;
+  padding: 5px;
+  text-transform: capitalize;
+  text-align: center;
+}
+.single-song-wrapper{
+  background-color: aquamarine;
+  text-align: center;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+
+  .song-creator-name-display-wrapper{
+    .song-creator-title{
+      margin: 0px;
+      color: white;
+      background-color: black;
+    }
+    .song-creator-name{
+      margin: 10px;
+      font-size: 30px;
+      display: block;
+    }
+  }
+
+  .album-content-wrapper{
+
+    .album-title{
+      margin: 0px;
+      color: white;
+      background-color: black;
+    }
+
+    .album-name{
+      margin: 0px;
+      font-size: 30px;
+      display: block;
+    } 
+    .realease-date{
+      font-size: 14px;
+    }
+  }
+
+  .bottom-content-wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .realease-date{
+      display: block;
+    }
+
+    .part-of-lyrics{
+
+    }
+
+    .music-style{
+
+    }
+
+    .song-cover-image{
+
+    }
+  }
+}

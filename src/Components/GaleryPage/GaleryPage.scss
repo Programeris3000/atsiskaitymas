@@ -1,0 +1,37 @@
+.studio-galery-title{
+  background-image: url("/src/Images/pexels-vishnu-r-nair-1105666.jpg");
+  object-fit: contain;
+  width: 100%;
+  padding-bottom: 20px;
+  color: whitesmoke;
+  text-align: left;
+  padding-left: 20px;
+  padding-top: 20px;
+  margin: 0;
+  margin-top: 20px;
+  font-size: 30px;
+  text-transform: uppercase;
+}
+.galery-page-wrapper{
+  margin-top: 20px;
+  border: 1px solid;
+  padding: 20px;
+  .carousel{
+    .image-wrapper{
+      position: relative;
+
+      .carousel-img{
+        max-width: 600px;
+        height: 300px;
+        object-fit: contain;
+        position: relative;
+
+      }
+      .carousel-delete-button{
+        position: absolute;
+        right: 20%;
+        top: 3%;
+      }
+    }
+  }
+}

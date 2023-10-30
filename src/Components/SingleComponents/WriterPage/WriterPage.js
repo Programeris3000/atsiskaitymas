@@ -1,17 +1,15 @@
 import { useEffect, useState } from 'react'
-import './WriterPage.css'
 import axios from 'axios'
 import { SERVER } from '../../Patrials/Config'
 import { useParams } from 'react-router-dom'
-import Card from '../../Card/Card'
 import { TailSpin } from 'react-loader-spinner'
 import { useNavigate } from 'react-router-dom'
-// import '../../StyleComponents/Mixins/Mixins.css'
+import './WriterPage.css'
 
 const WriterPage = () => {
   const [userData, setUserData] = useState('')
   console.log(userData)
-  const { albums, songs, name, biography, activityYears } = userData
+  const { albums, songs, name, biography, activityYears, born, childrens, parents, age } = userData
   const { ID } = useParams()
   const navigation = useNavigate()
 
@@ -39,6 +37,70 @@ const WriterPage = () => {
   const backButtonHandler = () => {
     navigation(`/project/songwriterslist`)
   }
+
+
+
+
+
+
+
+
+
+
+
+
+  //Childrens
+//   let childrensElement = <p>{name} Don't have childrens</p>
+
+//   if (childrens && childrens.length >= 2) {
+//     childrensElement = childrens.map((child, index) => {
+//       return (
+//           <li key={index}>{child}</li>
+//       )
+//     })
+//   } else if (childrens.length === 1) {
+//     childrensElement = childrens.map((child) => {
+//       return (
+//         <span>{child}</span>
+//       )
+//     })
+//   }
+// let childrensChecker = childrens && childrens.length >= 2 ? <ul>{childrensElement}</ul> : childrensElement
+
+
+
+
+
+
+  //Parents
+  // let parentsElement = ''
+
+  // if(parents && parents.length > 0){
+  //   parentsElement = parents.map((parent, index)=>{
+  //     return(
+  //       <li key={index}>{parent}</li>
+  //     )
+  //   })
+  // }
+
+  // const parentsChecker = parents.length > 0 ? (
+  //   <div className="parrents-wrapper">
+  //     <h3>Parrents: </h3>
+  //     <ul>{parentsElement}</ul>
+  //   </div>) : null
+
+
+ {/* <span>Age {age}</span>
+            <span>Born date {born}</span> */}
+
+            {/* <div className="childrens-wrapper">
+              <h3>{name} childrens: </h3>
+              {childrensChecker}
+            </div> */}
+
+            {/* {parentsChecker} */}
+
+
 
 
   return (

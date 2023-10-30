@@ -11,7 +11,7 @@ const CreateSongPage = ({ onCreateSongHandler }) => {
 
   const [songTitle, setSongTitle] = useState('')
   const [musicStyle, setMusicStyle] = useState('')
-  const [songDuration, setSongDuration] = useState('')
+  const [songRelease, setSongRelease] = useState('')
   const [songLyrics, setSongLyrics] = useState('')
   const [songThumbnail, setSongThumbnail] = useState('')
   const [songWriters, setSongWriters] = useState('')
@@ -24,7 +24,7 @@ const CreateSongPage = ({ onCreateSongHandler }) => {
 
   const songTitleHandler = event => setSongTitle(event.target.value)
   const musicStyleHandler = event => setMusicStyle(event.target.value)
-  const songDurationHandler = event => setSongDuration(event.target.value)
+  const songReleaseHandler = event => setSongRelease(event.target.value)
   const songLyricsHandler = event => setSongLyrics(event.target.value)
   const songThumbnailHandler = event => setSongThumbnail(event.target.value)
 
@@ -78,7 +78,7 @@ const CreateSongPage = ({ onCreateSongHandler }) => {
 
     // console.log(songTitle)//
     // console.log(musicStyle)//
-    // console.log(songDuration)//
+    // console.log(songRelease)//
     // console.log(songLyrics)//
     // console.log(songThumbnail)
     // console.log(selectedAlbum)//
@@ -89,7 +89,7 @@ const CreateSongPage = ({ onCreateSongHandler }) => {
       songwriterId: selectedUser,
       songTitle: songTitle,
       musicStyle: musicStyle,
-      duration: songDuration,
+      release: songRelease,
       lyrics: songLyrics,
       songThumbnail: songThumbnail
     }
@@ -126,14 +126,14 @@ const CreateSongPage = ({ onCreateSongHandler }) => {
       </div>
 
       <div className="form-control">
-        <label className="label-element" htmlFor="create-song-duration">Enter song duration</label>
+        <label className="label-element" htmlFor="create-song-release">Enter song release date</label>
         <input
           // required
           type="text"
-          id="create-song-duration"
-          name="create-song-duration"
-          onChange={songDurationHandler}
-          value={songDuration}
+          id="create-song-release"
+          name="create-song-release"
+          onChange={songReleaseHandler}
+          value={songRelease}
         />
       </div>
 

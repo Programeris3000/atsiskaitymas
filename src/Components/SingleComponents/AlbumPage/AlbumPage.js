@@ -52,19 +52,27 @@ const AlbumPage = () => {
     },[songwriterId])
     
 
-    const songsCheck = songs && songs.length
+    const songsCheck = songs && songs.length > 0 ? (
+    <div className="songs-amount-content-wrapper">
+       <h4 className="songs-in-album-title">Songs in album</h4>
+       <span className="songs-length">{songs.length}</span>
+    </div>) : ('')
 
   return (
-    <Card>
+    <>
       {album ? (
         <>
-        <Link to='/project/albumslist'>Get back to albums...</Link>
-        <h2>{title}</h2>
-        <p>Album created by {name}. Genre :{genre} </p>
-        <p>{description}</p>
-        <p>{songsCheck} songs in album</p>
-        <p>Realease date: {realeaseDate}</p>
-        <img style={{width: '300px'}} src={photoUrl} alt={title}/>
+        <Link className="button-1" to='/project/albumslist'>Get back to albums...</Link>
+
+        <div className="single-album-item">
+          <h2 className="album-title">{title}</h2>
+          <h3 className="album-creator-name">{name} </h3>
+          <span className="album-genre">Genre {genre}</span>
+          <p className="album-description">{description}</p>
+          {songsCheck}
+          <span className="album-release-date">Release date: {realeaseDate}</span>
+          <img style={{width: '300px'}} src={photoUrl} alt={title}/>
+        </div>
         </>
       ) : 
       (<TailSpin
@@ -77,7 +85,7 @@ const AlbumPage = () => {
           wrapperClass=""
           visible={true}
         />)}
-    </Card>
+        </>
   )
 }
 

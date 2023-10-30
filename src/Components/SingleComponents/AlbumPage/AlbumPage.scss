@@ -1,0 +1,46 @@
+@import '../../StyleComponents/Mixins.scss';
+
+.button{
+  @include button-style;
+}
+.single-album-item{
+  background-color: aquamarine;
+  text-align: center;
+  padding: 20px;
+
+  .album-title{
+    background-color: black;
+    color: white;
+    padding: 5px;
+    text-transform: capitalize;
+  }
+  .album-creator-name{
+    margin: 10px;
+    font-size: 30px;
+
+  }
+  .album-genre{
+    display: block;
+    color: white;
+    background-color: black;
+  }
+  .album-description{
+    text-align: center;
+  }
+  .songs-amount-content-wrapper{
+    
+    .songs-in-album-title{
+      margin: 0px;
+      color: white;
+      background-color: black;
+    }
+    .songs-length{
+      display: block;
+      font-size: 30px;
+      font-weight: bold;
+    }
+  }
+  .album-release-date{
+    display: block;
+  }
+}

@@ -143,20 +143,22 @@
   "songs": [
     {
       "albumId": 6,
+      "youtubeUrl" : "https://www.youtube.com/watch?v=SRW8EhZ2D68&list=RDMM&index=1&ab_channel=JessicaShy-Topic",
       "songwriterId": "2",
       "songTitle": "accusamus (edited)",
       "musicStyle": "Electronic(edited)",
-      "duration": "2.3(edited)",
+      "release": "2.3(edited)",
       "lyrics": "asdasdasdasdasdasdasdasdasdasdasdasdasd",
       "songThumbnail": "https://images.pexels.com/photos/2034851/pexels-photo-2034851.jpeg?",
       "id": 1
     },
     {
       "albumId": 1,
+      "youtubeUrl" : "https://www.youtube.com/watch?v=KMk8RB8i1PA&list=RDMM&index=2&ab_channel=Grup%C4%97MAN-GO",
       "songwriterId": "3",
       "songTitle": "Papposooodoo(eit)",
       "musicStyle": "Regi",
-      "duration": 2.57,
+      "release": 2.57,
       "lyrics": "aaaaaaaaaaaaaaa",
       "songThumbnail": "https://images.pexels.com/photos/3271285/pexels-photo-3271285.jpeg",
       "id": 2
@@ -165,9 +167,10 @@
       "albumId": 2,
       "songwriterId": 1,
       "id": 3,
+      "youtubeUrl" : "https://www.youtube.com/watch?v=OrgHWbNmpJw&list=RDMM&index=3&ab_channel=DonnyMontell",
       "songTitle": "similique qui sunt",
       "musicStyle": "Pop",
-      "duration": 3.1,
+      "release": 3.1,
       "lyrics": "qqeqeeeeeeeeeeeeeee",
       "songThumbnail": "https://images.pexels.com/photos/1035841/pexels-photo-1035841.jpeg"
     },
@@ -175,9 +178,10 @@
       "albumId": 2,
       "songwriterId": 1,
       "id": 4,
+      "youtubeUrl" : "https://www.youtube.com/watch?v=dcM21wuDOrA&list=RDMM&index=4&ab_channel=2Donatai",
       "songTitle": "accusamus beatae ad ",
       "musicStyle": "Dub-step",
-      "duration": 2.39,
+      "release": 2.39,
       "lyrics": "13131312asdasdasdasd",
       "songThumbnail": "https://images.pexels.com/photos/2240763/pexels-photo-2240763.jpeg"
     },
@@ -185,9 +189,10 @@
       "albumId": 3,
       "songwriterId": 1,
       "id": 5,
+      "youtubeUrl" : "https://www.youtube.com/watch?v=0G383538qzQ&list=RDMM&index=5&ab_channel=BlackPumasVEVO",
       "songTitle": " ad facilis cum similique q",
       "musicStyle": "Pop-Regi",
-      "duration": 2.35,
+      "release": 2.35,
       "lyrics": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
       "songThumbnail": "https://images.pexels.com/photos/1886640/pexels-photo-1886640.jpeg"
     },
@@ -195,9 +200,10 @@
       "albumId": 3,
       "songwriterId": 1,
       "id": 6,
+      "youtubeUrl" : "https://www.youtube.com/watch?v=uI1Ywsz-fHQ&list=RDMM&index=6&ab_channel=DonnyMontell",
       "songTitle": "aarrri sunt",
       "musicStyle": "Funk",
-      "duration": 2.31,
+      "release": 2.31,
       "lyrics": "eeeeeeeeeeeeeeeeeee",
       "songThumbnail": "https://images.pexels.com/photos/2091383/pexels-photo-2091383.jpeg"
     },
@@ -205,9 +211,10 @@
       "albumId": 4,
       "songwriterId": 1,
       "id": 7,
+      "youtubeUrl" : "https://www.youtube.com/watch?v=j2xdlObXpjM&list=RDMM&index=7&ab_channel=EvgenyaRedko",
       "songTitle": "accusamus bqeqessaffi sunt",
       "musicStyle": "Koko",
-      "duration": 2.31,
+      "release": 2.31,
       "lyrics": "asdasdasdqeeeee",
       "songThumbnail": "https://images.pexels.com/photos/2247678/pexels-photo-2247678.jpeg?auto=compress&cs=tinysrgb&w=600"
     },
@@ -215,9 +222,10 @@
       "albumId": 4,
       "songwriterId": 1,
       "id": 8,
+      "youtubeUrl" : "https://www.youtube.com/watch?v=EfWmWlW2PvM&list=RDMM&index=8&ab_channel=Ti%C3%ABsto",
       "songTitle": "asdascasdcasd facilis cum siasdue qui sunt",
       "musicStyle": "Electronic-Modern",
-      "duration": 2.1,
+      "release": 2.1,
       "lyrics": "123123assadasd",
       "songThumbnail": "https://images.pexels.com/photos/814049/pexels-photo-814049.jpeg?auto=compress&cs=tinysrgb&w=600"
     },
@@ -225,9 +233,10 @@
       "albumId": 5,
       "songwriterId": 2,
       "id": 9,
+      "youtubeUrl" : "https://www.youtube.com/watch?v=uN2FkgDfh54&list=RDMM&index=9&ab_channel=D%C5%BEordanaButkut%C4%97",
       "songTitle": "qui sunt",
       "musicStyle": "Electronic",
-      "duration": 2.59,
+      "release": 2.59,
       "lyrics": "asda312323asdeasd",
       "songThumbnail": "https://images.pexels.com/photos/7086286/pexels-photo-7086286.jpeg?auto=compress&cs=tinysrgb&w=600"
     },
@@ -235,9 +244,10 @@
       "albumId": 5,
       "songwriterId": 2,
       "id": 10,
+      "youtubeUrl" : "https://www.youtube.com/watch?v=fGVzbcQYuxo&list=RDMM&index=10&ab_channel=OpenPlay",
       "songTitle": "aaas  qeqe cilis cum similique qui sunt",
       "musicStyle": "Electronic",
-      "duration": 1.3,
+      "release": 1.3,
       "lyrics": "asd12312asdasdasd",
       "songThumbnail": "https://images.pexels.com/photos/3389099/pexels-photo-3389099.jpeg?auto=compress&cs=tinysrgb&w=600"
     },
@@ -245,9 +255,10 @@
       "albumId": 6,
       "songwriterId": 2,
       "id": 11,
+      "youtubeUrl" : "https://www.youtube.com/watch?v=Cq50evKHuug&list=RDMM&index=11&ab_channel=VaidasBaumila",
       "songTitle": "Laba qui sunt",
       "musicStyle": "Electronic",
-      "duration": 2.3,
+      "release": 2.3,
       "lyrics": "asdd123123asdasd",
       "songThumbnail": "https://images.pexels.com/photos/3450887/pexels-photo-3450887.jpeg?auto=compress&cs=tinysrgb&w=600"
     },
@@ -255,9 +266,10 @@
       "albumId": 6,
       "songwriterId": 2,
       "id": 12,
+      "youtubeUrl" : "https://www.youtube.com/watch?v=KDxJlW6cxRk&list=RDMM&index=12&ab_channel=DukeDumontVEVO",
       "songTitle": "cum similique qui simoni kalss sunt",
       "musicStyle": "Electronic",
-      "duration": 2.3,
+      "release": 2.3,
       "lyrics": "asdasd12312312asdsa",
       "songThumbnail": "https://images.pexels.com/photos/1713997/pexels-photo-1713997.jpeg?auto=compress&cs=tinysrgb&w=600"
     },
@@ -266,7 +278,8 @@
       "songwriterId": 2,
       "songTitle": "pardaise ocean t",
       "musicStyle": "Electronic",
-      "duration": 2.3,
+      "release": 2.3,
+      "youtubeUrl" : "https://www.youtube.com/watch?v=lxNZsyK7amI&list=RDMM&index=13&ab_channel=OpenPlay",
       "lyrics": "asdasd123123asdasdasdaaffafaf",
       "songThumbnail": "https://images.pexels.com/photos/1327426/pexels-photo-1327426.jpeg?auto=compress&cs=tinysrgb&w=600",
       "id": 13
@@ -277,7 +290,8 @@
       "id": 14,
       "songTitle": "adaddmilique qui sunt",
       "musicStyle": "Electronic",
-      "duration": 2.3,
+      "release": 2.3,
+      "youtubeUrl" : "https://www.youtube.com/watch?v=lNUg39Na2A0&list=RDMM&index=14&ab_channel=GJan",
       "lyrics": "agagagagttrtruyrt",
       "songThumbnail": "https://images.pexels.com/photos/18771000/pexels-photo-18771000/free-photo-of-singer-in-shirt-standing-by-microphone-and-in-headphones.jpeg?auto=compress&cs=tinysrgb&w=600"
     },
@@ -285,9 +299,10 @@
       "albumId": 8,
       "songwriterId": 3,
       "id": 15,
+      "youtubeUrl" : "https://www.youtube.com/watch?v=bklB0Q13iNI&list=RDMM&index=15&ab_channel=OpenPlay",
       "songTitle": "accusamus beatae ad faqweqweilique qui sunt",
       "musicStyle": "Electronic",
-      "duration": 2.3,
+      "release": 2.3,
       "lyrics": "rurtuyjhkjhjkh",
       "songThumbnail": "https://images.pexels.com/photos/18762052/pexels-photo-18762052/free-photo-of-singer-in-music-studio.jpeg?auto=compress&cs=tinysrgb&w=600"
     },
@@ -295,9 +310,10 @@
       "albumId": 8,
       "songwriterId": 3,
       "id": 16,
+      "youtubeUrl" : "https://www.youtube.com/watch?v=wDjeBNv6ip0&list=RDMM&index=16&ab_channel=LP",
       "songTitle": "accusamus qeqeeqqeqeqe milique qui sunt",
       "musicStyle": "Electronic",
-      "duration": 2.3,
+      "release": 2.3,
       "lyrics": "ghjnmmghjgh",
       "songThumbnail": "https://images.pexels.com/photos/9524941/pexels-photo-9524941.jpeg?auto=compress&cs=tinysrgb&w=600"
     },
@@ -305,9 +321,10 @@
       "albumId": 9,
       "songwriterId": 3,
       "id": 17,
+      "youtubeUrl" : "https://www.youtube.com/watch?v=ED3QZchi10s&list=RDMM&index=17&ab_channel=YVA-Topic",
       "songTitle": "accusamus e qui sunt",
       "musicStyle": "Electronic",
-      "duration": 2.3,
+      "release": 2.3,
       "lyrics": "tweweds",
       "songThumbnail": "https://images.pexels.com/photos/342520/pexels-photo-342520.jpeg?auto=compress&cs=tinysrgb&w=600"
     },
@@ -315,9 +332,10 @@
       "albumId": 9,
       "songwriterId": 3,
       "id": 18,
+      "youtubeUrl" : "https://www.youtube.com/watch?v=24CJlKebzUo&list=RDMM&index=18&ab_channel=2Donatai",
       "songTitle": "accusamus bea sunt",
       "musicStyle": "Electronic",
-      "duration": 2.3,
+      "release": 2.3,
       "lyrics": "https://via.placeholder.com/600/92c952",
       "songThumbnail": "https://images.pexels.com/photos/9789893/pexels-photo-9789893.jpeg?auto=compress&cs=tinysrgb&w=600"
     },
@@ -326,7 +344,8 @@
       "songwriterId": "2",
       "songTitle": "Pabuciuok man į lupas",
       "musicStyle": "Rock",
-      "duration": "2022-05-03",
+      "youtubeUrl" : "https://www.youtube.com/watch?v=Jz9z83azwzg&list=RDMM&index=19&ab_channel=RokasYan",
+      "release": "2022-05-03",
       "lyrics": "Oh, say can you see by the dawn's early light\nWhat so proudly we hailed at the twilight's last gleaming?\nWhose broad stripes and bright stars through the perilous fight,\nO'er the ramparts we watched were so gallantly streaming?\nAnd the rocket's red glare, the bombs bursting in air,\nGave proof through the night that our flag was still there.\nOh, say does that star-spangled banner yet wave\nO'er the land of the free and the home of the brave?\n\nOn the shore, dimly seen through the mists of the deep,\nWhere the foe's haughty host in dread silence reposes,\nWhat is that which the breeze, o'er the towering steep,\nAs it fitfully blows, half conceals, half discloses?\nNow it catches the gleam of the morning's first beam,\nIn full glory reflected now shines in the stream:\n'Tis the star-spangled banner!  Oh long may it wave\nO'er the land of the free and the home of the brave!",
       "songThumbnail": "https://images.pexels.com/photos/5648357/pexels-photo-5648357.jpeg?auto=compress&cs=tinysrgb&w=600",
       "id": 19
@@ -364,6 +383,23 @@
       "awardPhoto": "https://assets.apraamcos.com.au/images/Awards/_1200x630_crop_center-center_82_none/MUSIC_Generic-3_2.jpg",
       "companyLogo": "https://graphicsfamily.com/wp-content/uploads/2020/10/Free-music-logo-design-on-wall-presentation-scaled.jpg",
       "companyName": "SoundWave Accolades awards company"
+    }
+  ],
+  "galery": [
+    {
+      "id": 1,
+      "photoUrl": "https://images.pexels.com/photos/164938/pexels-photo-164938.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "alt": "Records studio"
+    },
+    {
+      "id": 2,
+      "photoUrl": "https://images.pexels.com/photos/270288/pexels-photo-270288.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "alt": "Studio microphone"
+    },
+    {
+      "id": 3,
+      "photoUrl": "https://images.pexels.com/photos/6670756/pexels-photo-6670756.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "alt": "Person plays guitar"
     }
   ]
 }

@@ -1,0 +1,55 @@
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  background-color: rgb(0, 0, 0); /* Background color */
+  color: #fff; /* Text color */
+  border: none;
+  border-radius: 5px; /* Rounded corners */
+  cursor: pointer;
+  transition: background-color 0.3s; /* Smooth hover effect */
+  /* Hover effect */
+}
+.button:hover {
+  background-color: rgb(246, 67, 255);
+}
+
+.single-album-item {
+  background-color: aquamarine;
+  text-align: center;
+  padding: 20px;
+}
+.single-album-item .album-title {
+  background-color: black;
+  color: white;
+  padding: 5px;
+  text-transform: capitalize;
+}
+.single-album-item .album-creator-name {
+  margin: 10px;
+  font-size: 30px;
+}
+.single-album-item .album-genre {
+  display: block;
+  color: white;
+  background-color: black;
+}
+.single-album-item .album-description {
+  text-align: center;
+}
+.single-album-item .songs-amount-content-wrapper .songs-in-album-title {
+  margin: 0px;
+  color: white;
+  background-color: black;
+}
+.single-album-item .songs-amount-content-wrapper .songs-length {
+  display: block;
+  font-size: 30px;
+  font-weight: bold;
+}
+.single-album-item .album-release-date {
+  display: block;
+}/*# sourceMappingURL=AlbumPage.css.map */

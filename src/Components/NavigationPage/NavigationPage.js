@@ -26,6 +26,10 @@ const NavigationPage = () => {
             <NavLink className="navigation-link-item" to='/project/songslist'>Songs</NavLink>
           </li>
 
+          <li className="navigation-list-item">
+            <NavLink className="navigation-link-item" to='/project/galery'>Galery</NavLink>
+          </li>
+
 
 
       

@@ -1,9 +1,8 @@
 import { Link } from 'react-router-dom'
-import Card from '../../Card/Card'
 import './SongItem.css'
 
 const SongItem = ({data, key, onDeleteSongHandler}) => {
-  const {songTitle, duration, lyrics, songwriter, songThumbnail, album, id} = data
+  const {songTitle, release, lyrics, songwriter, songThumbnail, album, id} = data
 
   const deleteSongHandler = ()=>{
     onDeleteSongHandler(id)
@@ -20,7 +19,7 @@ const SongItem = ({data, key, onDeleteSongHandler}) => {
         <img className="song-cover-image" src={songThumbnail} alt={songTitle}/>
         <span className="song-creator-name">{songwriter && songwriter.name}</span>
         <span className="song-album-title">{album && album.title}</span>
-        <span className="song-release-date">Released : {duration}min.</span>
+        <span className="song-release-date">Released : {release}</span>
         </div>
 
         <div className="buttons-wrapper">

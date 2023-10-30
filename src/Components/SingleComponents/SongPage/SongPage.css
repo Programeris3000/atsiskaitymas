@@ -1,0 +1,66 @@
+.button-1 {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  background-color: rgb(0, 0, 0); /* Background color */
+  color: #fff; /* Text color */
+  border: none;
+  border-radius: 5px; /* Rounded corners */
+  cursor: pointer;
+  transition: background-color 0.3s; /* Smooth hover effect */
+  /* Hover effect */
+}
+.button-1:hover {
+  background-color: rgb(246, 67, 255);
+}
+
+.song-title {
+  background-color: black;
+  color: white;
+  padding: 5px;
+  text-transform: capitalize;
+  text-align: center;
+}
+
+.single-song-wrapper {
+  background-color: aquamarine;
+  text-align: center;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.single-song-wrapper .song-creator-name-display-wrapper .song-creator-title {
+  margin: 0px;
+  color: white;
+  background-color: black;
+}
+.single-song-wrapper .song-creator-name-display-wrapper .song-creator-name {
+  margin: 10px;
+  font-size: 30px;
+  display: block;
+}
+.single-song-wrapper .album-content-wrapper .album-title {
+  margin: 0px;
+  color: white;
+  background-color: black;
+}
+.single-song-wrapper .album-content-wrapper .album-name {
+  margin: 0px;
+  font-size: 30px;
+  display: block;
+}
+.single-song-wrapper .album-content-wrapper .realease-date {
+  font-size: 14px;
+}
+.single-song-wrapper .bottom-content-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.single-song-wrapper .bottom-content-wrapper .realease-date {
+  display: block;
+}/*# sourceMappingURL=SongPage.css.map */

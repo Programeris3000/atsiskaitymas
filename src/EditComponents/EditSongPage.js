@@ -12,7 +12,7 @@ const EditSongPage = () => {
 
   const [songTitle, setSongTitle] = useState('')
   const [musicStyle, setMusicStyle] = useState('')
-  const [songDuration, setSongDuration] = useState('')
+  const [songRelease, setSongRelease] = useState('')
   const [songLyrics, setSongLyrics] = useState('')
   const [songThumbnail, setSongThumbnail] = useState('')
   const [songWriters, setSongWriters] = useState('')
@@ -23,7 +23,7 @@ const EditSongPage = () => {
 
   const songTitleHandler = event => setSongTitle(event.target.value)
   const musicStyleHandler = event => setMusicStyle(event.target.value)
-  const songDurationHandler = event => setSongDuration(event.target.value)
+  const songReleaseHandler = event => setSongRelease(event.target.value)
   const songLyricsHandler = event => setSongLyrics(event.target.value)
   const songThumbnailHandler = event => setSongThumbnail(event.target.value)
   const selectedAlbumHandler = event => setSelectedAlbum(event.target.value)
@@ -54,12 +54,12 @@ const EditSongPage = () => {
     const getSong = async () => {
       const { data } = await axios(`${SERVER}/songs/${ID}`)
       // setSong(data)
-      const {albumId, songwriterId, songTitle, musicStyle, duration, lyrics, songThumbnail} = data
+      const {albumId, songwriterId, songTitle, musicStyle, release, lyrics, songThumbnail} = data
       setSelectedAlbum(albumId)
       setSelectedUser(songwriterId)
       setSongTitle(songTitle)
       setMusicStyle(musicStyle)
-      setSongDuration(duration)
+      setSongRelease(release)
       setSongLyrics(lyrics)
       setSongThumbnail(songThumbnail)
   
@@ -97,7 +97,7 @@ const EditSongPage = () => {
       songwriterId: selectedUser,
       songTitle: songTitle,
       musicStyle: musicStyle,
-      duration: songDuration,
+      release: songRelease,
       lyrics: songLyrics,
       songThumbnail: songThumbnail
     }
@@ -136,14 +136,14 @@ const EditSongPage = () => {
       </div>
 
       <div form-control>
-        <label htmlFor="edit-song-duration">Enter song duration</label>
+        <label htmlFor="edit-song-release">Enter song release date</label>
         <input
           // required
           type="text"
-          id="edit-song-duration"
-          name="edit-song-duration"
-          onChange={songDurationHandler}
-          value={songDuration}
+          id="edit-song-release"
+          name="edit-song-release"
+          onChange={songReleaseHandler}
+          value={songRelease}
         />
       </div>
 
