@@ -1,0 +1,50 @@
+@import '../../StyleComponents/Mixins.scss';
+
+.button-1{
+  @include button-style
+}
+.song-writer-page-wrapper{
+
+  .song-writer-name{
+    text-align: center;
+  }
+  
+  .singer-activity-years-title{
+    font-size: 22px;
+    margin: 0;
+    text-align: center;
+    margin-bottom: 10px;
+    }
+  .singer-activity-years{
+    background-color: black;
+    color: white;
+    display: block;
+    text-align: center;
+  }
+  .singer-biography{
+    text-align: center;
+  }
+
+  .created-amount-wrapper{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    .length-title{
+      margin: 0;
+    }
+    .albums-length{
+      font-size: 30px;
+      display: block;
+      background-color: black;
+      color: white;
+    }
+    .songs-length{
+      font-size: 30px;
+      display: block;
+      background-color: black;
+      color: white;
+    }
+  }
+}

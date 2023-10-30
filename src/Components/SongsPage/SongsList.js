@@ -63,9 +63,18 @@ const SongsList = () => {
 
   return (
     <>
-    <h1>Songs list</h1>
-    <CreateSongPage onCreateSongHandler={createSongHandler}/>
-    {splitSongs}
+    <h1 className="songs-page-title">Songs list</h1>
+      <div className="songs-page-wrapper">
+
+        <div className="songs-form-wrapper">
+            <CreateSongPage onCreateSongHandler={createSongHandler}/>
+          </div>
+
+        <div className="songs-list-wrapper">
+         {splitSongs}
+        </div>
+      </div>
+
     </>
   )
 }

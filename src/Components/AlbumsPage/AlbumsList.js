@@ -2,11 +2,10 @@ import { useEffect, useState } from 'react'
 import axios from 'axios'
 import { SERVER } from '../Patrials/Config'
 import AlbumItem from '../SingleComponents/AlbumItem/AlbumItem'
-import './AlbumList.css'
 import { Link} from 'react-router-dom'
 import { toast } from 'react-toastify'
-import CreateAlbumPage from '../CreateComponents/CreateAlbumPage'
-import EditAlbumPage from '../../EditComponents/EditAlbumPage'
+import './AlbumList.css'
+import CreateAlbumPage from '../CreateComponents/CreateAlbum/CreateAlbumPage'
 
 
 const AlbumsList = () => {
@@ -63,10 +62,20 @@ const AlbumsList = () => {
 
   return (
     <>
-      <CreateAlbumPage onCreateAlbumHandler={createAlbumHandler} onEditAlbumHandler={editAlbumHandler}/>
-      <h1 className="albums-page-title">Albums Page</h1>
-      <Link to='/project/albumslist/createalbumpage'>Create Album</Link>
-      <div className="albums-page-wrapper">{splitAlbums}</div>
+      <h1 className="albums-page-title">Check-out our clients albums</h1>
+    <div className="album-page-wrapper">
+      <div className="form-wrapper">
+        <h2 className="form-wrapper-title">Create album</h2>
+        <span className="form-wrapper-subtitle">Create album...</span>
+        <CreateAlbumPage onCreateAlbumHandler={createAlbumHandler} onEditAlbumHandler={editAlbumHandler}/>
+      </div>
+
+      <div className="albums-wrapper">
+        {splitAlbums}
+        
+      </div>
+      
+    </div>
     </>
   )
 }

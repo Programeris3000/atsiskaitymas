@@ -19,24 +19,24 @@
     },
     {
       "id": 2,
-      "name": "Ligitas Kernagis",
-      "age": 60,
-      "activityYears": "1968 - 1980 ",
-      "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Mabel-42317.jpg/640px-Mabel-42317.jpg",
+      "name": "Eminem",
+      "age": 43,
+      "activityYears": "2000 - 2021 ",
+      "photoUrl": "https://phantom-marca.unidadeditorial.es/8ba8e88f28354c7d6fea00517edacedd/resize/828/f/jpg/assets/multimedia/imagenes/2022/10/19/16661328920205.jpg",
       "childrens": [],
       "parents": [
-        "Petras Kernagis",
-        "Jovita Kernagienė"
+        "Jeo Leon",
+        "Morgan Peterson"
       ],
-      "born": "Lietuva, Kėdainiai",
-      "biography": "1981 m. baigė Jonavos 1-ąją vidurinę mokyklą, įstojo į Kauno politechnikos instituto dabartinis KTU, Elektrotechnikos fakultetą. 1986 m. jį baigė ir įgijo inžinieriaus-energetiko specialybę."
+      "born": "New York, United states",
+      "biography": "Eminem is a renowned American rapper, singer, songwriter, and actor known for his provocative lyrics, technical wordplay, and emotional depth in his music. He rose to fame with albums like 'The Slim Shady LP' and went on to release several successful albums. Eminem is celebrated for his contributions to hip-hop culture and his impact on the music industry."
     },
     {
       "id": 3,
       "name": "Justin Bieber",
       "age": 31,
-      "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Mabel-42317.jpg/640px-Mabel-42317.jpg",
-      "activityYears": "1968 - 1980 ",
+      "photoUrl": "https://media.gq.com/photos/56bb8a91b89407780bd7d454/16:9/w_2560%2Cc_limit/bieber-16-9-longform.jpg",
+      "activityYears": "1999 - 2023 ",
       "childrens": [
         "René-Charles Angélil"
       ],
@@ -45,7 +45,7 @@
         "Adhémar Dion"
       ],
       "born": "Canada, Toronto.",
-      "biography": "Celine Dion was born on March 30, 1968, in Charlemagne, Québec, a little town 50 kilometers from Montréal. She was the 14th child of Thérèse Tanguay and Adhémar Dion. The Dion family was a humble one of modest means, but never lacked for love. The house was jam-packed with children, and Celine mom even had to lay her littlest one to sleep in a drawer."
+      "biography": "Justin Bieber is a Canadian singer, songwriter, and actor who gained international fame at a young age. He is known for his hit albums like 'My World 2.0' and 'Purpose.' Bieber has received numerous awards, including multiple Grammy Awards, and has a massive global fanbase. He is recognized for his contribution to the pop music industry."
     }
   ],
   "albums": [
@@ -53,7 +53,7 @@
       "songwriterId": 1,
       "id": 1,
       "title": "Fly my to the moon",
-      "photoUrl": "https://u-static.fotor.com/images/text-to-image/result/PRO-296b2bd0c88b4a09a022f7d715d2ec78.jpg",
+      "photoUrl": "https://images.pexels.com/photos/7751832/pexels-photo-7751832.jpeg?auto=compress&cs=tinysrgb&w=600",
       "realeaseDate": "2023-05-16",
       "genre": "rock",
       "description": "In 2010, the scrappy Chino punks in Abe Vigoda shared a producer with Beach House, tour dates with Vampire Weekend, and a cinematic ’80s revivalism with the year’s buzziest bands. With its hyperkinetic “tropical punk” draped in Pretty in Pink pastels, Crush was the most commercially appealing album to emerge from Los Angeles DIY venue the Smell and, therefore, the biggest challenge to its egalitarian philosophy. But whether Abe Vigoda were truly going for the gold was a moot point: They quietly disbanded a year later and Crush remained a hidden gem that sounded like nothing else. At least until now, as Michael Vidal and Juan Velasquez reunite as Cupid & Psyche on the alluring Romantic Music, sounding like “the next Abe Vigoda album” but with a sober, measured perspective that required another decade to access."
@@ -62,7 +62,7 @@
       "songwriterId": 1,
       "id": 2,
       "title": "Pasion",
-      "photoUrl": "https://u-static.fotor.com/images/text-to-image/result/PRO-296b2bd0c88b4a09a022f7d715d2ec78.jpg",
+      "photoUrl": "https://images.pexels.com/photos/6877350/pexels-photo-6877350.jpeg?auto=compress&cs=tinysrgb&w=600",
       "realeaseDate": "2023-05-16",
       "genre": "rock",
       "description": "In 2010, the scrappy Chino punks in Abe Vigoda shared a producer with Beach House, tour dates with Vampire Weekend, and a cinematic ’80s revivalism with the year’s buzziest bands. With its hyperkinetic “tropical punk” draped in Pretty in Pink pastels, Crush was the most commercially appealing album to emerge from Los Angeles DIY venue the Smell and, therefore, the biggest challenge to its egalitarian philosophy. But whether Abe Vigoda were truly going for the gold was a moot point: They quietly disbanded a year later and Crush remained a hidden gem that sounded like nothing else. At least until now, as Michael Vidal and Juan Velasquez reunite as Cupid & Psyche on the alluring Romantic Music, sounding like “the next Abe Vigoda album” but with a sober, measured perspective that required another decade to access."
@@ -71,7 +71,7 @@
       "songwriterId": 1,
       "id": 3,
       "title": "Amber city",
-      "photoUrl": "https://u-static.fotor.com/images/text-to-image/result/PRO-296b2bd0c88b4a09a022f7d715d2ec78.jpg",
+      "photoUrl": "https://images.pexels.com/photos/9264012/pexels-photo-9264012.jpeg?auto=compress&cs=tinysrgb&w=600",
       "realeaseDate": "2023-05-16",
       "genre": "rock",
       "description": "In 2010, the scrappy Chino punks in Abe Vigoda shared a producer with Beach House, tour dates with Vampire Weekend, and a cinematic ’80s revivalism with the year’s buzziest bands. With its hyperkinetic “tropical punk” draped in Pretty in Pink pastels, Crush was the most commercially appealing album to emerge from Los Angeles DIY venue the Smell and, therefore, the biggest challenge to its egalitarian philosophy. But whether Abe Vigoda were truly going for the gold was a moot point: They quietly disbanded a year later and Crush remained a hidden gem that sounded like nothing else. At least until now, as Michael Vidal and Juan Velasquez reunite as Cupid & Psyche on the alluring Romantic Music, sounding like “the next Abe Vigoda album” but with a sober, measured perspective that required another decade to access."
@@ -80,7 +80,7 @@
       "songwriterId": 1,
       "id": 4,
       "title": "Night city sky",
-      "photoUrl": "https://u-static.fotor.com/images/text-to-image/result/PRO-296b2bd0c88b4a09a022f7d715d2ec78.jpg",
+      "photoUrl": "https://images.pexels.com/photos/7422154/pexels-photo-7422154.jpeg?auto=compress&cs=tinysrgb&w=600",
       "realeaseDate": "2023-05-16",
       "genre": "rock",
       "description": "In 2010, the scrappy Chino punks in Abe Vigoda shared a producer with Beach House, tour dates with Vampire Weekend, and a cinematic ’80s revivalism with the year’s buzziest bands. With its hyperkinetic “tropical punk” draped in Pretty in Pink pastels, Crush was the most commercially appealing album to emerge from Los Angeles DIY venue the Smell and, therefore, the biggest challenge to its egalitarian philosophy. But whether Abe Vigoda were truly going for the gold was a moot point: They quietly disbanded a year later and Crush remained a hidden gem that sounded like nothing else. At least until now, as Michael Vidal and Juan Velasquez reunite as Cupid & Psyche on the alluring Romantic Music, sounding like “the next Abe Vigoda album” but with a sober, measured perspective that required another decade to access."
@@ -89,7 +89,7 @@
       "songwriterId": 2,
       "id": 5,
       "title": "Ocean trip",
-      "photoUrl": "https://u-static.fotor.com/images/text-to-image/result/PRO-337abcac1efe42a48dc21fb1607fa4b4.jpg",
+      "photoUrl": "https://images.pexels.com/photos/7464824/pexels-photo-7464824.jpeg?auto=compress&cs=tinysrgb&w=600",
       "realeaseDate": "2023-05-16",
       "genre": "rock",
       "description": "In 2010, the scrappy Chino punks in Abe Vigoda shared a producer with Beach House, tour dates with Vampire Weekend, and a cinematic ’80s revivalism with the year’s buzziest bands. With its hyperkinetic “tropical punk” draped in Pretty in Pink pastels, Crush was the most commercially appealing album to emerge from Los Angeles DIY venue the Smell and, therefore, the biggest challenge to its egalitarian philosophy. But whether Abe Vigoda were truly going for the gold was a moot point: They quietly disbanded a year later and Crush remained a hidden gem that sounded like nothing else. At least until now, as Michael Vidal and Juan Velasquez reunite as Cupid & Psyche on the alluring Romantic Music, sounding like “the next Abe Vigoda album” but with a sober, measured perspective that required another decade to access."
@@ -98,7 +98,7 @@
       "songwriterId": 2,
       "id": 6,
       "title": "Yellow bus",
-      "photoUrl": "https://u-static.fotor.com/images/text-to-image/result/PRO-337abcac1efe42a48dc21fb1607fa4b4.jpg",
+      "photoUrl": "https://images.pexels.com/photos/18176526/pexels-photo-18176526/free-photo-of-books-in-bookstore.jpeg?auto=compress&cs=tinysrgb&w=600",
       "realeaseDate": "2023-05-16",
       "genre": "rock",
       "description": "In 2010, the scrappy Chino punks in Abe Vigoda shared a producer with Beach House, tour dates with Vampire Weekend, and a cinematic ’80s revivalism with the year’s buzziest bands. With its hyperkinetic “tropical punk” draped in Pretty in Pink pastels, Crush was the most commercially appealing album to emerge from Los Angeles DIY venue the Smell and, therefore, the biggest challenge to its egalitarian philosophy. But whether Abe Vigoda were truly going for the gold was a moot point: They quietly disbanded a year later and Crush remained a hidden gem that sounded like nothing else. At least until now, as Michael Vidal and Juan Velasquez reunite as Cupid & Psyche on the alluring Romantic Music, sounding like “the next Abe Vigoda album” but with a sober, measured perspective that required another decade to access."
@@ -107,7 +107,7 @@
       "songwriterId": 2,
       "id": 7,
       "title": "Roses are red",
-      "photoUrl": "https://u-static.fotor.com/images/text-to-image/result/PRO-337abcac1efe42a48dc21fb1607fa4b4.jpg",
+      "photoUrl": "https://images.pexels.com/photos/3550240/pexels-photo-3550240.jpeg?auto=compress&cs=tinysrgb&w=400",
       "realeaseDate": "2023-05-16",
       "genre": "rock",
       "description": "In 2010, the scrappy Chino punks in Abe Vigoda shared a producer with Beach House, tour dates with Vampire Weekend, and a cinematic ’80s revivalism with the year’s buzziest bands. With its hyperkinetic “tropical punk” draped in Pretty in Pink pastels, Crush was the most commercially appealing album to emerge from Los Angeles DIY venue the Smell and, therefore, the biggest challenge to its egalitarian philosophy. But whether Abe Vigoda were truly going for the gold was a moot point: They quietly disbanded a year later and Crush remained a hidden gem that sounded like nothing else. At least until now, as Michael Vidal and Juan Velasquez reunite as Cupid & Psyche on the alluring Romantic Music, sounding like “the next Abe Vigoda album” but with a sober, measured perspective that required another decade to access."
@@ -116,7 +116,7 @@
       "songwriterId": 3,
       "id": 8,
       "title": "Dark moon",
-      "photoUrl": "https://u-static.fotor.com/images/text-to-image/result/PRO-57e0bb44f0b0414593e99250aa492549.jpg",
+      "photoUrl": "https://images.pexels.com/photos/1173648/pexels-photo-1173648.jpeg?auto=compress&cs=tinysrgb&w=400",
       "realeaseDate": "2023-05-16",
       "genre": "rock",
       "description": "In 2010, the scrappy Chino punks in Abe Vigoda shared a producer with Beach House, tour dates with Vampire Weekend, and a cinematic ’80s revivalism with the year’s buzziest bands. With its hyperkinetic “tropical punk” draped in Pretty in Pink pastels, Crush was the most commercially appealing album to emerge from Los Angeles DIY venue the Smell and, therefore, the biggest challenge to its egalitarian philosophy. But whether Abe Vigoda were truly going for the gold was a moot point: They quietly disbanded a year later and Crush remained a hidden gem that sounded like nothing else. At least until now, as Michael Vidal and Juan Velasquez reunite as Cupid & Psyche on the alluring Romantic Music, sounding like “the next Abe Vigoda album” but with a sober, measured perspective that required another decade to access."
@@ -125,19 +125,19 @@
       "songwriterId": 3,
       "id": 9,
       "title": "Expresso",
-      "photoUrl": "https://u-static.fotor.com/images/text-to-image/result/PRO-57e0bb44f0b0414593e99250aa492549.jpg",
+      "photoUrl": "https://images.pexels.com/photos/4200747/pexels-photo-4200747.jpeg?auto=compress&cs=tinysrgb&w=400",
       "realeaseDate": "2023-05-16",
       "genre": "rock",
       "description": "In 2010, the scrappy Chino punks in Abe Vigoda shared a producer with Beach House, tour dates with Vampire Weekend, and a cinematic ’80s revivalism with the year’s buzziest bands. With its hyperkinetic “tropical punk” draped in Pretty in Pink pastels, Crush was the most commercially appealing album to emerge from Los Angeles DIY venue the Smell and, therefore, the biggest challenge to its egalitarian philosophy. But whether Abe Vigoda were truly going for the gold was a moot point: They quietly disbanded a year later and Crush remained a hidden gem that sounded like nothing else. At least until now, as Michael Vidal and Juan Velasquez reunite as Cupid & Psyche on the alluring Romantic Music, sounding like “the next Abe Vigoda album” but with a sober, measured perspective that required another decade to access."
     },
     {
-      "title": "Svajojanti afrika",
-      "photoUrl": "https://images.pexels.com/photos/15030874/pexels-photo-15030874/free-photo-of-grayscale-photo-of-a-man-closing-his-eyes.jpeg",
+      "id": 10,
+      "title": "Svajojanti afrika(edited)",
+      "photoUrl": "https://images.pexels.com/photos/6875119/pexels-photo-6875119.jpeg?auto=compress&cs=tinysrgb&w=400",
       "realeaseDate": "2022-03-05",
       "genre": "Rock",
       "description": "Realy cool album",
-      "songwriterId": 2,
-      "id": 10
+      "songwriterId": 2
     }
   ],
   "songs": [
@@ -148,7 +148,7 @@
       "musicStyle": "Electronic(edited)",
       "duration": "2.3(edited)",
       "lyrics": "asdasdasdasdasdasdasdasdasdasdasdasdasd",
-      "songThumbnail": "https://via.placeholder.com/150/92c952",
+      "songThumbnail": "https://images.pexels.com/photos/2034851/pexels-photo-2034851.jpeg?",
       "id": 1
     },
     {
@@ -158,7 +158,7 @@
       "musicStyle": "Regi",
       "duration": 2.57,
       "lyrics": "aaaaaaaaaaaaaaa",
-      "songThumbnail": "https://via.placeholder.com/150/92c952",
+      "songThumbnail": "https://images.pexels.com/photos/3271285/pexels-photo-3271285.jpeg",
       "id": 2
     },
     {
@@ -169,7 +169,7 @@
       "musicStyle": "Pop",
       "duration": 3.1,
       "lyrics": "qqeqeeeeeeeeeeeeeee",
-      "songThumbnail": "https://via.placeholder.com/150/92c952"
+      "songThumbnail": "https://images.pexels.com/photos/1035841/pexels-photo-1035841.jpeg"
     },
     {
       "albumId": 2,
@@ -179,7 +179,7 @@
       "musicStyle": "Dub-step",
       "duration": 2.39,
       "lyrics": "13131312asdasdasdasd",
-      "songThumbnail": "https://via.placeholder.com/150/92c952"
+      "songThumbnail": "https://images.pexels.com/photos/2240763/pexels-photo-2240763.jpeg"
     },
     {
       "albumId": 3,
@@ -189,7 +189,7 @@
       "musicStyle": "Pop-Regi",
       "duration": 2.35,
       "lyrics": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
-      "songThumbnail": "https://via.placeholder.com/150/92c952"
+      "songThumbnail": "https://images.pexels.com/photos/1886640/pexels-photo-1886640.jpeg"
     },
     {
       "albumId": 3,
@@ -199,7 +199,7 @@
       "musicStyle": "Funk",
       "duration": 2.31,
       "lyrics": "eeeeeeeeeeeeeeeeeee",
-      "songThumbnail": "https://via.placeholder.com/150/92c952"
+      "songThumbnail": "https://images.pexels.com/photos/2091383/pexels-photo-2091383.jpeg"
     },
     {
       "albumId": 4,
@@ -209,7 +209,7 @@
       "musicStyle": "Koko",
       "duration": 2.31,
       "lyrics": "asdasdasdqeeeee",
-      "songThumbnail": "https://via.placeholder.com/150/92c952"
+      "songThumbnail": "https://images.pexels.com/photos/2247678/pexels-photo-2247678.jpeg?auto=compress&cs=tinysrgb&w=600"
     },
     {
       "albumId": 4,
@@ -219,7 +219,7 @@
       "musicStyle": "Electronic-Modern",
       "duration": 2.1,
       "lyrics": "123123assadasd",
-      "songThumbnail": "https://via.placeholder.com/150/92c952"
+      "songThumbnail": "https://images.pexels.com/photos/814049/pexels-photo-814049.jpeg?auto=compress&cs=tinysrgb&w=600"
     },
     {
       "albumId": 5,
@@ -229,7 +229,7 @@
       "musicStyle": "Electronic",
       "duration": 2.59,
       "lyrics": "asda312323asdeasd",
-      "songThumbnail": "https://via.placeholder.com/150/92c952"
+      "songThumbnail": "https://images.pexels.com/photos/7086286/pexels-photo-7086286.jpeg?auto=compress&cs=tinysrgb&w=600"
     },
     {
       "albumId": 5,
@@ -239,7 +239,7 @@
       "musicStyle": "Electronic",
       "duration": 1.3,
       "lyrics": "asd12312asdasdasd",
-      "songThumbnail": "https://via.placeholder.com/150/92c952"
+      "songThumbnail": "https://images.pexels.com/photos/3389099/pexels-photo-3389099.jpeg?auto=compress&cs=tinysrgb&w=600"
     },
     {
       "albumId": 6,
@@ -249,7 +249,7 @@
       "musicStyle": "Electronic",
       "duration": 2.3,
       "lyrics": "asdd123123asdasd",
-      "songThumbnail": "https://via.placeholder.com/150/92c952"
+      "songThumbnail": "https://images.pexels.com/photos/3450887/pexels-photo-3450887.jpeg?auto=compress&cs=tinysrgb&w=600"
     },
     {
       "albumId": 6,
@@ -259,7 +259,7 @@
       "musicStyle": "Electronic",
       "duration": 2.3,
       "lyrics": "asdasd12312312asdsa",
-      "songThumbnail": "https://via.placeholder.com/150/92c952"
+      "songThumbnail": "https://images.pexels.com/photos/1713997/pexels-photo-1713997.jpeg?auto=compress&cs=tinysrgb&w=600"
     },
     {
       "albumId": 7,
@@ -268,7 +268,7 @@
       "musicStyle": "Electronic",
       "duration": 2.3,
       "lyrics": "asdasd123123asdasdasdaaffafaf",
-      "songThumbnail": "https://via.placeholder.com/150/92c952",
+      "songThumbnail": "https://images.pexels.com/photos/1327426/pexels-photo-1327426.jpeg?auto=compress&cs=tinysrgb&w=600",
       "id": 13
     },
     {
@@ -279,7 +279,7 @@
       "musicStyle": "Electronic",
       "duration": 2.3,
       "lyrics": "agagagagttrtruyrt",
-      "songThumbnail": "https://via.placeholder.com/150/92c952"
+      "songThumbnail": "https://images.pexels.com/photos/18771000/pexels-photo-18771000/free-photo-of-singer-in-shirt-standing-by-microphone-and-in-headphones.jpeg?auto=compress&cs=tinysrgb&w=600"
     },
     {
       "albumId": 8,
@@ -289,7 +289,7 @@
       "musicStyle": "Electronic",
       "duration": 2.3,
       "lyrics": "rurtuyjhkjhjkh",
-      "songThumbnail": "https://via.placeholder.com/150/92c952"
+      "songThumbnail": "https://images.pexels.com/photos/18762052/pexels-photo-18762052/free-photo-of-singer-in-music-studio.jpeg?auto=compress&cs=tinysrgb&w=600"
     },
     {
       "albumId": 8,
@@ -299,7 +299,7 @@
       "musicStyle": "Electronic",
       "duration": 2.3,
       "lyrics": "ghjnmmghjgh",
-      "songThumbnail": "https://via.placeholder.com/150/92c952"
+      "songThumbnail": "https://images.pexels.com/photos/9524941/pexels-photo-9524941.jpeg?auto=compress&cs=tinysrgb&w=600"
     },
     {
       "albumId": 9,
@@ -309,7 +309,7 @@
       "musicStyle": "Electronic",
       "duration": 2.3,
       "lyrics": "tweweds",
-      "songThumbnail": "https://via.placeholder.com/150/92c952"
+      "songThumbnail": "https://images.pexels.com/photos/342520/pexels-photo-342520.jpeg?auto=compress&cs=tinysrgb&w=600"
     },
     {
       "albumId": 9,
@@ -319,17 +319,27 @@
       "musicStyle": "Electronic",
       "duration": 2.3,
       "lyrics": "https://via.placeholder.com/600/92c952",
-      "songThumbnail": "https://via.placeholder.com/150/92c952"
+      "songThumbnail": "https://images.pexels.com/photos/9789893/pexels-photo-9789893.jpeg?auto=compress&cs=tinysrgb&w=600"
+    },
+    {
+      "albumId": 7,
+      "songwriterId": "2",
+      "songTitle": "Pabuciuok man į lupas",
+      "musicStyle": "Rock",
+      "duration": "2022-05-03",
+      "lyrics": "Oh, say can you see by the dawn's early light\nWhat so proudly we hailed at the twilight's last gleaming?\nWhose broad stripes and bright stars through the perilous fight,\nO'er the ramparts we watched were so gallantly streaming?\nAnd the rocket's red glare, the bombs bursting in air,\nGave proof through the night that our flag was still there.\nOh, say does that star-spangled banner yet wave\nO'er the land of the free and the home of the brave?\n\nOn the shore, dimly seen through the mists of the deep,\nWhere the foe's haughty host in dread silence reposes,\nWhat is that which the breeze, o'er the towering steep,\nAs it fitfully blows, half conceals, half discloses?\nNow it catches the gleam of the morning's first beam,\nIn full glory reflected now shines in the stream:\n'Tis the star-spangled banner!  Oh long may it wave\nO'er the land of the free and the home of the brave!",
+      "songThumbnail": "https://images.pexels.com/photos/5648357/pexels-photo-5648357.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "id": 19
     }
   ],
-  "studioAwards" :[
+  "studioAwards": [
     {
       "id": 1,
       "awardTitle": "M.A.M.A 2023",
       "awardDescription": "The 'Award Name' is a prestigious and coveted recognition in the world of [Music/Entertainment/Your Industry]. It celebrates and honors outstanding achievements, innovation, and excellence in [Music/Entertainment/Your Field]. This award is a symbol of artistic brilliance, dedication, and the relentless pursuit of excellence.\n\nWith a rich history spanning [Number of Years] years, the 'Award Name' has become a hallmark of industry success, showcasing the crème de la crème of talent and contributions. Each year, this award brings together the most influential and talented individuals who have left an indelible mark on their respective fields.",
       "awardPhoto": "https://res.heraldm.com/content/image/2023/10/19/20231019000615_0.jpg",
       "companyLogo": "https://www.muzikosapdovanojimai.lt/wp-content/themes/m.a.m.a.2014/img/trophy.jpg",
-      "companyName" : "Music awards company M.A.M.A"
+      "companyName": "Music awards company M.A.M.A"
     },
     {
       "id": 2,
@@ -337,7 +347,7 @@
       "awardDescription": "Located in the heart of Los Angeles, California, Studio X stands as a shining example of musical and sonic brilliance. This prestigious record studio has earned its place in the limelight by being awarded the highly coveted Best Recording Studio of the Year in the category of Studio Excellence for the year 2023.",
       "awardPhoto": "https://upload.wikimedia.org/wikipedia/en/c/c6/O-music-awards-2013-logo.jpg",
       "companyLogo": "https://www.creativefabrica.com/wp-content/uploads/2021/06/16/Logo-for-Music-Company-Graphics-13485974-1.jpg",
-      "companyName" : "MelodyMasters Gala awards company"
+      "companyName": "MelodyMasters Gala awards company"
     },
     {
       "id": 3,
@@ -345,7 +355,7 @@
       "awardDescription": "The studio's achievement is a testament to its commitment to audio perfection. Studio X is celebrated for its exceptional sound quality, state-of-the-art equipment, and a team of outstanding recording engineers who bring musical dreams to life. They have redefined the industry's standards by consistently delivering top-notch recordings that enchant the senses and touch the soul.",
       "awardPhoto": "https://www.goldderby.com/wp-content/uploads/2018/06/CMT-Awards-2018-Country-Music-Television-Awards.jpg",
       "companyLogo": "https://www.designevo.com/res/templates/thumb_small/music-note-and-violin-string.webp",
-      "companyName" : "Melodic Milestones Awards company"
+      "companyName": "Melodic Milestones Awards company"
     },
     {
       "id": 4,
@@ -353,7 +363,7 @@
       "awardDescription": "The jury, comprised of industry experts, musicians, and critics, was profoundly impressed by Studio X's dedication to delivering sonic excellence. The exceptional sound quality and professional service provided by Studio X have made them a clear standout in the competitive world of recording studios. Their commitment to innovation and unwavering passion for music and sound have earned them this well-deserved recognition.",
       "awardPhoto": "https://assets.apraamcos.com.au/images/Awards/_1200x630_crop_center-center_82_none/MUSIC_Generic-3_2.jpg",
       "companyLogo": "https://graphicsfamily.com/wp-content/uploads/2020/10/Free-music-logo-design-on-wall-presentation-scaled.jpg",
-      "companyName" : "SoundWave Accolades awards company"
+      "companyName": "SoundWave Accolades awards company"
     }
   ]
 }

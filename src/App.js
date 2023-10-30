@@ -12,7 +12,7 @@ import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
 import './App.css'
-import CreateAlbumPage from "./Components/CreateComponents/CreateAlbumPage";
+import CreateAlbumPage from "./Components/CreateComponents/CreateAlbum/CreateAlbumPage";
 import EditAlbumPage from "./EditComponents/EditAlbumPage";
 import CreateSongPage from "./Components/CreateComponents/CreateSongPage.js/CreateSongPage";
 import EditSongPage from "./EditComponents/EditSongPage";

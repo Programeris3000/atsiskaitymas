@@ -1,0 +1,44 @@
+@import '../../StyleComponents/Mixins.scss';
+
+.button-1{
+  @include button-style;
+}
+
+.song-item-wrapper{
+  background-color: bisque;
+  padding: 20px;
+
+  .content-wrapper{
+    text-align: center;
+    .song-title-element{
+      text-transform: capitalize;
+    }
+    .song-cover-image{
+      width: 100%;
+      object-fit: cover;
+      height: 250px;
+    }
+    .song-creator-name{
+      display: block;
+    }
+    
+    .song-album-title{
+      display: block;
+    }
+    .song-release-date{
+      display: block;
+    }
+    .song-lyrics{
+
+    }
+  }
+
+  .buttons-wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+
+
+}

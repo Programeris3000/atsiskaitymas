@@ -1,3 +1,40 @@
-.album-item-image{
-  max-width: 250px;
+@import '../../StyleComponents/Mixins.scss';
+
+.album-element-wrapper{
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  background-color: bisque;
+  border: 1px solid;
+  &:hover{
+    background-color: rgb(255, 252, 200);
+  }
+
+  .album-link-wrapper{
+    text-decoration: none;
+
+    .album-title{
+      color: black;
+    }
+    .album-creator-name{
+      color: black;
+    }
+    .album-cover-image{
+      max-width: 250px;
+      height: 300px;
+      object-fit: cover;
+
+    }
+  }
+  .buttons-wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    .button-1{
+      @include button-style;
+    }
+  }
+
 }
+
+

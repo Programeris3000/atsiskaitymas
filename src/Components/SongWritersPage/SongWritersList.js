@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react'
 import { SERVER } from '../Patrials/Config'
 import axios from 'axios'
 import './SongWritersList.css'
-import WriterItem from '../SingleComponents/WriterItem/WriterPage'
+import WriterItem from '../SingleComponents/WriterItem/WriterItem'
 
 
 const SongWritersList = () => {
@@ -26,7 +26,7 @@ const SongWritersList = () => {
 
   return (
     <>
-    <h1 className="song-writers-title">Song writers</h1>
+    <h1 className="song-writers-title">Our clients</h1>
     <div className="song-writers-wrapper">
       {splitWriters}
     </div>

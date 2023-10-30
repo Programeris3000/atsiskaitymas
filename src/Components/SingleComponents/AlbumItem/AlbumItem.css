@@ -1,3 +1,48 @@
-.album-item-image {
+.album-element-wrapper {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  background-color: bisque;
+  border: 1px solid;
+}
+.album-element-wrapper:hover {
+  background-color: rgb(255, 252, 200);
+}
+.album-element-wrapper .album-link-wrapper {
+  text-decoration: none;
+}
+.album-element-wrapper .album-link-wrapper .album-title {
+  color: black;
+}
+.album-element-wrapper .album-link-wrapper .album-creator-name {
+  color: black;
+}
+.album-element-wrapper .album-link-wrapper .album-cover-image {
   max-width: 250px;
+  height: 300px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.album-element-wrapper .buttons-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.album-element-wrapper .buttons-wrapper .button-1 {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  background-color: rgb(0, 0, 0); /* Background color */
+  color: #fff; /* Text color */
+  border: none;
+  border-radius: 5px; /* Rounded corners */
+  cursor: pointer;
+  transition: background-color 0.3s; /* Smooth hover effect */
+  /* Hover effect */
+}
+.album-element-wrapper .buttons-wrapper .button-1:hover {
+  background-color: rgb(246, 67, 255);
 }/*# sourceMappingURL=AlbumItem.css.map */

@@ -1,0 +1,58 @@
+.button-1 {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  background-color: rgb(0, 0, 0); /* Background color */
+  color: #fff; /* Text color */
+  border: none;
+  border-radius: 5px; /* Rounded corners */
+  cursor: pointer;
+  transition: background-color 0.3s; /* Smooth hover effect */
+  /* Hover effect */
+}
+.button-1:hover {
+  background-color: rgb(246, 67, 255);
+}
+
+.song-writer-page-wrapper .song-writer-name {
+  text-align: center;
+}
+.song-writer-page-wrapper .singer-activity-years-title {
+  font-size: 22px;
+  margin: 0;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.song-writer-page-wrapper .singer-activity-years {
+  background-color: black;
+  color: white;
+  display: block;
+  text-align: center;
+}
+.song-writer-page-wrapper .singer-biography {
+  text-align: center;
+}
+.song-writer-page-wrapper .created-amount-wrapper {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.song-writer-page-wrapper .created-amount-wrapper .length-title {
+  margin: 0;
+}
+.song-writer-page-wrapper .created-amount-wrapper .albums-length {
+  font-size: 30px;
+  display: block;
+  background-color: black;
+  color: white;
+}
+.song-writer-page-wrapper .created-amount-wrapper .songs-length {
+  font-size: 30px;
+  display: block;
+  background-color: black;
+  color: white;
+}/*# sourceMappingURL=WriterPage.css.map */

@@ -1,0 +1,71 @@
+.create-album-form{
+  margin-top: 20px;
+  background-color: rgb(0, 0, 0);
+  border: 1px solid;
+  padding: 20px;
+  .form-control{
+    background-color: rgb(0, 0, 0);
+    .create-album-label-element{
+      font-family: 'Courier New', Courier, monospace;
+      color: white;
+    }
+    #create-album-title{
+      border-radius: 10px;
+      margin-left: 10px;
+      margin-bottom: 5px;
+
+    }
+    #create-album-cover{
+      border-radius: 10px;
+      margin-left: 10px;
+      margin-bottom: 5px;
+    }
+    #create-album-realease{
+      border-radius: 10px;
+      margin-bottom: 5px;
+      margin-left: 10px;
+    }
+    #create-album-genre{
+      border-radius: 10px;
+      margin-bottom: 5px;
+      margin-left: 10px;
+    }
+    
+  }
+  .create-album-textarea-wrapper{
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    display: flex;
+    gap: 5px;
+    flex-direction: column;
+    #create-album-description{
+
+    }
+  }
+
+  
+  .select-element-wrapper{
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    max-width: 200px;
+    background-color: rgb(0, 0, 0);
+    .select-element-label{
+      font-family: 'Courier New', Courier, monospace;
+      color: white;
+    }
+    #create-album-select-element{
+
+      .create-album-option-element{
+  
+      }
+    }
+
+  }
+ 
+
+  .create-album-button{
+
+  }
+}

@@ -101,8 +101,8 @@ const CreateSongPage = ({ onCreateSongHandler }) => {
 
   return (
     <form onSubmit={createSongFormHandler}>
-      <div form-control>
-        <label htmlFor="create-song-title">Enter Song title</label>
+      <div className="form-control">
+        <label className="label-element" htmlFor="create-song-title">Enter Song title</label>
         <input
           // required
           type="text"
@@ -113,8 +113,8 @@ const CreateSongPage = ({ onCreateSongHandler }) => {
         />
       </div>
 
-      <div form-control>
-        <label htmlFor="create-song-music-style">Enter music style</label>
+      <div className="form-control">
+        <label className="label-element" htmlFor="create-song-music-style">Enter music style</label>
         <input
           // required
           type="text"
@@ -125,8 +125,8 @@ const CreateSongPage = ({ onCreateSongHandler }) => {
         />
       </div>
 
-      <div form-control>
-        <label htmlFor="create-song-duration">Enter song duration</label>
+      <div className="form-control">
+        <label className="label-element" htmlFor="create-song-duration">Enter song duration</label>
         <input
           // required
           type="text"
@@ -137,8 +137,8 @@ const CreateSongPage = ({ onCreateSongHandler }) => {
         />
       </div>
 
-      <div form-control>
-        <label htmlFor="create-song-lyrics">Enter song lyrics</label>
+      <div className="create-song-textarea-wrapper">
+        <label className="label-element" htmlFor="create-song-lyrics">Enter song lyrics</label>
         <textarea
           // required
           type="text"
@@ -149,8 +149,8 @@ const CreateSongPage = ({ onCreateSongHandler }) => {
         />
       </div>
 
-      <div form-control>
-        <label htmlFor="create-song-thumbnail">Enter song thumbnail</label>
+      <div className="form-control">
+        <label className="label-element" htmlFor="create-song-thumbnail">Enter song thumbnail</label>
         <input
           // required
           type="text"
@@ -161,23 +161,21 @@ const CreateSongPage = ({ onCreateSongHandler }) => {
         />
       </div>
 
-      <div className="form-control">
-        <label htmlFor="select-song-writter">Select song Author</label>
+      <div className="select-element-wrapper">
+        <label className="select-element-label" htmlFor="select-song-writter">Select song Author</label>
         <select id="select-song-writter" onChange={selectedUserHandler} value={selectedUser}>
           {optionElements}
         </select>
       </div>
 
-      <div className="form-control">
-        <label htmlFor="select-album">Select album</label>
+      <div className="select-element-wrapper">
+        <label className="select-element-label" htmlFor="select-album">Select album</label>
         <select id="select-album" onChange={selectedAlbumHandler} value={selectedAlbum}>
           {albumsOptionElements}
         </select>
       </div>
 
-
-
-      <input type="submit" value="Create song" />
+      <input className="button-1" type="submit" value="Create song" />
     </form>
   )
 }
