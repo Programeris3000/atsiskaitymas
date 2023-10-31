@@ -1,0 +1,42 @@
+@use '../Components/StyleComponents/responsive';
+@use '../Components/StyleComponents/variables';
+
+
+.edit-form-content-wrapper {
+  padding: 20px;
+  border: 1px solid;
+
+  .button-1 {
+
+  }
+
+  .album-form-title {
+    color: white;
+    text-transform: uppercase;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 0;
+    font-size: 26px;
+
+    @include responsive.s {
+      text-align: center;
+    }
+  }
+
+  .edit-form-wrapper {
+
+    .form-control {
+      font-family: 'Courier New', Courier, monospace;
+      color: white;
+      display: flex;
+      flex-direction: column;
+      margin-bottom: 10px;
+    }
+
+    .button-1 {
+      margin-top: 15px;
+    }
+  }
+
+
+}

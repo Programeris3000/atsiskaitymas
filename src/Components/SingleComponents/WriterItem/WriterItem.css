@@ -1,6 +1,6 @@
 .song-writer-item {
-  background: rgb(204, 199, 199);
-  background: linear-gradient(0deg, rgb(204, 199, 199) 0%, rgba(253, 176, 254, 0.3086484594) 100%);
+  background-color: bisque;
+  border: 1px solid;
   padding: 20px;
   display: flex;
   flex-direction: column;

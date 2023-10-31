@@ -1,9 +1,16 @@
 .song-item-wrapper {
   background-color: bisque;
-  padding: 20px;
+  border: 1px solid;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 .song-item-wrapper .content-wrapper {
   text-align: center;
+}
+.song-item-wrapper .content-wrapper .button-1 {
+  display: block;
 }
 .song-item-wrapper .content-wrapper .song-title-element {
   text-transform: capitalize;
@@ -14,13 +21,26 @@
      object-fit: cover;
   height: 250px;
 }
+@media (max-width: 700px) {
+  .song-item-wrapper .content-wrapper .song-cover-image {
+    height: unset;
+  }
+}
 .song-item-wrapper .content-wrapper .song-creator-name {
+  display: block;
+  font-size: 18px;
+  font-weight: 600;
+}
+.song-item-wrapper .content-wrapper .song-album-pre-title {
+  margin-top: 10px;
   display: block;
 }
 .song-item-wrapper .content-wrapper .song-album-title {
   display: block;
+  text-transform: uppercase;
 }
 .song-item-wrapper .content-wrapper .song-release-date {
+  margin-top: 10px;
   display: block;
 }
 .song-item-wrapper .buttons-wrapper {

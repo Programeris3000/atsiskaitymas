@@ -1,5 +1,7 @@
+@use '.././StyleComponents/responsive';
+@use '.././StyleComponents/variables';
+
 .albums-page-title{
-  background-image: url("/src/Images/pexels-vishnu-r-nair-1105666.jpg");
   object-fit: contain;
   width: 100%;
   padding-bottom: 20px;
@@ -11,6 +13,11 @@
   margin-top: 20px;
   font-size: 30px;
   text-transform: uppercase;
+  
+  // color: white;
+  // text-transform: uppercase;
+  // padding: 20px;
+  // border-radius: 10px;
 }
 
 
@@ -18,7 +25,10 @@
   .form-wrapper{
 
     .form-wrapper-title{
-      margin: 0px;
+      color: white;
+      text-transform: uppercase;
+      padding: 20px;
+      border-radius: 10px;
       .form-wrapper-subtitle{
         
       }
@@ -35,5 +45,11 @@
     grid-template-columns: 1fr 1fr 1fr;
     gap: 20px;
     text-align: center;
+    @include responsive.l {
+      grid-template-columns: 1fr 1fr
+    }
+    @include responsive.m {
+      display: block;
+    }
   }
 }

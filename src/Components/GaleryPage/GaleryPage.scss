@@ -1,3 +1,6 @@
+@use '../StyleComponents/variables';
+@use '../StyleComponents/responsive';
+
 .studio-galery-title{
   background-image: url("/src/Images/pexels-vishnu-r-nair-1105666.jpg");
   object-fit: contain;
@@ -11,6 +14,10 @@
   margin-top: 20px;
   font-size: 30px;
   text-transform: uppercase;
+  @include responsive.s {
+    text-align: center;
+    font-size: 24px;
+  }
 }
 .galery-page-wrapper{
   margin-top: 20px;
@@ -18,19 +25,29 @@
   padding: 20px;
   .carousel{
     .image-wrapper{
-      position: relative;
 
       .carousel-img{
         max-width: 600px;
         height: 300px;
         object-fit: contain;
         position: relative;
+        @include responsive.m {
+          height: unset;
+        }
 
       }
-      .carousel-delete-button{
+      .button-1{
         position: absolute;
-        right: 20%;
+        right: 29%;
         top: 3%;
+        @include responsive.l {
+          right: 21%;
+          top: 3%;
+        }
+        @include responsive.m {
+          right: 9%;
+          top: 3%;
+        }
       }
     }
   }

@@ -5,7 +5,17 @@
 
   .song-writer-name{
     text-align: center;
-    
+  }
+  .song-writer-photo{
+    display: block;
+    object-fit: contain;
+    width: 100%;
+    height: 400px;
+    @include responsive.m {
+      text-align: center;
+      font-size: 24px;
+      height: unset;
+    }
   }
   
   .singer-activity-years-title{

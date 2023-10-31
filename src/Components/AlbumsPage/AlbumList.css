@@ -1,5 +1,4 @@
 .albums-page-title {
-  background-image: url("/src/Images/pexels-vishnu-r-nair-1105666.jpg");
   -o-object-fit: contain;
      object-fit: contain;
   width: 100%;
@@ -15,7 +14,10 @@
 }
 
 .album-page-wrapper .form-wrapper .form-wrapper-title {
-  margin: 0px;
+  color: white;
+  text-transform: uppercase;
+  padding: 20px;
+  border-radius: 10px;
 }
 .album-page-wrapper .albums-wrapper {
   margin-top: 20px;
@@ -23,4 +25,14 @@
   grid-template-columns: 1fr 1fr 1fr;
   gap: 20px;
   text-align: center;
+}
+@media (max-width: 950px) {
+  .album-page-wrapper .albums-wrapper {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media (max-width: 700px) {
+  .album-page-wrapper .albums-wrapper {
+    display: block;
+  }
 }/*# sourceMappingURL=AlbumList.css.map */

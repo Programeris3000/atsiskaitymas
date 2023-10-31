@@ -1,0 +1,27 @@
+.edit-song-form-content-wrapper {
+  padding: 20px;
+  border: 1px solid;
+}
+.edit-song-form-content-wrapper .song-form-title {
+  color: white;
+  text-transform: uppercase;
+  padding: 20px;
+  border-radius: 10px;
+  margin: 0;
+  font-size: 26px;
+}
+@media (max-width: 450px) {
+  .edit-song-form-content-wrapper .song-form-title {
+    text-align: center;
+  }
+}
+.edit-song-form-content-wrapper .edit-song-form-wrapper .form-control {
+  font-family: "Courier New", Courier, monospace;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+.edit-song-form-content-wrapper .edit-song-form-wrapper .button-1 {
+  margin-top: 15px;
+}/*# sourceMappingURL=EditSongPage.css.map */

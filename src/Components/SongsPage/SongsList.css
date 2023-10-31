@@ -12,80 +12,61 @@
   margin-top: 20px;
   font-size: 30px;
   text-transform: uppercase;
+  margin-bottom: 20px;
+}
+@media (max-width: 450px) {
+  .songs-page-title {
+    text-align: center;
+  }
 }
 
 .songs-page-wrapper .songs-form-wrapper {
   margin-top: 20px;
-  background-color: rgb(225, 169, 169);
   border: 1px solid;
   padding: 20px;
   border: 1px solid;
   margin-bottom: 20px;
 }
 .songs-page-wrapper .songs-form-wrapper .form-control {
-  background-color: rgb(0, 0, 0);
-  margin-bottom: 10px;
-  padding: 10px;
+  display: flex;
+  flex-direction: column;
 }
 .songs-page-wrapper .songs-form-wrapper .form-control .label-element {
   font-family: "Courier New", Courier, monospace;
   color: white;
 }
-.songs-page-wrapper .songs-form-wrapper .form-control #create-song-title {
-  border-radius: 10px;
-  margin-left: 10px;
-  margin-bottom: 5px;
-}
-.songs-page-wrapper .songs-form-wrapper .form-control #create-song-realease {
-  border-radius: 10px;
-  margin-bottom: 5px;
-  margin-left: 10px;
-}
-.songs-page-wrapper .songs-form-wrapper .form-control #create-song-music-style {
-  border-radius: 10px;
-  margin-left: 10px;
-  margin-bottom: 5px;
-}
-.songs-page-wrapper .songs-form-wrapper .form-control #create-song-duration {
-  border-radius: 10px;
-  margin-left: 10px;
-  margin-bottom: 5px;
-}
-.songs-page-wrapper .songs-form-wrapper .form-control #create-song-thumbnail {
-  border-radius: 10px;
-  margin-left: 10px;
-  margin-bottom: 5px;
-}
-.songs-page-wrapper .songs-form-wrapper .form-control #create-song-genre {
-  border-radius: 10px;
-  margin-bottom: 5px;
-  margin-left: 10px;
-}
 .songs-page-wrapper .songs-form-wrapper .create-song-textarea-wrapper {
   font-family: "Courier New", Courier, monospace;
   color: white;
-  background-color: black;
   display: flex;
   gap: 5px;
-  margin-bottom: 10px;
   flex-direction: column;
-  padding: 10px;
 }
 .songs-page-wrapper .songs-form-wrapper .select-element-wrapper {
-  margin-bottom: 10px;
   display: flex;
   flex-direction: column;
   gap: 5px;
   max-width: 200px;
-  background-color: rgb(0, 0, 0);
-  padding: 10px;
 }
 .songs-page-wrapper .songs-form-wrapper .select-element-wrapper .select-element-label {
   font-family: "Courier New", Courier, monospace;
   color: white;
 }
+.songs-page-wrapper .songs-form-wrapper .button-1 {
+  margin-top: 15px;
+}
 .songs-page-wrapper .songs-list-wrapper {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 20px;
+}
+@media (max-width: 950px) {
+  .songs-page-wrapper .songs-list-wrapper {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media (max-width: 700px) {
+  .songs-page-wrapper .songs-list-wrapper {
+    grid-template-columns: 1fr;
+  }
 }/*# sourceMappingURL=SongsList.css.map */

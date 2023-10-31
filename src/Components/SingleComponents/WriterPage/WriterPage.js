@@ -9,7 +9,7 @@ import './WriterPage.css'
 const WriterPage = () => {
   const [userData, setUserData] = useState('')
   console.log(userData)
-  const { albums, songs, name, biography, activityYears, born, childrens, parents, age } = userData
+  const { albums, songs, name, biography, activityYears, born, childrens, parents, age, photoUrl } = userData
   const { ID } = useParams()
   const navigation = useNavigate()
 
@@ -109,6 +109,7 @@ const WriterPage = () => {
         <div className="song-writer-page-wrapper">
           <button className="button-1" onClick={backButtonHandler}>Get back to Song writers...</button>
           <h1 className="song-writer-name">{name}</h1>
+          <img className="song-writer-photo" src={photoUrl} alt={name}/>
           <h2 className="singer-activity-years-title">Activity years</h2>
           <span className="singer-activity-years">{activityYears}</span>
           <p className="singer-biography">{biography}</p>

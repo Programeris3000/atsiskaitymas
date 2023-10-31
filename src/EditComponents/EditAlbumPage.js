@@ -3,10 +3,11 @@ import { SERVER } from "../Components/Patrials/Config"
 import axios from 'axios'
 import { Link, useNavigate, useParams } from "react-router-dom"
 import { toast } from "react-toastify"
+import './EditAlbumPage.css'
 
 const EditAlbumPage = () => {
-  
-  const {ID} = useParams()
+
+  const { ID } = useParams()
   const navigation = useNavigate()
 
   const [albumTitle, setAlbumTitle] = useState('')
@@ -24,22 +25,22 @@ const EditAlbumPage = () => {
   const albumGenreHandler = event => setAlbumGenre(event.target.value)
   const albumDescriptionHandler = event => setAlbumDescription(event.target.value)
   const albumUserHandler = event => setSelectedUser(event.target.value)
-  
 
-  useEffect(()=>{
+
+  useEffect(() => {
     const getSongWriters = async () => {
-      const {data} = await axios(`${SERVER}/songwriters`)
+      const { data } = await axios(`${SERVER}/songwriters`)
       setSongWriters(data)
       // setSelectedUser(data[0].id)
     }
     getSongWriters()
-  },[])
+  }, [])
 
-  useEffect(()=>{
+  useEffect(() => {
     const getAlbumToEdit = async () => {
-      const {data} = await axios (`${SERVER}/albums/${ID}`)
+      const { data } = await axios(`${SERVER}/albums/${ID}`)
       console.log(data)
-      const {title, songwriterId, realeaseDate, photoUrl, genre, description} = data
+      const { title, songwriterId, realeaseDate, photoUrl, genre, description } = data
       setAlbumTitle(title)
       setAlbumCover(photoUrl)
       setAlbumRealease(realeaseDate)
@@ -48,10 +49,10 @@ const EditAlbumPage = () => {
       setSelectedUser(songwriterId)
     }
     getAlbumToEdit()
-  },[ID])
+  }, [ID])
 
 
-  const optionElements = songWriters && songWriters.length > 0 && songWriters.map((writer, index)=>{
+  const optionElements = songWriters && songWriters.length > 0 && songWriters.map((writer, index) => {
     return (
       <option key={index} value={writer.id}>{writer.name}</option>
     )
@@ -76,93 +77,95 @@ const EditAlbumPage = () => {
       genre: albumGenre,
       description: albumDescription,
       songwriterId: Number(selectedUser)
-    }    
+    }
 
     const res = await axios.put(`${SERVER}/albums/${ID}`, editedAlbum)
-    if(res.status === 200){
+    if (res.status === 200) {
       toast.success('Album successfully edited')
       navigation('/project/albumslist')
     } else {
       toast.error('Something went wrong, Album was not deleted...')
     }
-    
+
   }
 
 
   return (
-    <>
-    <h1>Edit album {ID}</h1>
-    <Link to='/project/albumslist'>Back to albums</Link>
-    <form onSubmit={editAlbumFormHandler}>
-      <div form-control>
-      <label htmlFor="create-album-title">Edit Album title</label>
-      <input 
-      // required
-      type="text" 
-      id="create-album-title" 
-      name="create-album-title" 
-      onChange={albumTitleHandler}
-      value={albumTitle}
-      />
-      </div>
+    <div className="edit-form-content-wrapper">
+      <Link className="button-1" to='/project/albumslist'>Back to albums</Link>
+      <h1 className="album-form-title">Edit album</h1>
 
-      <div form-control>
-      <label htmlFor="create-album-cover">Edit Cover Photo Url</label>
-      <input 
-      // required
-      type="text" 
-      id="create-album-cover" 
-      name="create-album-cover" 
-      onChange={albumCoverHandler}
-      value={albumCover}
-      />
-      </div>
+      <form className="edit-form-wrapper" onSubmit={editAlbumFormHandler}>
+        <div className="form-control">
+          <label htmlFor="create-album-title">Edit Album title</label>
+          <input
+            // required
+            type="text"
+            id="create-album-title"
+            name="create-album-title"
+            onChange={albumTitleHandler}
+            value={albumTitle}
+          />
+        </div>
 
-      <div form-control>
-      <label htmlFor="create-album-realease">Edit Album Realease date</label>
-      <input 
-      // required
-      type="text" 
-      id="create-album-realease" 
-      name="create-album-realease" 
-      onChange={albumRealeaseHandler}
-      value={albumRealease}
-      />
-      </div>
+        <div className="form-control">
+          <label htmlFor="create-album-cover">Edit Cover Photo Url</label>
+          <input
+            // required
+            type="text"
+            id="create-album-cover"
+            name="create-album-cover"
+            onChange={albumCoverHandler}
+            value={albumCover}
+          />
+        </div>
 
-      <div form-control>
-      <label htmlFor="create-album-genre">Edit Album genre</label>
-      <input 
-      // required
-      type="text" 
-      id="create-album-genre" 
-      name="create-album-genre" 
-      onChange={albumGenreHandler}
-      value={albumGenre}
-      />
-      </div>
+        <div className="form-control">
+          <label htmlFor="create-album-realease">Edit Album Realease date</label>
+          <input
+            // required
+            type="text"
+            id="create-album-realease"
+            name="create-album-realease"
+            onChange={albumRealeaseHandler}
+            value={albumRealease}
+          />
+        </div>
 
-      <div form-control>
-      <label htmlFor="create-album-description">Edit Album description</label>
-      <textarea
-      // required
-      type="text" 
-      id="create-album-description" 
-      name="create-album-description" 
-      onChange={albumDescriptionHandler}
-      value={albumDescription}
-      />
-      </div>
+        <div className="form-control">
+          <label htmlFor="create-album-genre">Edit Album genre</label>
+          <input
+            // required
+            type="text"
+            id="create-album-genre"
+            name="create-album-genre"
+            onChange={albumGenreHandler}
+            value={albumGenre}
+          />
+        </div>
 
-      <div className="form-control">
-      <select onChange={albumUserHandler} value={selectedUser}>
-        {optionElements}
-      </select>
+        <div className="form-control">
+          <label htmlFor="create-album-description">Edit Album description</label>
+          <textarea
+            // required
+            type="text"
+            id="create-album-description"
+            name="create-album-description"
+            onChange={albumDescriptionHandler}
+            value={albumDescription}
+          />
+        </div>
+
+        <div className="form-control">
+        <label htmlFor="create-album-select-element">Select songwriter</label>
+          <select id="create-album-select-element" onChange={albumUserHandler} value={selectedUser}>
+            {optionElements}
+          </select>
+        </div>
+
+        <input className="button-1" type="submit" value="Edit album" />
+      </form>
     </div>
-    
-      <input type="submit" value="Edit album"/>
-    </form>
-      </>
   )
 }
 

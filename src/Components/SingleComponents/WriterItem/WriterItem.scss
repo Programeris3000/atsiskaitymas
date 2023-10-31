@@ -2,8 +2,8 @@
 @use '../../StyleComponents/variables';
 
 .song-writer-item{
-  background: rgb(204,199,199);
-  background: linear-gradient(0deg, rgba(204,199,199,1) 0%, rgba(253,176,254,0.3086484593837535) 100%);
+background-color: bisque;
+border: 1px solid;
 padding: 20px;
 display: flex;
 flex-direction: column;

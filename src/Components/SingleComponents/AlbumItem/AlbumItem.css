@@ -11,6 +11,13 @@
 .album-element-wrapper .album-link-wrapper {
   text-decoration: none;
 }
+@media (max-width: 950px) {
+  .album-element-wrapper .album-link-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
 .album-element-wrapper .album-link-wrapper .album-title {
   color: black;
 }

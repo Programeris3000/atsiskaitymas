@@ -1,3 +1,6 @@
+@use '.././StyleComponents/responsive';
+@use '.././StyleComponents/variables';
+
 .songs-page-title{
   background-image: url('../../Images/pexels-vishnu-r-nair-1105666.jpg');
     object-fit: contain;
@@ -11,59 +14,51 @@
     margin-top: 20px;
     font-size: 30px;
     text-transform: uppercase;
+    margin-bottom: 20px;
+
+    @include responsive.s {
+      text-align: center;
+      }
 }
 .songs-page-wrapper {
 
+
   .songs-form-wrapper {
     margin-top: 20px;
-    background-color: rgb(225, 169, 169);
     border: 1px solid;
     padding: 20px;
     border: 1px solid;
     margin-bottom: 20px;
 
+
     .form-control {
-      background-color: rgb(0, 0, 0);
-      margin-bottom: 10px;
-      padding: 10px;
+      display: flex;
+      flex-direction: column;
 
       .label-element {
         font-family: 'Courier New', Courier, monospace;
         color: white;
       }
       #create-song-title {
-        border-radius: 10px;
-        margin-left: 10px;
-        margin-bottom: 5px;
+
       }
       
       #create-song-realease {
-        border-radius: 10px;
-        margin-bottom: 5px;
-        margin-left: 10px;
+
       }
 
       #create-song-music-style {
-        border-radius: 10px;
-        margin-left: 10px;
-        margin-bottom: 5px;
+
       }
       #create-song-duration {
-        border-radius: 10px;
-        margin-left: 10px;
-        margin-bottom: 5px;
+
       }
       #create-song-thumbnail {
-        border-radius: 10px;
-        margin-left: 10px;
-        margin-bottom: 5px;
+
       }
 
-
       #create-song-genre {
-        border-radius: 10px;
-        margin-bottom: 5px;
-        margin-left: 10px;
+
       }
 
     }
@@ -71,24 +66,18 @@
     .create-song-textarea-wrapper {
       font-family: 'Courier New', Courier, monospace;
       color: white;
-      background-color: black;
       display: flex;
       gap: 5px;
-      margin-bottom: 10px;
       flex-direction: column;
-      padding: 10px;
       #create-song-lyrics {}
     }
 
 
     .select-element-wrapper {
-      margin-bottom: 10px;
       display: flex;
       flex-direction: column;
       gap: 5px;
       max-width: 200px;
-      background-color: rgb(0, 0, 0);
-      padding: 10px;
 
       .select-element-label {
         font-family: 'Courier New', Courier, monospace;
@@ -101,11 +90,20 @@
       }
 
     }
+    .button-1{
+      margin-top: 15px;
+    }
   }
 
   .songs-list-wrapper {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 20px;
+    @include responsive.l {
+      grid-template-columns: 1fr 1fr;
+      }
+    @include responsive.m {
+      grid-template-columns: 1fr;
+      }  
   }
 }

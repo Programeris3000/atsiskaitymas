@@ -2,8 +2,8 @@ import { useEffect, useState } from "react"
 import axios from 'axios'
 import { SERVER } from '../Components/Patrials/Config'
 import { Link, useNavigate, useParams } from 'react-router-dom'
-import './EditSongPage.css'
 import { toast } from "react-toastify"
+import './EditSongPage.css'
 
 const EditSongPage = () => {
 
@@ -112,10 +112,11 @@ const EditSongPage = () => {
 
 
   return (
-    <>
-    <Link to='/project/songslist'>Back to songslist</Link>
-    <form onSubmit={createSongFormHandler}>
-      <div form-control>
+    <div className="edit-song-form-content-wrapper">
+    <Link className="button-1" to='/project/songslist'>Back to songslist</Link>
+    <h1 className="song-form-title">Edit song</h1>
+    <form className="edit-song-form-wrapper" onSubmit={createSongFormHandler}>
+    <div className="form-control">
         <label htmlFor="edit-song-title">Enter Song title</label>
         <input
           // required
@@ -127,7 +128,7 @@ const EditSongPage = () => {
         />
       </div>
 
-      <div form-control>
+      <div className="form-control">
         <label htmlFor="edit-song-music-style">Enter music style</label>
         <input
           // required
@@ -139,7 +140,7 @@ const EditSongPage = () => {
         />
       </div>
 
-      <div form-control>
+      <div className="form-control">
         <label htmlFor="edit-song-release">Enter song release date</label>
         <input
           // required
@@ -151,7 +152,7 @@ const EditSongPage = () => {
         />
       </div>
 
-      <div form-control>
+      <div className="form-control">
         <label htmlFor="edit-song-lyrics">Enter song lyrics</label>
         <textarea
           // required
@@ -163,7 +164,7 @@ const EditSongPage = () => {
         />
       </div>
 
-      <div form-control>
+      <div className="form-control">
         <label htmlFor="edit-song-thumbnail">Enter song thumbnail</label>
         <input
           // required
@@ -191,9 +192,9 @@ const EditSongPage = () => {
 
 
 
-      <input type="submit" value="Edit song" />
+      <input className="button-1" type="submit" value="Edit song" />
     </form>
-    </>
+    </div>
   )
 }
 

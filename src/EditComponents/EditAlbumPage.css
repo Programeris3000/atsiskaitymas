@@ -1,0 +1,27 @@
+.edit-form-content-wrapper {
+  padding: 20px;
+  border: 1px solid;
+}
+.edit-form-content-wrapper .album-form-title {
+  color: white;
+  text-transform: uppercase;
+  padding: 20px;
+  border-radius: 10px;
+  margin: 0;
+  font-size: 26px;
+}
+@media (max-width: 450px) {
+  .edit-form-content-wrapper .album-form-title {
+    text-align: center;
+  }
+}
+.edit-form-content-wrapper .edit-form-wrapper .form-control {
+  font-family: "Courier New", Courier, monospace;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+.edit-form-content-wrapper .edit-form-wrapper .button-1 {
+  margin-top: 15px;
+}/*# sourceMappingURL=EditAlbumPage.css.map */

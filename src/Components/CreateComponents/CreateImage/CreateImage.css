@@ -1,12 +1,22 @@
 .photo-form-wrapper {
   padding: 20px;
   border: 1px solid;
-  background-color: rgb(215, 228, 250);
 }
 .photo-form-wrapper .photo-form-title {
-  text-transform: capitalize;
+  color: white;
+  text-transform: uppercase;
+  padding: 20px;
+  border-radius: 10px;
+  margin: 0;
+}
+@media (max-width: 450px) {
+  .photo-form-wrapper .photo-form-title {
+    text-align: center;
+  }
 }
 .photo-form-wrapper .form-control {
+  font-family: "Courier New", Courier, monospace;
+  color: white;
   display: flex;
   flex-direction: column;
 }/*# sourceMappingURL=CreateImage.css.map */

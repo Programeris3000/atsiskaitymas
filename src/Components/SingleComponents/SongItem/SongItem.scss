@@ -1,12 +1,18 @@
-
-
+@use '../../StyleComponents/responsive';
+@use '../../StyleComponents/variables';
 
 .song-item-wrapper{
   background-color: bisque;
-  padding: 20px;
-
+  border: 1px solid;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   .content-wrapper{
     text-align: center;
+    .button-1{
+      display: block;
+    }
     .song-title-element{
       text-transform: capitalize;
     }
@@ -14,16 +20,28 @@
       width: 100%;
       object-fit: cover;
       height: 250px;
+      @include responsive.m {
+        height: unset;
+        }
     }
     .song-creator-name{
       display: block;
+      font-size: 18px;
+      font-weight: 600;
     }
-    
+    .song-album-pre-title{
+      margin-top: 10px;
+      display: block;
+
+    }
     .song-album-title{
       display: block;
+      text-transform: uppercase;
     }
     .song-release-date{
+      margin-top: 10px;
       display: block;
+
     }
     .song-lyrics{
 
@@ -34,6 +52,7 @@
     display: flex;
     flex-direction: column;
     gap: 10px;
+    
   }
 
 

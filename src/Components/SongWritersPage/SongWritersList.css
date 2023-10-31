@@ -13,6 +13,11 @@
   font-size: 30px;
   text-transform: uppercase;
 }
+@media (max-width: 450px) {
+  .song-writers-title {
+    text-align: center;
+  }
+}
 
 .song-writers-wrapper {
   display: grid;

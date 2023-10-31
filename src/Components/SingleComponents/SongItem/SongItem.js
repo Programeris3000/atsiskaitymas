@@ -18,6 +18,7 @@ const SongItem = ({data, key, onDeleteSongHandler}) => {
         <h2 className="song-title-element">{songTitle}</h2>
         <img className="song-cover-image" src={songThumbnail} alt={songTitle}/>
         <span className="song-creator-name">{songwriter && songwriter.name}</span>
+        <span className="song-album-pre-title">Album</span>
         <span className="song-album-title">{album && album.title}</span>
         <span className="song-release-date">Released : {release}</span>
         </div>

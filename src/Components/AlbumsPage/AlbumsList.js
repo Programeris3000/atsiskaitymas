@@ -62,15 +62,14 @@ const AlbumsList = () => {
     <>
       <h1 className="albums-page-title">Check-out our clients albums</h1>
     <div className="album-page-wrapper">
-      <div className="form-wrapper">
-        <h2 className="form-wrapper-title">Create album</h2>
-        <span className="form-wrapper-subtitle">Create album...</span>
-        <CreateAlbumPage onCreateAlbumHandler={createAlbumHandler}/>
-      </div>
 
       <div className="albums-wrapper">
         {splitAlbums}
-        
+      </div>
+      
+      <div className="form-wrapper">
+        <h2 className="form-wrapper-title">Create album</h2>
+        <CreateAlbumPage onCreateAlbumHandler={createAlbumHandler}/>
       </div>
       
     </div>

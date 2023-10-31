@@ -66,13 +66,13 @@ const SongsList = () => {
     <h1 className="songs-page-title">Songs list</h1>
       <div className="songs-page-wrapper">
 
-        <div className="songs-form-wrapper">
-            <CreateSongPage onCreateSongHandler={createSongHandler}/>
-          </div>
-
         <div className="songs-list-wrapper">
          {splitSongs}
         </div>
+
+        <div className="songs-form-wrapper">
+            <CreateSongPage onCreateSongHandler={createSongHandler}/>
+          </div>
       </div>
 
     </>
