@@ -3,7 +3,6 @@ import { Link, useParams } from 'react-router-dom'
 import axios from 'axios'
 import './AlbumPage.css'
 import { SERVER } from '../../Patrials/Config'
-import Card from '../../Card/Card'
 import { TailSpin } from 'react-loader-spinner'
 
 const AlbumPage = () => {

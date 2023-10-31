@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react"
 import axios from 'axios'
 import { SERVER } from '../Components/Patrials/Config'
-import { useNavigate, useParams } from 'react-router-dom'
+import { Link, useNavigate, useParams } from 'react-router-dom'
 import './EditSongPage.css'
 import { toast } from "react-toastify"
 
@@ -105,11 +105,15 @@ const EditSongPage = () => {
     if(res.status === 200){
       toast.success('Song successfully edited')
       navigation('/project/songslist')
+    } else {
+      toast.error('Something went wrong, song was not deleted...')
     }
   }
 
 
   return (
+    <>
+    <Link to='/project/songslist'>Back to songslist</Link>
     <form onSubmit={createSongFormHandler}>
       <div form-control>
         <label htmlFor="edit-song-title">Enter Song title</label>
@@ -189,6 +193,7 @@ const EditSongPage = () => {
 
       <input type="submit" value="Edit song" />
     </form>
+    </>
   )
 }
 

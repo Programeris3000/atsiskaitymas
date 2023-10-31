@@ -1,7 +1,9 @@
-.main-page-wrapper {
-  background-color: whitesmoke;
-  .main-page-header {
+@use '../StyleComponents/responsive';
+@use '../StyleComponents/variables';
 
+.main-page-wrapper {
+
+  .main-page-header {
     .main-page-studio-title {
       margin: 0px;
       text-align: center;
@@ -9,7 +11,8 @@
       padding-bottom: 10px;
       color: white;
     }
-    .main-page-studio-subtitle{
+
+    .main-page-studio-subtitle {
       margin: 0px;
       padding-bottom: 10px;
       text-align: center;
@@ -19,95 +22,135 @@
       font-weight: 300;
       display: block;
     }
+
+    .main-page-studio-description {
+      text-align: center;
+    }
   }
 
-  .main-content-wrapper{
-    
-    .awards-wrapper{
+  .main-content-wrapper {
 
-      .studio-awards-title{
-        background-image: url("/src/Images/pexels-vishnu-r-nair-1105666.jpg");
-        object-fit: contain;
-        width: 100%;
-        padding-bottom: 20px;
-        color: whitesmoke;
-        text-align: left;
-        padding-left: 20px;
+    .awards-wrapper {
+
+      .buttons-wrapper {
+        display: flex;
         padding-top: 20px;
-        margin: 0;
-        margin-top: 20px;
-        font-size: 30px;
-        text-transform: uppercase;
+        gap: 20px;
+        justify-content: center;
+        padding: 20px;
+
+        @include responsive.s {
+          flex-direction: column;
+          text-align: center;
+        }
       }
-    
-      .award-element-wrapper {
-        background-color: black;
-        .award-title {
-          text-align: center;
-          font-size: 36px;
-          font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-          background-color: rgb(246, 67, 255);
-          margin-bottom: 0px;
+    }
+
+    .studio-awards-title {
+      background-image: url("/src/Images/pexels-vishnu-r-nair-1105666.jpg");
+      object-fit: contain;
+      width: 100%;
+      padding-bottom: 20px;
+      color: whitesmoke;
+      text-align: left;
+      padding-left: 20px;
+      padding-top: 20px;
+      margin: 0;
+      margin-top: 20px;
+      font-size: 30px;
+      text-transform: uppercase;
+      margin-bottom: 20px;
+
+      @include responsive.m {
+        text-align: center;
+      }
+    }
+
+    .award-element-wrapper {
+      background-color: black;
+
+      .award-title {
+        text-align: center;
+        font-size: 36px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        background-color: rgb(0, 0, 0);
+        color: white;
+        margin: 0px;
+      }
+
+      .award-description {
+        text-align: center;
+        font-family: 'Courier New', Courier, monospace;
+        color: whitesmoke;
+        padding: 20px;
+      }
+
+      .award-logo-content-wrapper {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        margin-top: 20px;
+
+        @include responsive.s {
+          flex-direction: column;
         }
 
-        .award-description {
-          text-align: center;
-          font-family: 'Courier New', Courier, monospace;
+        .award-image-title {
+          font-size: 20px;
+          margin: 0px;
           color: whitesmoke;
-        }
 
-        .award-logo-content-wrapper {
-          display: flex;
-          justify-content: center;
-          align-items: center;
-          gap: 10px;
-          margin-top: 20px;
-
-          .award-image-title {
-            font-size: 20px;
-            margin: 0px;
-            color: whitesmoke;
-          }
-
-          .award-logo {
-            max-width: 50px;
-            height: 50px;
-            border-radius: 25px;
-          }
-
-        }
-        .award-image-content-wrapper{
-          display: flex;
-          justify-content: center;
-          .award-image {
-            max-width: 100%;
-            height: 300px;
-            object-fit: cover;
-            display: block;
+          @include responsive.s {
+            font-size: 18px;
             text-align: center;
           }
         }
+
+        .award-logo {
+          width: 50px;
+          height: 50px;
+          border-radius: 25px;
+        }
+
+      }
+
+      .award-image-content-wrapper {
+        display: flex;
+        justify-content: center;
+
+        .award-image {
+          max-width: 100%;
+          height: 300px;
+          object-fit: cover;
+          display: block;
+          text-align: center;
+
+          @include responsive.m {
+            height: unset;
+          }
+        }
       }
     }
+  }
 
-    .song-writers-wrapper{
+  .song-writers-wrapper {
 
-      .song-writers-list-title{
-        background-image: url("/src/Images/pexels-vishnu-r-nair-1105666.jpg");
-        object-fit: contain;
-        width: 100%;
-        padding-bottom: 20px;
-        color: whitesmoke;
-        text-align: left;
-        padding-left: 20px;
-        padding-top: 20px;
-        margin: 0;
-        margin-top: 20px;
-        font-size: 30px;
-        text-transform: uppercase;
-      }
-      
+    .song-writers-list-title {
+      background-image: url("/src/Images/pexels-vishnu-r-nair-1105666.jpg");
+      object-fit: contain;
+      width: 100%;
+      padding-bottom: 20px;
+      color: whitesmoke;
+      text-align: left;
+      padding-left: 20px;
+      padding-top: 20px;
+      margin: 0;
+      margin-top: 20px;
+      font-size: 30px;
+      text-transform: uppercase;
     }
 
   }
+
 }

@@ -18,5 +18,10 @@
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 30px;
-  background-color: rgb(200, 174, 229);
+  margin-top: 20px;
+}
+@media (max-width: 950px) {
+  .song-writers-wrapper {
+    display: block;
+  }
 }/*# sourceMappingURL=SongWritersList.css.map */

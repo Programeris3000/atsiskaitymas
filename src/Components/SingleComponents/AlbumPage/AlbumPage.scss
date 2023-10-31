@@ -1,8 +1,4 @@
-@import '../../StyleComponents/Mixins.scss';
 
-.button{
-  @include button-style;
-}
 .single-album-item{
   background-color: aquamarine;
   text-align: center;

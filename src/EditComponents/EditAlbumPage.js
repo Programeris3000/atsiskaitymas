@@ -4,7 +4,7 @@ import axios from 'axios'
 import { Link, useNavigate, useParams } from "react-router-dom"
 import { toast } from "react-toastify"
 
-const EditAlbumPage = ({albumId}) => {
+const EditAlbumPage = () => {
   
   const {ID} = useParams()
   const navigation = useNavigate()
@@ -82,8 +82,10 @@ const EditAlbumPage = ({albumId}) => {
     if(res.status === 200){
       toast.success('Album successfully edited')
       navigation('/project/albumslist')
+    } else {
+      toast.error('Something went wrong, Album was not deleted...')
     }
-    console.log(res)
+    
   }
 
 

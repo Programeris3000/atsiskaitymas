@@ -1,0 +1,49 @@
+@use '../../StyleComponents/responsive';
+@use '../../StyleComponents/variables';
+
+.award-form-wrapper{
+  border: 1px solid;
+  padding: 10px;
+  border-radius: 10px;
+  .award-form-title{
+    background-image: url("/src/Images/pexels-vishnu-r-nair-1105666.jpg");
+    color: white;
+    text-transform: uppercase;
+    padding: 20px;
+    border-radius: 10px;
+    @include responsive.s {
+      text-align: center;
+    }
+  }
+  .create-award-form{
+
+    .form-control{
+      display: flex;
+      flex-direction: column;
+      .award-label-element{
+
+      }
+
+      .award-title{
+
+      }
+      .award-description{
+
+      }
+      .award-photo{
+
+      }
+      .company-logo{
+
+      }
+      .company-name{
+
+      }
+
+    }
+    .button-2{
+      margin-top: 20px;
+      border-radius: 10px;
+    }
+  }
+}

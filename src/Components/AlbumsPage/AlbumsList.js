@@ -49,14 +49,12 @@ const AlbumsList = () => {
         }
   }
 
-  const editAlbumHandler = (albumToEdit) =>{
-    console.log(albumToEdit)
-  }
+
 
 
   const splitAlbums = albums && albums.map((album, index) => {
     return (
-      <AlbumItem onEditAlbumHandler={editAlbumHandler} onDeleteAlbumHandler={deleteAlbumHandler} data={album} key={index} />
+      <AlbumItem onDeleteAlbumHandler={deleteAlbumHandler} data={album} key={index} />
     )
   })
 
@@ -67,7 +65,7 @@ const AlbumsList = () => {
       <div className="form-wrapper">
         <h2 className="form-wrapper-title">Create album</h2>
         <span className="form-wrapper-subtitle">Create album...</span>
-        <CreateAlbumPage onCreateAlbumHandler={createAlbumHandler} onEditAlbumHandler={editAlbumHandler}/>
+        <CreateAlbumPage onCreateAlbumHandler={createAlbumHandler}/>
       </div>
 
       <div className="albums-wrapper">

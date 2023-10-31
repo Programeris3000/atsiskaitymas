@@ -1,27 +1,40 @@
 .navigation-element {
-  background-image: url("/src/Images/pexels-vishnu-r-nair-1105666.jpg");
-  -o-object-fit: contain;
-     object-fit: contain;
-  width: 100%;
-  background-position: center;
   display: flex;
   justify-content: flex-end;
+  text-align: center;
+}
+@media (max-width: 570px) {
+  .navigation-element {
+    justify-content: center;
+  }
 }
 .navigation-element .navigation-list {
   display: flex;
   gap: 30px;
   margin-right: 30px;
 }
+@media (max-width: 570px) {
+  .navigation-element .navigation-list {
+    gap: 20px;
+  }
+}
+@media (max-width: 400px) {
+  .navigation-element .navigation-list {
+    display: block;
+    margin-right: 0px;
+    padding: 0px;
+  }
+}
 .navigation-element .navigation-list .navigation-list-item {
   list-style: none;
 }
 .navigation-element .navigation-list .navigation-list-item .navigation-link-item {
   text-decoration: none;
-  color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
   font-size: 18px;
-  font-weight: 600;
   font-family: Arial, Helvetica, sans-serif;
 }
 .navigation-element .navigation-list .navigation-list-item .active {
-  color: red;
+  color: rgb(73, 245, 234);
+  font-weight: bold;
 }/*# sourceMappingURL=NavigationPage.css.map */

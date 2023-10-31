@@ -1,0 +1,29 @@
+@use 'variables';
+
+@mixin s {
+  @media (max-width: variables.$breakpoint-1) {
+    @content;
+  }
+}
+@mixin m {
+  @media (max-width: variables.$breakpoint-2) {
+    @content;
+  }
+}
+@mixin l {
+  @media (max-width: variables.$breakpoint-3) {
+    @content;
+  }
+}
+
+@mixin nav-s {
+  @media (max-width: variables.$nav-breakpoint-2) {
+    @content;
+  }
+}
+
+@mixin nav-m {
+  @media (max-width: variables.$nav-breakpoint-3) {
+    @content;
+  }
+}

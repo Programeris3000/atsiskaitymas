@@ -1,12 +1,11 @@
-@import '../../StyleComponents/Mixins.scss';
+@use '../../StyleComponents/responsive';
+@use '../../StyleComponents/variables';
 
-.button-1{
-  @include button-style
-}
 .song-writer-page-wrapper{
 
   .song-writer-name{
     text-align: center;
+    
   }
   
   .singer-activity-years-title{

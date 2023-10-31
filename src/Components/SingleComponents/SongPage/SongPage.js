@@ -4,12 +4,14 @@ import axios from 'axios'
 import { SERVER } from '../../Patrials/Config'
 import { TailSpin } from 'react-loader-spinner'
 import './SongPage.css'
-import ReactPlayer from 'react-player/lazy'
+import React from 'react'
+import ReactPlayer from 'react-player/youtube'
 
 const SongPage = () => {
   const [song, setSong] = useState('')
   const {ID} = useParams()
   const {album, release, lyrics, musicStyle, songThumbnail, songTitle, songwriter, youtubeUrl} = song
+  console.log(youtubeUrl)
   useEffect(()=>{
     const getSong = async () => {
       const {data} = await axios(`${SERVER}/songs/${ID}?_expand=album&_expand=songwriter`)
@@ -37,13 +39,12 @@ const SongPage = () => {
            <span className="album-name">{album && album.title}</span>
           <span className="realease-date">Released {release}</span>
           </div>
-          <ReactPlayer url={youtubeUrl} />
 
 
           <div className="bottom-content-wrapper">
-            <p className="part-of-lyrics">{lyrics}</p>
-            <img className="song-cover-image" style={{width: '300px'}} src={songThumbnail} alt={songTitle}/>
             <span className="music-style">Music style: {musicStyle}</span>
+            <ReactPlayer url={youtubeUrl} />
+            <p className="part-of-lyrics">{lyrics}</p>
           </div>
         </div>
         </>

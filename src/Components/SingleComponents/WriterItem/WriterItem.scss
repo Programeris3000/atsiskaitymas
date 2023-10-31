@@ -1,15 +1,24 @@
-@import '../../StyleComponents/Mixins.scss';
+@use '../../StyleComponents/responsive';
+@use '../../StyleComponents/variables';
 
 .song-writer-item{
-background-color: rgb(223, 165, 165);
+  background: rgb(204,199,199);
+  background: linear-gradient(0deg, rgba(204,199,199,1) 0%, rgba(253,176,254,0.3086484593837535) 100%);
 padding: 20px;
 display: flex;
 flex-direction: column;
 justify-content: space-between;
-  .song-writer-content-wrapper{
 
+.button-1{
+  text-align: center;
+}
+  .song-writer-content-wrapper{
+   
     .song-writer-name{
       margin: 0px;
+      @include responsive.s {
+        text-align: center;
+      }
     }
     .song-writer-image-content-wrapper{
       
@@ -18,16 +27,18 @@ justify-content: space-between;
         height: 300px;
         display: block;
         object-fit: cover;
+        @include responsive.l {
+          object-fit: contain;
+        }
+        @include responsive.m {
+          height: unset;
+        }
       }
       .song-writer-biography{
         font-family: 'Courier New', Courier, monospace;
         text-align: center;
       }
     }
-  }
 
-    .button-1{
-      @include button-style;
-    }
-  
+  }
 }
