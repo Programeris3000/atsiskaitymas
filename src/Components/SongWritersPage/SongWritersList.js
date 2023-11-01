@@ -56,13 +56,13 @@ const SongWritersList = () => {
   })
 
   return (
-    <>
+    <div className="songs-writers-list-content-wrapper">
       <h1 className="song-writers-title">Our clients</h1>
       <div className="song-writers-wrapper">
         {splitWriters}
       </div>
       <CreateSongWriter onCreateSongWriterHandler={CreateSongWriterHandler} />
-    </>
+    </div>
   )
 }
 

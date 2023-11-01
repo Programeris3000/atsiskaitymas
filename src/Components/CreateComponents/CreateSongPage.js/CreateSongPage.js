@@ -81,9 +81,13 @@ const CreateSongPage = ({ onCreateSongHandler }) => {
       lyrics: songLyrics,
       songThumbnail: songThumbnail
     }
-    console.log(newSong)
     onCreateSongHandler(newSong)
-
+    setSongTitle('')
+    setMusicStyle('')
+    setSongRelease('')
+    setSongLyrics('')
+    setSongThumbnail('')
+    setYoutubeUrl('')
   }
 
 

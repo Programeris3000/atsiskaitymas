@@ -19,4 +19,7 @@
   color: white;
   display: flex;
   flex-direction: column;
+}
+.photo-form-wrapper .button-1 {
+  margin-top: 15px;
 }/*# sourceMappingURL=CreateImage.css.map */

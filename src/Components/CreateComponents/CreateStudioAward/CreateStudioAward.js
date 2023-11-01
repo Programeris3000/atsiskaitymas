@@ -1,6 +1,6 @@
+import { useState } from "react"
 import './CreateStudioAward.css'
 
-import { useState } from "react"
 
 
 const CreateStudioAward = ({ onCreateAwardHandler }) => {
@@ -108,7 +108,7 @@ const CreateStudioAward = ({ onCreateAwardHandler }) => {
         </div>
 
 
-        <button className="button-2" type="submit">Create award</button>
+        <button className="button-1" type="submit">Create award</button>
       </form>
     </div>
   )

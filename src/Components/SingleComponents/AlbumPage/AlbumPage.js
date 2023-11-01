@@ -60,19 +60,19 @@ const AlbumPage = () => {
   return (
     <>
       {album ? (
-        <>
-        <Link className="button-1" to='/project/albumslist'>Get back to albums...</Link>
+        <div className="album-page-wrapper">
+          <Link className="button-1" to='/project/albumslist'>Get back to albums...</Link>
 
-        <div className="single-album-item">
-          <h2 className="album-title">{title}</h2>
-          <h3 className="album-creator-name">{name} </h3>
-          <span className="album-genre">Genre {genre}</span>
-          <p className="album-description">{description}</p>
-          {songsCheck}
-          <span className="album-release-date">Release date: {realeaseDate}</span>
-          <img style={{width: '300px'}} src={photoUrl} alt={title}/>
+          <div className="single-album-item">
+            <h2 className="album-title">{title}</h2>
+            <h3 className="album-creator-name">{name} </h3>
+            <span className="album-genre">Genre {genre}</span>
+            <p className="album-description">{description}</p>
+            {songsCheck}
+            <span className="album-release-date">Release date: {realeaseDate}</span>
+            <img className="album-image" src={photoUrl} alt={title}/>
+          </div>
         </div>
-        </>
       ) : 
       (<TailSpin
           height="80"

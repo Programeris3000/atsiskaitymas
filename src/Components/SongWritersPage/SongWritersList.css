@@ -1,4 +1,4 @@
-.song-writers-title {
+.songs-writers-list-content-wrapper .song-writers-title {
   background-image: url("/src/Images/pexels-vishnu-r-nair-1105666.jpg");
   -o-object-fit: contain;
      object-fit: contain;
@@ -14,19 +14,18 @@
   text-transform: uppercase;
 }
 @media (max-width: 450px) {
-  .song-writers-title {
+  .songs-writers-list-content-wrapper .song-writers-title {
     text-align: center;
   }
 }
-
-.song-writers-wrapper {
+.songs-writers-list-content-wrapper .song-writers-wrapper {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 30px;
   margin-top: 20px;
 }
 @media (max-width: 950px) {
-  .song-writers-wrapper {
+  .songs-writers-list-content-wrapper .song-writers-wrapper {
     display: block;
   }
 }/*# sourceMappingURL=SongWritersList.css.map */

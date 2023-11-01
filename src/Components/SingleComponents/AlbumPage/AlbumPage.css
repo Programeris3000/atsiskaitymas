@@ -1,36 +1,50 @@
-.single-album-item {
-  background-color: aquamarine;
+@media (max-width: 450px) {
+  .album-page-wrapper .button-1 {
+    display: block;
+  }
+}
+.album-page-wrapper .single-album-item {
   text-align: center;
   padding: 20px;
 }
-.single-album-item .album-title {
+.album-page-wrapper .single-album-item .album-title {
   background-color: black;
   color: white;
   padding: 5px;
   text-transform: capitalize;
 }
-.single-album-item .album-creator-name {
+.album-page-wrapper .single-album-item .album-creator-name {
   margin: 10px;
   font-size: 30px;
 }
-.single-album-item .album-genre {
+.album-page-wrapper .single-album-item .album-genre {
   display: block;
   color: white;
   background-color: black;
 }
-.single-album-item .album-description {
+.album-page-wrapper .single-album-item .album-description {
   text-align: center;
 }
-.single-album-item .songs-amount-content-wrapper .songs-in-album-title {
+.album-page-wrapper .single-album-item .songs-amount-content-wrapper .songs-in-album-title {
   margin: 0px;
   color: white;
   background-color: black;
 }
-.single-album-item .songs-amount-content-wrapper .songs-length {
+.album-page-wrapper .single-album-item .songs-amount-content-wrapper .songs-length {
   display: block;
   font-size: 30px;
   font-weight: bold;
 }
-.single-album-item .album-release-date {
+.album-page-wrapper .single-album-item .album-release-date {
   display: block;
+}
+.album-page-wrapper .single-album-item .album-image {
+  max-width: 400px;
+  height: 400px;
+}
+@media (max-width: 450px) {
+  .album-page-wrapper .single-album-item .album-image {
+    width: 100%;
+    height: unset;
+  }
 }/*# sourceMappingURL=AlbumPage.css.map */

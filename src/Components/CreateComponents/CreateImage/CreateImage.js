@@ -1,12 +1,9 @@
 import './CreateImage.css'
 
-import { useEffect, useState } from "react"
-import { SERVER } from "../../Patrials/Config"
-import axios from 'axios'
+import { useState } from "react"
 
 const CreateImage = ({ onCreatePhotoHandler }) => {
 
-  // const [galery, setGalery] = useState('')
   const [photoUrl, setPhotoUrl] = useState('')
   const [alt, setAlt] = useState('')
 
@@ -14,16 +11,6 @@ const CreateImage = ({ onCreatePhotoHandler }) => {
 
   const photoUrlHandler = event => setPhotoUrl(event.target.value)
   const altHandler = event => setAlt(event.target.value)
-
-
-
-  // useEffect(() => {
-  //   const getGalery = async () => {
-  //     const { data } = await axios(`${SERVER}/galery`)
-  //     setGalery(data)
-  //   }
-  //   getGalery()
-  // }, [])
 
 
   const createPhotoFormHandler = async (event) => {
@@ -71,7 +58,7 @@ const CreateImage = ({ onCreatePhotoHandler }) => {
           />
         </div>
 
-        <button className="create-photo-button" type="submit">Add a photo</button>
+        <button className="button-1" type="submit">Add a photo</button>
       </form>
     </div>
   )

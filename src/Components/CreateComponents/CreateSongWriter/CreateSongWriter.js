@@ -1,4 +1,4 @@
-// import './CreateStudioAward.css'
+import './CreateSongWriter.css'
 
 import { useState } from "react"
 
@@ -106,7 +106,7 @@ const CreateSongWriter = ({ onCreateSongWriterHandler }) => {
         </div>
 
 
-        <button className="button-2" type="submit">Create songwriter</button>
+        <button className="button-1" type="submit">Create songwriter</button>
       </form>
     </div>
   )

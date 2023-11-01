@@ -9,7 +9,7 @@ import { TailSpin } from 'react-loader-spinner'
 const AlbumItem = ({data, key, onDeleteAlbumHandler}) => {
 
   const {title, id, songwriterId, photoUrl} = data
-  const [songWriter, setSongWriter] = useState('')
+  const [songWriter, setSongWriter] = useState([])
   
   const idForDeleteHandler = () => {
     onDeleteAlbumHandler(id)

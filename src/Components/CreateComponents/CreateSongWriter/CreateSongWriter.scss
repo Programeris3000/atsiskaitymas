@@ -1,0 +1,30 @@
+@use '../../StyleComponents/responsive';
+@use '../../StyleComponents/variables';
+
+.songwriter-form-wrapper{
+
+  .songwriter-form-title{
+    color: white;
+    text-transform: uppercase;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 0;
+    @include responsive.s {
+      text-align: center;
+    }
+  }
+  .create-songwriter-form{
+    color: white;
+    text-transform: uppercase;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid;
+    border-color: black;
+    .form-control{
+      font-family: 'Courier New', Courier, monospace;
+      color: white;
+      display: flex;
+      flex-direction: column;
+    }
+  }
+}

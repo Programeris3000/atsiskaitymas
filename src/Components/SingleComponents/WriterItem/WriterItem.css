@@ -38,4 +38,9 @@
 .song-writer-item .song-writer-content-wrapper .song-writer-image-content-wrapper .song-writer-biography {
   font-family: "Courier New", Courier, monospace;
   text-align: center;
+}
+.song-writer-item .song-writers-list-buttons-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }/*# sourceMappingURL=WriterItem.css.map */

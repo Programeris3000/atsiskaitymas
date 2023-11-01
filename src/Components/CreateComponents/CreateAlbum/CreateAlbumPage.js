@@ -11,9 +11,8 @@ const CreateAlbumPage = ({ onCreateAlbumHandler }) => {
   const [albumRealease, setAlbumRealease] = useState('')
   const [albumGenre, setAlbumGenre] = useState('')
   const [albumDescription, setAlbumDescription] = useState('')
-
   const [selectedUser, setSelectedUser] = useState('')
-
+  
   const [songWriters, setSongWriters] = useState('')
 
 
@@ -22,7 +21,6 @@ const CreateAlbumPage = ({ onCreateAlbumHandler }) => {
   const albumRealeaseHandler = event => setAlbumRealease(event.target.value)
   const albumGenreHandler = event => setAlbumGenre(event.target.value)
   const albumDescriptionHandler = event => setAlbumDescription(event.target.value)
-
   const albumUserHandler = event => setSelectedUser(event.target.value)
 
 
@@ -61,8 +59,13 @@ const CreateAlbumPage = ({ onCreateAlbumHandler }) => {
       description: albumDescription,
       songwriterId: Number(selectedUser)
     }
-
     onCreateAlbumHandler(newAlbum)
+    setAlbumTitle('')
+    setAlbumCover('')
+    setAlbumRealease('')
+    setAlbumGenre('')
+    setAlbumDescription('')
+
 
   }
 
