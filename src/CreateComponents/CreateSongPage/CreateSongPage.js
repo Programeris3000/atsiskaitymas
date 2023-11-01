@@ -3,7 +3,7 @@ import './CreateSongPage.css'
 import { useEffect, useState } from "react"
 
 import axios from 'axios'
-import { SERVER } from '../../Patrials/Config'
+import { SERVER } from '../../Components/Patrials/Config'
 
 const CreateSongPage = ({ onCreateSongHandler }) => {
 

@@ -6,7 +6,7 @@ import { Carousel } from 'react-responsive-carousel';
 import './GaleryPage.css'
 import { TailSpin } from 'react-loader-spinner';
 import { toast } from 'react-toastify';
-import CreateImage from '../CreateComponents/CreateImage/CreateImage';
+import CreateImage from '../../CreateComponents/CreateImage/CreateImage';
 
 const GaleryPage = () => {
   const [galery, setGalery] = useState('')

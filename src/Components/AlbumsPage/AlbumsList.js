@@ -3,7 +3,7 @@ import axios from 'axios'
 import { SERVER } from '../Patrials/Config'
 import AlbumItem from '../SingleComponents/AlbumItem/AlbumItem'
 import { toast } from 'react-toastify'
-import CreateAlbumPage from '../CreateComponents/CreateAlbum/CreateAlbumPage'
+import CreateAlbumPage from '../../CreateComponents/CreateAlbum/CreateAlbumPage'
 import './AlbumList.css'
 
 

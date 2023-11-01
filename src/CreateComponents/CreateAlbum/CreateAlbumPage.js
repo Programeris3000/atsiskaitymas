@@ -1,7 +1,7 @@
 import './CreateAlbum.css'
 
 import { useEffect, useState } from "react"
-import { SERVER } from "../../Patrials/Config"
+import { SERVER } from "../../Components/Patrials/Config"
 import axios from 'axios'
 
 const CreateAlbumPage = ({ onCreateAlbumHandler }) => {

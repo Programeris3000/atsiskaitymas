@@ -8,13 +8,13 @@ import SongsList from "./Components/SongsPage/SongsList";
 import WriterPage from "./Components/SingleComponents/WriterPage/WriterPage";
 import AlbumPage from "./Components/SingleComponents/AlbumPage/AlbumPage";
 import SongPage from "./Components/SingleComponents/SongPage/SongPage";
-import { ToastContainer, toast } from 'react-toastify';
+import { ToastContainer} from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
 import './App.css'
-import CreateAlbumPage from "./Components/CreateComponents/CreateAlbum/CreateAlbumPage";
+import CreateAlbumPage from "./CreateComponents/CreateAlbum/CreateAlbumPage";
 import EditAlbumPage from "./EditComponents/EditAlbumPage";
-import CreateSongPage from "./Components/CreateComponents/CreateSongPage.js/CreateSongPage";
+import CreateSongPage from "./CreateComponents/CreateSongPage/CreateSongPage";
 import EditSongPage from "./EditComponents/EditSongPage";
 import GaleryPage from "./Components/GaleryPage/GaleryPage";
 import EditAwardsPage from "./EditComponents/EditAwardsPage"
