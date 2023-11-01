@@ -15,6 +15,7 @@ const CreateSongPage = ({ onCreateSongHandler }) => {
   const [songLyrics, setSongLyrics] = useState('')
   const [songThumbnail, setSongThumbnail] = useState('')
   const [songWriters, setSongWriters] = useState('')
+  const [youtubeUrl, setYoutubeUrl] = useState('')
 
 
   const [songWriter, setSongWriter] = useState('')
@@ -27,6 +28,7 @@ const CreateSongPage = ({ onCreateSongHandler }) => {
   const songReleaseHandler = event => setSongRelease(event.target.value)
   const songLyricsHandler = event => setSongLyrics(event.target.value)
   const songThumbnailHandler = event => setSongThumbnail(event.target.value)
+  const youtubeUrlHandler = event => setYoutubeUrl(event.target.value)
 
   const selectedAlbumHandler = event => setSelectedAlbum(event.target.value)
   const selectedUserHandler = event => setSelectedUser(event.target.value)
@@ -66,27 +68,13 @@ const CreateSongPage = ({ onCreateSongHandler }) => {
   })
 
 
-
-
-  // albums.filter(album => album.id === selectedAlbum)
-
-
-
-
   const createSongFormHandler = async (event) => {
     event.preventDefault()
 
-    // console.log(songTitle)//
-    // console.log(musicStyle)//
-    // console.log(songRelease)//
-    // console.log(songLyrics)//
-    // console.log(songThumbnail)
-    // console.log(selectedAlbum)//
-
-
     const newSong = {
       albumId: Number(selectedAlbum),
-      songwriterId: selectedUser,
+      youtubeUrl: youtubeUrl,
+      songwriterId: Number(selectedUser),
       songTitle: songTitle,
       musicStyle: musicStyle,
       release: songRelease,
@@ -104,7 +92,7 @@ const CreateSongPage = ({ onCreateSongHandler }) => {
       <div className="form-control">
         <label className="label-element" htmlFor="create-song-title">Enter Song title</label>
         <input
-          // required
+          required
           type="text"
           id="create-song-title"
           name="create-song-title"
@@ -116,7 +104,7 @@ const CreateSongPage = ({ onCreateSongHandler }) => {
       <div className="form-control">
         <label className="label-element" htmlFor="create-song-music-style">Enter music style</label>
         <input
-          // required
+          required
           type="text"
           id="create-song-music-style"
           name="create-song-music-style"
@@ -128,7 +116,7 @@ const CreateSongPage = ({ onCreateSongHandler }) => {
       <div className="form-control">
         <label className="label-element" htmlFor="create-song-release">Enter song release date</label>
         <input
-          // required
+          required
           type="text"
           id="create-song-release"
           name="create-song-release"
@@ -137,10 +125,22 @@ const CreateSongPage = ({ onCreateSongHandler }) => {
         />
       </div>
 
+      <div className="form-control">
+        <label className="label-element" htmlFor="create-song-youtube-url">Enter youtube url of song</label>
+        <input
+          required
+          type="text"
+          id="create-song-youtube-url"
+          name="create-song-youtube-url"
+          onChange={youtubeUrlHandler}
+          value={youtubeUrl}
+        />
+      </div>
+
       <div className="create-song-textarea-wrapper">
         <label className="label-element" htmlFor="create-song-lyrics">Enter song lyrics</label>
         <textarea
-          // required
+          required
           type="text"
           id="create-song-lyrics"
           name="create-song-lyrics"
@@ -152,7 +152,7 @@ const CreateSongPage = ({ onCreateSongHandler }) => {
       <div className="form-control">
         <label className="label-element" htmlFor="create-song-thumbnail">Enter song thumbnail</label>
         <input
-          // required
+          required
           type="text"
           id="create-song-thumbnail"
           name="create-song-thumbnail"

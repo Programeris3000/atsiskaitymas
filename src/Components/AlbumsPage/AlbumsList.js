@@ -14,7 +14,7 @@ const AlbumsList = () => {
 
   useEffect(() => {
     const getAlbums = async () => {
-      const { data } = await axios(`${SERVER}/albums`)
+      const { data } = await axios(`${SERVER}/albums?_sort=id&_order=desc`)
       setAlbums(data)
     }
     getAlbums()
@@ -47,6 +47,7 @@ const AlbumsList = () => {
         } else {
           toast.error('Something went wrong')
         }
+        
   }
 
 

@@ -38,15 +38,19 @@
       }
       .button-1{
         position: absolute;
-        right: 29%;
+        right: 31%;
         top: 3%;
+        font-size: 14px;
+
         @include responsive.l {
-          right: 21%;
+          right: 24%;
           top: 3%;
         }
         @include responsive.m {
           right: 9%;
           top: 3%;
+          font-size: 12px;
+
         }
       }
     }

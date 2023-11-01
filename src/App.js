@@ -18,6 +18,7 @@ import CreateSongPage from "./Components/CreateComponents/CreateSongPage.js/Crea
 import EditSongPage from "./EditComponents/EditSongPage";
 import GaleryPage from "./Components/GaleryPage/GaleryPage";
 import EditAwardsPage from "./EditComponents/EditAwardsPage"
+import EditSongWriterPage from "./EditComponents/EditSongWriterPage";
 
 function App() {
 
@@ -32,6 +33,7 @@ function App() {
           <Route path='/project/:ID/editalbumpage' element={<EditAwardsPage />} />
           <Route path="/project/songwriterslist" element={<SongWritersList />} />
           <Route path="/project/songwriterslist/:ID" element={<WriterPage />} />
+          <Route path='/project/songwriterslist/:ID/editsongwriterpage' element={<EditSongWriterPage />} />
           <Route path='/project/albumslist' element={<AlbumsList />} />
           <Route path='/project/albumslist/:ID' element={<AlbumPage />} />
           <Route path='/project/albumslist/createalbumpage' element={<CreateAlbumPage />} />

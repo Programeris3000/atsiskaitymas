@@ -1,1 +1,12 @@
-/*# sourceMappingURL=EditAwardsPage.css.map */
+.award-form-wrapper .button-1 {
+  margin-top: 20px;
+}
+@media (max-width: 450px) {
+  .award-form-wrapper .button-1 {
+    width: 100%;
+    display: block;
+  }
+}
+.award-form-wrapper .create-award-form {
+  margin-top: 20px;
+}/*# sourceMappingURL=EditAwardsPage.css.map */

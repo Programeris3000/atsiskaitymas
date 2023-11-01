@@ -19,6 +19,7 @@ const EditSongPage = () => {
   const [songWriter, setSongWriter] = useState('')
   const [selectedAlbum, setSelectedAlbum] = useState('')
   const [selectedUser, setSelectedUser] = useState('')
+  const [youtubeUrl, setYoutubeUrl] = useState('')
   
 
   const songTitleHandler = event => setSongTitle(event.target.value)
@@ -28,6 +29,7 @@ const EditSongPage = () => {
   const songThumbnailHandler = event => setSongThumbnail(event.target.value)
   const selectedAlbumHandler = event => setSelectedAlbum(event.target.value)
   const selectedUserHandler = event => setSelectedUser(event.target.value)
+  const youtubeUrlHandler = event => setYoutubeUrl(event.target.value)
 
 
 
@@ -54,7 +56,7 @@ const EditSongPage = () => {
     const getSong = async () => {
       const { data } = await axios(`${SERVER}/songs/${ID}`)
       // setSong(data)
-      const {albumId, songwriterId, songTitle, musicStyle, release, lyrics, songThumbnail} = data
+      const {albumId, songwriterId, songTitle, musicStyle, release, lyrics, songThumbnail, youtubeUrl} = data
       setSelectedAlbum(albumId)
       setSelectedUser(songwriterId)
       setSongTitle(songTitle)
@@ -62,6 +64,7 @@ const EditSongPage = () => {
       setSongRelease(release)
       setSongLyrics(lyrics)
       setSongThumbnail(songThumbnail)
+      setYoutubeUrl(youtubeUrl)
   
     }
     getSong()
@@ -94,6 +97,7 @@ const EditSongPage = () => {
 
     const editedSong = {
       albumId: Number(selectedAlbum),
+      youtubeUrl,
       songwriterId: selectedUser,
       songTitle: songTitle,
       musicStyle: musicStyle,
@@ -119,7 +123,7 @@ const EditSongPage = () => {
     <div className="form-control">
         <label htmlFor="edit-song-title">Enter Song title</label>
         <input
-          // required
+          required
           type="text"
           id="edit-song-title"
           name="edit-song-title"
@@ -131,7 +135,7 @@ const EditSongPage = () => {
       <div className="form-control">
         <label htmlFor="edit-song-music-style">Enter music style</label>
         <input
-          // required
+          required
           type="text"
           id="edit-song-music-style"
           name="edit-song-music-style"
@@ -141,9 +145,21 @@ const EditSongPage = () => {
       </div>
 
       <div className="form-control">
+        <label htmlFor="edit-song-youtube-url">Enter youtube url of song</label>
+        <input
+          required
+          type="text"
+          id="edit-song-youtube-url"
+          name="edit-song-youtube-url"
+          onChange={youtubeUrlHandler}
+          value={youtubeUrl}
+        />
+      </div>
+
+      <div className="form-control">
         <label htmlFor="edit-song-release">Enter song release date</label>
         <input
-          // required
+          required
           type="text"
           id="edit-song-release"
           name="edit-song-release"
@@ -155,7 +171,7 @@ const EditSongPage = () => {
       <div className="form-control">
         <label htmlFor="edit-song-lyrics">Enter song lyrics</label>
         <textarea
-          // required
+          required
           type="text"
           id="edit-song-lyrics"
           name="edit-song-lyrics"
@@ -167,7 +183,7 @@ const EditSongPage = () => {
       <div className="form-control">
         <label htmlFor="edit-song-thumbnail">Enter song thumbnail</label>
         <input
-          // required
+          required
           type="text"
           id="edit-song-thumbnail"
           name="edit-song-thumbnail"

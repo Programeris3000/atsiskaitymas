@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import axios from 'axios'
 import { SERVER } from '../../Patrials/Config'
-import Card from '../../Card/Card'
 import './AlbumItem.css'
 import { Link } from 'react-router-dom'
 import { TailSpin } from 'react-loader-spinner'
@@ -25,6 +24,8 @@ const AlbumItem = ({data, key, onDeleteAlbumHandler}) => {
     }
     getSongWriter()
   },[])
+
+  
 
 
 

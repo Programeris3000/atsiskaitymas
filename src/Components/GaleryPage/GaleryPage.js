@@ -13,7 +13,7 @@ const GaleryPage = () => {
 
   useEffect(() => {
     const getGalery = async () => {
-      const { data } = await axios(`${SERVER}/galery`)
+      const { data } = await axios(`${SERVER}/galery?_sort=id&_order=desc`)
       setGalery(data)
     }
     getGalery()

@@ -6,15 +6,6 @@
       "age": 55,
       "activityYears": "1968 - 1980 ",
       "photoUrl": "https://cdn.smehost.net/celinedioncom-caprod/wp-content/uploads/2021/09/Celine-Dion-022-Photo-By-Alix-Malka-1-880x621.jpg",
-      "childrens": [
-        "René-Charles Angélil",
-        "Riki Angeli"
-      ],
-      "parents": [
-        "Thérèse Dion",
-        "Adhémar Dion"
-      ],
-      "born": "Canada, Toronto.",
       "biography": "Celine Dion was born on March 30, 1968, in Charlemagne, Québec, a little town 50 kilometers from Montréal. She was the 14th child of Thérèse Tanguay and Adhémar Dion. The Dion family was a humble one of modest means, but never lacked for love. The house was jam-packed with children, and Celine mom even had to lay her littlest one to sleep in a drawer."
     },
     {
@@ -23,29 +14,23 @@
       "age": 43,
       "activityYears": "2000 - 2021 ",
       "photoUrl": "https://phantom-marca.unidadeditorial.es/8ba8e88f28354c7d6fea00517edacedd/resize/828/f/jpg/assets/multimedia/imagenes/2022/10/19/16661328920205.jpg",
-      "childrens": [],
-      "parents": [
-        "Jeo Leon",
-        "Morgan Peterson"
-      ],
-      "born": "New York, United states",
       "biography": "Eminem is a renowned American rapper, singer, songwriter, and actor known for his provocative lyrics, technical wordplay, and emotional depth in his music. He rose to fame with albums like 'The Slim Shady LP' and went on to release several successful albums. Eminem is celebrated for his contributions to hip-hop culture and his impact on the music industry."
     },
     {
       "id": 3,
       "name": "Justin Bieber",
       "age": 31,
-      "photoUrl": "https://media.gq.com/photos/56bb8a91b89407780bd7d454/16:9/w_2560%2Cc_limit/bieber-16-9-longform.jpg",
       "activityYears": "1999 - 2023 ",
-      "childrens": [
-        "René-Charles Angélil"
-      ],
-      "parents": [
-        "Thérèse Dion",
-        "Adhémar Dion"
-      ],
-      "born": "Canada, Toronto.",
+      "photoUrl": "https://media.gq.com/photos/56bb8a91b89407780bd7d454/16:9/w_2560%2Cc_limit/bieber-16-9-longform.jpg",
       "biography": "Justin Bieber is a Canadian singer, songwriter, and actor who gained international fame at a young age. He is known for his hit albums like 'My World 2.0' and 'Purpose.' Bieber has received numerous awards, including multiple Grammy Awards, and has a massive global fanbase. He is recognized for his contribution to the pop music industry."
+    },
+    {
+      "name": "Miley cyrus",
+      "age": "28",
+      "activityYears": "1990-2000",
+      "photoUrl": "https://people.com/thmb/GF5OuwLXHLZYL0n64XZkBn74S9s=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():focal(704x239:706x241)/Miley-Cyrus-01-012023-4675da2e4ee6497787a6d028bd65a413.jpg",
+      "biography": "Miley Cyrus, in full Miley Ray Cyrus, original name Destiny Hope Cyrus, (born November 23, 1992, Franklin, Tennessee, U.S.), American singer and actress whose performance on the television show Hannah Montana (200611) and its related soundtrack albums catapulted her into stardom.",
+      "id": 4
     }
   ],
   "albums": [
@@ -123,12 +108,21 @@
     },
     {
       "id": 10,
-      "title": "Svajojanti afrika(edited)",
-      "photoUrl": "https://images.pexels.com/photos/6875119/pexels-photo-6875119.jpeg?auto=compress&cs=tinysrgb&w=400",
-      "realeaseDate": "2022-03-05",
-      "genre": "Rock",
-      "description": "Realy cool album",
-      "songwriterId": 2
+      "title": "Roses are red(edited)twicasdasde",
+      "photoUrl": "https://u-static.fotor.com/images/text-to-image/result/PRO-337abcac1efe42a48dc21fb1607fa4b4.jpg",
+      "realeaseDate": "21212",
+      "genre": "dasdas",
+      "description": "adadadadadadadasdasdsadqweqweqweqweqwrqwrqwrqwrqwrqwrqwrqwrqwrqwrqwrqwrqwr",
+      "songwriterId": 1
+    },
+    {
+      "title": "asddasdsa",
+      "photoUrl": "https://u-static.fotor.com/images/text-to-image/result/PRO-337abcac1efe42a48dc21fb1607fa4b4.jpg",
+      "realeaseDate": "21212",
+      "genre": "pop",
+      "description": "adadasdasdasdasdasdasdasd",
+      "songwriterId": 4,
+      "id": 11
     }
   ],
   "songs": [
@@ -320,15 +314,37 @@
       "songThumbnail": "https://images.pexels.com/photos/9789893/pexels-photo-9789893.jpeg?auto=compress&cs=tinysrgb&w=600"
     },
     {
-      "albumId": 7,
-      "songwriterId": "2",
-      "songTitle": "Pabuciuok man į lupas",
-      "musicStyle": "Rock",
-      "youtubeUrl": "https://www.youtube.com/watch?v=fwORRVJCPL4&ab_channel=RagnBoneManVEVO",
-      "release": "2022-05-03",
-      "lyrics": "Oh, say can you see by the dawn's early light\nWhat so proudly we hailed at the twilight's last gleaming?\nWhose broad stripes and bright stars through the perilous fight,\nO'er the ramparts we watched were so gallantly streaming?\nAnd the rocket's red glare, the bombs bursting in air,\nGave proof through the night that our flag was still there.\nOh, say does that star-spangled banner yet wave\nO'er the land of the free and the home of the brave?\n\nOn the shore, dimly seen through the mists of the deep,\nWhere the foe's haughty host in dread silence reposes,\nWhat is that which the breeze, o'er the towering steep,\nAs it fitfully blows, half conceals, half discloses?\nNow it catches the gleam of the morning's first beam,\nIn full glory reflected now shines in the stream:\n'Tis the star-spangled banner!  Oh long may it wave\nO'er the land of the free and the home of the brave!",
-      "songThumbnail": "https://images.pexels.com/photos/5648357/pexels-photo-5648357.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "albumId": 9,
+      "youtubeUrl": "https://youtu.be/OhVNc3lxHw4",
+      "songwriterId": 3,
+      "songTitle": "Hello(edited)",
+      "musicStyle": "Habib rock",
+      "release": "2022",
+      "lyrics": "Gimme gimme gimme some time to think\nI’m in the bathroom looking at me\nFace in the mirror is all I need\nWait until the reaper takes my life\nNever gonna get me out alive\nI will live a thousand million lives\n\nMy patience is waning\nIs this entertaining?\nMy patience is waning\nIs this entertaining?\n\nI got this feeling yeah you know\nWhere I’m losing all control\nCause there’s magic in my bones\nI got this feeling in my soul\nGo ahead and throw your stones\nCause there’s magic in my bones\n\nPlaying with a stick of dynamite\nThere was never grey in black and white\nThere was never wrong till there was right\nFeeling like a boulder hurdling\nSeeing all the vultures circling\nBurning in the flames I’m working in\nTurning in a bed that’s darkening\n\nMy patience is waning\nIs this entertaining?\nMy patience is waning\nIs this entertaining?\n\nI got this feeling yeah you know\nWhere I’m losing all control\nCause there’s magic in my bones\nI got this feeling in my soul\nGo ahead and throw your stones\nCause there’s magic in my bones\n\nCause there’s magic in my bones\n\nLook in the mirror of my mind\nTurning the pages of my life\nWalking the path so many paced a million times\nDrown out the voices in the air\nLeaving the ones that never cared\nPicking the pieces up and building to the sky\n\nMy patience is waning\nIs this entertaining?\nMy patience is waning\nIs this entertaining?\n\nI got this feeling yeah you know\nWhere I’m losing all control\nCause there’s magic in my bones\nI got this feeling in my soul\nGo ahead and throw your stones\nCause there’s magic in my bones\n\nThere goes my mind, don’t mind\nThere goes my mind\nThere goes my mind, don’t mind\nThere goes my mind\nCause there’s magic in my bones",
+      "songThumbnail": "https://images.pexels.com/photos/4113688/pexels-photo-4113688.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
       "id": 19
+    },
+    {
+      "albumId": 11,
+      "youtubeUrl": "asdasd",
+      "songwriterId": 4,
+      "songTitle": "asdasd",
+      "musicStyle": "asdasd",
+      "release": "asdasd",
+      "lyrics": "asdasd",
+      "songThumbnail": "asdasd",
+      "id": 20
+    },
+    {
+      "albumId": 11,
+      "youtubeUrl": "sdasdas",
+      "songwriterId": 4,
+      "songTitle": "asdasd",
+      "musicStyle": "asdasd",
+      "release": "asda",
+      "lyrics": "dasd",
+      "songThumbnail": "asdasdas",
+      "id": 21
     }
   ],
   "studioAwards": [

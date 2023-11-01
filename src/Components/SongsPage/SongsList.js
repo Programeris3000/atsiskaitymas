@@ -3,16 +3,15 @@ import axios from 'axios'
 import './SongsList.css'
 import { SERVER } from '../Patrials/Config'
 import SongItem from '../SingleComponents/SongItem/SongItem'
-import { Link } from 'react-router-dom'
 import CreateSongPage from '../CreateComponents/CreateSongPage.js/CreateSongPage'
 import { toast } from 'react-toastify'
 
 const SongsList = () => {
   const [songs, setSongs] = useState('')
-
+  console.log(songs)
   useEffect(()=>{
     const getSongs = async () => {
-      const {data} = await axios(`${SERVER}/songs?_expand=songwriter&_expand=album`)
+      const {data} = await axios(`${SERVER}/songs?_expand=songwriter&_expand=album&_sort=id&_order=desc`)
       setSongs(data)
     }
     getSongs()
@@ -48,11 +47,6 @@ const SongsList = () => {
         }
       })
   }
-
-
-
-
-
 
 
   const splitSongs = songs && songs.map((song, index)=>{

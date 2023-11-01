@@ -30,7 +30,7 @@ const CreateAlbumPage = ({ onCreateAlbumHandler }) => {
     const getSongWriters = async () => {
       const { data } = await axios(`${SERVER}/songwriters`)
       setSongWriters(data)
-      setSelectedUser(data[0].id)
+      setSelectedUser(data && data[0].id)
     }
     getSongWriters()
   }, [])
@@ -74,7 +74,7 @@ const CreateAlbumPage = ({ onCreateAlbumHandler }) => {
       <div className="form-control">
         <label className="create-album-label-element" htmlFor="create-album-title">Enter Album title</label>
         <input
-          // required
+          required
           type="text"
           id="create-album-title"
           name="create-album-title"
@@ -84,9 +84,9 @@ const CreateAlbumPage = ({ onCreateAlbumHandler }) => {
       </div>
 
       <div className="form-control">
-        <label className="create-album-label-element"  htmlFor="create-album-cover">Enter Cover Photo Url</label>
+        <label className="create-album-label-element" htmlFor="create-album-cover">Enter Cover Photo Url</label>
         <input
-          // required
+          required
           type="text"
           id="create-album-cover"
           name="create-album-cover"
@@ -96,9 +96,9 @@ const CreateAlbumPage = ({ onCreateAlbumHandler }) => {
       </div>
 
       <div className="form-control">
-        <label className="create-album-label-element"  htmlFor="create-album-realease">Enter Album Realease date</label>
+        <label className="create-album-label-element" htmlFor="create-album-realease">Enter Album Realease date</label>
         <input
-          // required
+          required
           type="text"
           id="create-album-realease"
           name="create-album-realease"
@@ -108,9 +108,9 @@ const CreateAlbumPage = ({ onCreateAlbumHandler }) => {
       </div>
 
       <div className="form-control">
-        <label className="create-album-label-element"  htmlFor="create-album-genre">Enter Album genre</label>
+        <label className="create-album-label-element" htmlFor="create-album-genre">Enter Album genre</label>
         <input
-          // required
+          required
           type="text"
           id="create-album-genre"
           name="create-album-genre"
@@ -120,9 +120,9 @@ const CreateAlbumPage = ({ onCreateAlbumHandler }) => {
       </div>
 
       <div className="create-album-textarea-wrapper">
-        <label className="create-album-label-element"  htmlFor="create-album-description">Enter Album description</label>
+        <label className="create-album-label-element" htmlFor="create-album-description">Enter Album description</label>
         <textarea
-          // required
+          required
           type="text"
           id="create-album-description"
           name="create-album-description"
@@ -132,7 +132,7 @@ const CreateAlbumPage = ({ onCreateAlbumHandler }) => {
       </div>
 
       <div className="select-element-wrapper">
-      <label className="select-element-label"  htmlFor="create-album-select-element">Select songwriter</label>
+        <label className="select-element-label" htmlFor="create-album-select-element">Select songwriter</label>
         <select id="create-album-select-element" onChange={albumUserHandler} value={selectedUser}>
           {optionElements}
         </select>

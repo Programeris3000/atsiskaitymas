@@ -37,13 +37,15 @@ const SongPage = () => {
           <div className="album-content-wrapper">
            <h4 className="album-title">Album</h4>
            <span className="album-name">{album && album.title}</span>
-          <span className="realease-date">Released {release}</span>
+          <span className="realease-date">{release}</span>
           </div>
 
 
           <div className="bottom-content-wrapper">
-            <span className="music-style">Music style: {musicStyle}</span>
-            <ReactPlayer url={youtubeUrl} />
+            <h4 className="music-style-title">Music style</h4>
+            <span className="music-style">{musicStyle}</span>
+            <ReactPlayer width="100%" className="youtube-player" url={youtubeUrl} />
+            <h4 className="lyrics-title">Lyrics</h4>
             <p className="part-of-lyrics">{lyrics}</p>
           </div>
         </div>

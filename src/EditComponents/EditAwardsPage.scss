@@ -1,0 +1,15 @@
+@use '../Components/StyleComponents/responsive';
+@use '../Components/StyleComponents/variables';
+
+.award-form-wrapper{
+  .button-1{
+    margin-top: 20px;
+    @include responsive.s {
+      width: 100%;
+      display: block;
+    }
+  }
+  .create-award-form{
+    margin-top: 20px;
+  }
+}

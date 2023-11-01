@@ -39,12 +39,13 @@
 }
 .galery-page-wrapper .carousel .image-wrapper .button-1 {
   position: absolute;
-  right: 29%;
+  right: 31%;
   top: 3%;
+  font-size: 14px;
 }
 @media (max-width: 950px) {
   .galery-page-wrapper .carousel .image-wrapper .button-1 {
-    right: 21%;
+    right: 24%;
     top: 3%;
   }
 }
@@ -52,5 +53,6 @@
   .galery-page-wrapper .carousel .image-wrapper .button-1 {
     right: 9%;
     top: 3%;
+    font-size: 12px;
   }
 }/*# sourceMappingURL=GaleryPage.css.map */

@@ -1,1 +1,1 @@
-{"version":3,"sources":[],"names":[],"mappings":"","file":"EditAwardsPage.css"}
+{"version":3,"sources":["EditAwardsPage.scss","EditAwardsPage.css","../Components/StyleComponents/_responsive.scss"],"names":[],"mappings":"AAIE;EACE,gBAAA;ACHJ;ACCE;EFCA;IAGI,WAAA;IACA,cAAA;ECDJ;AACF;ADGE;EACE,gBAAA;ACDJ","file":"EditAwardsPage.css"}

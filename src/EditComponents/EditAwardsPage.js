@@ -1,9 +1,9 @@
 import { SERVER } from '../Components/Patrials/Config'
 import { useEffect, useState } from "react"
 import axios from 'axios'
-
 import { Link, useNavigate, useParams } from 'react-router-dom'
 import { toast } from 'react-toastify'
+import './EditAwardsPage.css'
 
 
 
@@ -74,13 +74,13 @@ const EditStudioAward = () => {
   return (
     <div className="award-form-wrapper">
       <h2 className="award-form-title">Edit award</h2>
-      <Link to={'/'}>Get back to home page</Link>
+      <Link className="button-1" to={'/'}>Get back to home page</Link>
       <form className="create-award-form" onSubmit={createAwardFormHandler}>
 
         <div className="form-control">
           <label className="award-label-element" htmlFor="award-title">Enter award title</label>
           <input
-            // required
+            required
             type="text"
             id="award-title"
             name="award-title"
@@ -92,7 +92,7 @@ const EditStudioAward = () => {
         <div className="form-control">
           <label className="award-label-element" htmlFor="award-description">Enter Description</label>
           <textarea
-            // required
+            required
             type="text"
             id="award-description"
             name="award-description"
@@ -104,7 +104,7 @@ const EditStudioAward = () => {
         <div className="form-control">
           <label className="award-label-element" htmlFor="award-photo">Enter photo url</label>
           <input
-            // required
+            required
             type="text"
             id="award-photo"
             name="award-photo"
@@ -116,7 +116,7 @@ const EditStudioAward = () => {
         <div className="form-control">
           <label className="award-label-element" htmlFor="company-logo">Enter company who gave award logo</label>
           <input
-            // required
+            required
             type="text"
             id="company-logo"
             name="company-logo"
@@ -128,7 +128,7 @@ const EditStudioAward = () => {
            <div className="form-control">
           <label className="award-label-element" htmlFor="company-name">Enter company who gave award name</label>
           <input
-            // required
+            required
             type="text"
             id="company-name"
             name="company-name"
@@ -138,7 +138,7 @@ const EditStudioAward = () => {
         </div>
 
 
-        <button className="create-award-button" type="submit">Edit award</button>
+        <button className="button-1" type="submit">Edit award</button>
       </form>
     </div>
   )

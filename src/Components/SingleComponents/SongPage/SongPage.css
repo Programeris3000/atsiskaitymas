@@ -7,7 +7,6 @@
 }
 
 .single-song-wrapper {
-  background-color: aquamarine;
   text-align: center;
   padding: 20px;
   display: flex;
@@ -44,4 +43,23 @@
 }
 .single-song-wrapper .bottom-content-wrapper .realease-date {
   display: block;
+}
+.single-song-wrapper .bottom-content-wrapper .lyrics-title {
+  margin: 0px;
+  color: white;
+  background-color: black;
+  margin-top: 20px;
+  width: 100%;
+}
+@media (max-width: 950px) {
+  .single-song-wrapper .bottom-content-wrapper .youtube-player {
+    width: 50px;
+    height: unset;
+  }
+}
+.single-song-wrapper .bottom-content-wrapper .music-style-title {
+  margin: 0px;
+  color: white;
+  background-color: black;
+  width: 100%;
 }/*# sourceMappingURL=SongPage.css.map */

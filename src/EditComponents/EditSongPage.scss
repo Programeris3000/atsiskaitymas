@@ -18,9 +18,7 @@
     margin: 0;
     font-size: 26px;
 
-    @include responsive.s {
-      text-align: center;
-    }
+    
   }
 
   .edit-song-form-wrapper {
