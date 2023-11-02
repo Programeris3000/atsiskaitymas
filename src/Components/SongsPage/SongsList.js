@@ -8,7 +8,7 @@ import { toast } from 'react-toastify'
 
 const SongsList = () => {
   const [songs, setSongs] = useState('')
-  console.log(songs)
+
   useEffect(()=>{
     const getSongs = async () => {
       const {data} = await axios(`${SERVER}/songs?_expand=songwriter&_expand=album&_sort=id&_order=desc`)
@@ -51,12 +51,12 @@ const SongsList = () => {
 
   const splitSongs = songs && songs.map((song, index)=>{
     return(
-      <SongItem onDeleteSongHandler={deleteSongHandler} data={song} key={index}/>
+      <SongItem onDeleteSongHandler={deleteSongHandler} data={song} index={index}/>
     )
   })
 
   return (
-    <>
+    <div className="songs-list-content-wrapper">
     <h1 className="songs-page-title">Songs list</h1>
       <div className="songs-page-wrapper">
 
@@ -68,8 +68,7 @@ const SongsList = () => {
             <CreateSongPage onCreateSongHandler={createSongHandler}/>
           </div>
       </div>
-
-    </>
+    </div>
   )
 }
 

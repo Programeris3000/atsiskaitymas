@@ -52,8 +52,8 @@ const GaleryPage = () => {
     galery && galery.length > 0 ? (
       <>
         <h1 className="studio-galery-title">Check out our studio galery</h1>
-
         <div className="galery-page-wrapper">
+
 
           {
             <Carousel className="carousel">

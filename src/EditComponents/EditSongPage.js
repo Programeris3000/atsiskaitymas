@@ -10,6 +10,9 @@ const EditSongPage = () => {
   const {ID} = useParams()
   const navigation = useNavigate()
 
+  const [musicStyles, setMusicStyles] = useState('')
+
+
   const [songTitle, setSongTitle] = useState('')
   const [musicStyle, setMusicStyle] = useState('')
   const [songRelease, setSongRelease] = useState('')
@@ -32,7 +35,13 @@ const EditSongPage = () => {
   const youtubeUrlHandler = event => setYoutubeUrl(event.target.value)
 
 
-
+  useEffect(()=>{
+    const getMusicStyles = async ()=>{
+      const {data} = await axios(`${SERVER}/musicStyles`)
+      setMusicStyles(data)
+    }
+    getMusicStyles()
+  },[])
 
   useEffect(() => {
     const getSongWriters = async () => {
@@ -84,10 +93,13 @@ const EditSongPage = () => {
     )
   })
 
+  const styleOptionElements = musicStyles && musicStyles.length > 0 && musicStyles.map((genre, index) => {
+    return (
+      <option className="create-album-option-element" key={index} value={genre}>{genre}</option>
+    )
+  })
 
 
-
-  // albums.filter(album => album.id === selectedAlbum)
 
 
 
@@ -132,16 +144,12 @@ const EditSongPage = () => {
         />
       </div>
 
-      <div className="form-control">
-        <label htmlFor="edit-song-music-style">Enter music style</label>
-        <input
-          required
-          type="text"
-          id="edit-song-music-style"
-          name="edit-song-music-style"
-          onChange={musicStyleHandler}
-          value={musicStyle}
-        />
+
+      <div className="select-element-wrapper">
+        <label className="select-element-label" htmlFor="create-album-genre">Select album music style</label>
+        <select id="create-album-genre" onChange={musicStyleHandler} value={musicStyle}>
+          {styleOptionElements}
+        </select>
       </div>
 
       <div className="form-control">

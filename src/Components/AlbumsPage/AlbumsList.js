@@ -39,14 +39,14 @@ const AlbumsList = () => {
 
   const createAlbumHandler = async album => {
     const res = await axios.post(`${SERVER}/albums`, album)
-        console.log(album)
-        if (res.statusText === 'Created') {
-          toast.success('Album successfully created')
-          setAlbums(prevState => [res.data,...prevState])
-        } else {
-          toast.error('Something went wrong')
-        }
-        
+    console.log(album)
+    if (res.statusText === 'Created') {
+      toast.success('Album successfully created')
+      setAlbums(prevState => [res.data, ...prevState])
+    } else {
+      toast.error('Something went wrong')
+    }
+
   }
 
 
@@ -59,21 +59,21 @@ const AlbumsList = () => {
   })
 
   return (
-    <>
-      <h1 className="albums-page-title">Check-out our clients albums</h1>
-    <div className="album-page-wrapper">
 
-      <div className="albums-wrapper">
-        {splitAlbums}
+    <div className="albums-page-wrapper">
+        <h1 className="albums-page-title">Check-out our clients albums</h1>
+
+        <div className="albums-wrapper">
+          {splitAlbums}
+        </div>
+
+        <div className="form-wrapper">
+          <h2 className="form-wrapper-title">Create album</h2>
+          <CreateAlbumPage onCreateAlbumHandler={createAlbumHandler} />
+        </div>
+
       </div>
-      
-      <div className="form-wrapper">
-        <h2 className="form-wrapper-title">Create album</h2>
-        <CreateAlbumPage onCreateAlbumHandler={createAlbumHandler}/>
-      </div>
-      
-    </div>
-    </>
+
   )
 }
 

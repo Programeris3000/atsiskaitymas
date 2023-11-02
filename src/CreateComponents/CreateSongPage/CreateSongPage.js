@@ -7,6 +7,7 @@ import { SERVER } from '../../Components/Patrials/Config'
 
 const CreateSongPage = ({ onCreateSongHandler }) => {
 
+  const [musicStyles, setMusicStyles] = useState('')
 
 
   const [songTitle, setSongTitle] = useState('')
@@ -34,7 +35,13 @@ const CreateSongPage = ({ onCreateSongHandler }) => {
   const selectedUserHandler = event => setSelectedUser(event.target.value)
 
 
-
+  useEffect(()=>{
+    const getMusicStyles = async ()=>{
+      const {data} = await axios(`${SERVER}/musicStyles`)
+      setMusicStyles(data)
+    }
+    getMusicStyles()
+  },[])
 
   useEffect(() => {
     const getSongWriters = async () => {
@@ -66,6 +73,13 @@ const CreateSongPage = ({ onCreateSongHandler }) => {
       <option key={index} value={album.id}>{album.title}</option>
     )
   })
+
+  const styleOptionElements = musicStyles && musicStyles.length > 0 && musicStyles.map((genre, index) => {
+    return (
+      <option className="create-album-option-element" key={index} value={genre}>{genre}</option>
+    )
+  })
+
 
 
   const createSongFormHandler = async (event) => {
@@ -105,17 +119,14 @@ const CreateSongPage = ({ onCreateSongHandler }) => {
         />
       </div>
 
-      <div className="form-control">
-        <label className="label-element" htmlFor="create-song-music-style">Enter music style</label>
-        <input
-          required
-          type="text"
-          id="create-song-music-style"
-          name="create-song-music-style"
-          onChange={musicStyleHandler}
-          value={musicStyle}
-        />
+
+      <div className="select-element-wrapper">
+        <label className="select-element-label" htmlFor="create-album-genre">Select album music style</label>
+        <select id="create-album-genre" onChange={musicStyleHandler} value={musicStyle}>
+          {styleOptionElements}
+        </select>
       </div>
+
 
       <div className="form-control">
         <label className="label-element" htmlFor="create-song-release">Enter song release date</label>

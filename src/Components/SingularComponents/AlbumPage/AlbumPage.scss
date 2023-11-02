@@ -23,16 +23,27 @@
       font-size: 30px;
 
     }
-    .album-genre{
+    .album-genre-title{
       display: block;
       color: white;
       background-color: black;
+      margin: 0px;
+    }
+    .album-genre{
+      display: block;
+    }
+    .album-description-title{
+      display: block;
+      color: white;
+      background-color: black;
+      margin-bottom: 0px;
     }
     .album-description{
       text-align: center;
+      margin: 0;
+      margin-bottom: 20px;
     }
     .songs-amount-content-wrapper{
-      
       .songs-in-album-title{
         margin: 0px;
         color: white;

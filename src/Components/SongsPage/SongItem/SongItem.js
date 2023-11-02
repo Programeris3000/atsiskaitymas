@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom'
 import './SongItem.css'
 
-const SongItem = ({ data, key, onDeleteSongHandler }) => {
+const SongItem = ({ data, index, onDeleteSongHandler }) => {
 
   const { songTitle, release, songwriter, songThumbnail, id, album} = data
 
@@ -12,7 +12,7 @@ const SongItem = ({ data, key, onDeleteSongHandler }) => {
   return (
     <>
       {data ? (
-        <div className="song-item-wrapper" key={key}>
+        <div className="song-item-wrapper" key={index}>
 
           <div className="content-wrapper">
             <Link className="button-1" to={`/project/songslist/${id}`}>Read more about this song...</Link>

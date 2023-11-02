@@ -140,7 +140,7 @@ const EditSongWriterPage = () => {
         </div>
 
 
-        <button className="button-2" type="submit">Edit songwriter</button>
+        <button style={{marginTop : '15px'}}className="button-1" type="submit">Edit songwriter</button>
       </form>
     </div>
   )

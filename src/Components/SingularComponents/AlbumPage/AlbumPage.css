@@ -17,13 +17,25 @@
   margin: 10px;
   font-size: 30px;
 }
-.album-page-wrapper .single-album-item .album-genre {
+.album-page-wrapper .single-album-item .album-genre-title {
   display: block;
   color: white;
   background-color: black;
+  margin: 0px;
+}
+.album-page-wrapper .single-album-item .album-genre {
+  display: block;
+}
+.album-page-wrapper .single-album-item .album-description-title {
+  display: block;
+  color: white;
+  background-color: black;
+  margin-bottom: 0px;
 }
 .album-page-wrapper .single-album-item .album-description {
   text-align: center;
+  margin: 0;
+  margin-bottom: 20px;
 }
 .album-page-wrapper .single-album-item .songs-amount-content-wrapper .songs-in-album-title {
   margin: 0px;

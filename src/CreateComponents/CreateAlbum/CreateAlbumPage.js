@@ -6,6 +6,9 @@ import axios from 'axios'
 
 const CreateAlbumPage = ({ onCreateAlbumHandler }) => {
 
+  const [musicStyles, setMusicStyles] = useState('')
+
+
   const [albumTitle, setAlbumTitle] = useState('')
   const [albumCover, setAlbumCover] = useState('')
   const [albumRealease, setAlbumRealease] = useState('')
@@ -24,6 +27,15 @@ const CreateAlbumPage = ({ onCreateAlbumHandler }) => {
   const albumUserHandler = event => setSelectedUser(event.target.value)
 
 
+  useEffect(()=>{
+    const getMusicStyles = async ()=>{
+      const {data} = await axios(`${SERVER}/musicStyles`)
+      setMusicStyles(data)
+    }
+    getMusicStyles()
+  },[])
+
+
   useEffect(() => {
     const getSongWriters = async () => {
       const { data } = await axios(`${SERVER}/songwriters`)
@@ -37,6 +49,12 @@ const CreateAlbumPage = ({ onCreateAlbumHandler }) => {
   const optionElements = songWriters && songWriters.length > 0 && songWriters.map((writer, index) => {
     return (
       <option className="create-album-option-element" key={index} value={writer.id}>{writer.name}</option>
+    )
+  })
+
+  const styleOptionElements = musicStyles && musicStyles.length > 0 && musicStyles.map((genre, index) => {
+    return (
+      <option className="create-album-option-element" key={index} value={genre}>{genre}</option>
     )
   })
 
@@ -112,16 +130,11 @@ const CreateAlbumPage = ({ onCreateAlbumHandler }) => {
         />
       </div>
 
-      <div className="form-control">
-        <label className="create-album-label-element" htmlFor="create-album-genre">Enter Album genre</label>
-        <input
-          required
-          type="text"
-          id="create-album-genre"
-          name="create-album-genre"
-          onChange={albumGenreHandler}
-          value={albumGenre}
-        />
+      <div className="select-element-wrapper">
+        <label className="select-element-label" htmlFor="create-album-genre">Select album music style</label>
+        <select id="create-album-genre" onChange={albumGenreHandler} value={albumGenre}>
+          {styleOptionElements}
+        </select>
       </div>
 
       <div className="create-album-textarea-wrapper">
@@ -143,7 +156,7 @@ const CreateAlbumPage = ({ onCreateAlbumHandler }) => {
         </select>
       </div>
 
-      <input className="create-album-button" type="submit" value="Create album" />
+      <input className="button-1" type="submit" value="Create album" />
     </form>
   )
 }

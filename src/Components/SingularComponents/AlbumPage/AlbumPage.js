@@ -31,6 +31,7 @@ const AlbumPage = () => {
 
   const {ID} = useParams()
 
+
     useEffect(()=>{
       const getAlbum = async () => {
         const {data} = await axios(`${SERVER}/albums/${ID}?_embed=songs`)
@@ -50,7 +51,7 @@ const AlbumPage = () => {
 
     const songsCheck = songs && songs.length > 0 ? (
     <div className="songs-amount-content-wrapper">
-       <h4 className="songs-in-album-title">Songs in album</h4>
+       <h5 className="songs-in-album-title">Songs in album</h5>
        <span className="songs-length">{songs.length}</span>
     </div>) : ('')
 
@@ -61,12 +62,14 @@ const AlbumPage = () => {
           <Link className="button-1" to='/project/albumslist'>Get back to albums...</Link>
 
           <div className="single-album-item">
-            <h2 className="album-title">{title}</h2>
-            <h3 className="album-creator-name">{name} </h3>
-            <span className="album-genre">Genre {genre}</span>
+            <h1 className="album-title">{title}</h1>
+            <h2 className="album-creator-name">{name} </h2>
+            <h3 className="album-genre-title">Genre</h3>
+            <span className="album-genre">{genre}</span>
+            <h4 className="album-description-title">Description</h4>
             <p className="album-description">{description}</p>
             {songsCheck}
-            <span className="album-release-date">Release date: {releaseDate}</span>
+            <span className="album-release-date">Released: {releaseDate}</span>
             <img className="album-image" src={photoUrl} alt={title}/>
           </div>
         </div>

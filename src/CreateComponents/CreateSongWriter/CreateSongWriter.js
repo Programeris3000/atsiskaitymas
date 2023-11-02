@@ -108,7 +108,7 @@ const CreateSongWriter = ({ onCreateSongWriterHandler }) => {
         </div>
 
 
-        <button className="button-1" type="submit">Create songwriter</button>
+        <button style={{marginTop: '15px'}} className="button-1" type="submit">Create songwriter</button>
       </form>
     </div>
   )

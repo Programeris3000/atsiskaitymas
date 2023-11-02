@@ -10,6 +10,8 @@ const EditAlbumPage = () => {
   const { ID } = useParams()
   const navigation = useNavigate()
 
+  const [musicStyles, setMusicStyles] = useState('')
+
   const [albumTitle, setAlbumTitle] = useState('')
   const [albumCover, setAlbumCover] = useState('')
   const [albumRelease, setAlbumRelease] = useState('')
@@ -26,6 +28,13 @@ const EditAlbumPage = () => {
   const albumDescriptionHandler = event => setAlbumDescription(event.target.value)
   const albumUserHandler = event => setSelectedUser(event.target.value)
 
+  useEffect(()=>{
+    const getMusicStyles = async ()=>{
+      const {data} = await axios(`${SERVER}/musicStyles`)
+      setMusicStyles(data)
+    }
+    getMusicStyles()
+  },[])
 
   useEffect(() => {
     const getSongWriters = async () => {
@@ -55,6 +64,12 @@ const EditAlbumPage = () => {
   const optionElements = songWriters && songWriters.length > 0 && songWriters.map((writer, index) => {
     return (
       <option key={index} value={writer.id}>{writer.name}</option>
+    )
+  })
+
+  const styleOptionElements = musicStyles && musicStyles.length > 0 && musicStyles.map((genre, index) => {
+    return (
+      <option className="create-album-option-element" key={index} value={genre}>{genre}</option>
     )
   })
 
@@ -134,17 +149,12 @@ const EditAlbumPage = () => {
           />
         </div>
 
-        <div className="form-control">
-          <label htmlFor="create-album-genre">Edit Album genre</label>
-          <input
-            required
-            type="text"
-            id="create-album-genre"
-            name="create-album-genre"
-            onChange={albumGenreHandler}
-            value={albumGenre}
-          />
-        </div>
+        <div className="select-element-wrapper">
+        <label className="select-element-label" htmlFor="create-album-genre">Select album music style</label>
+        <select id="create-album-genre" onChange={albumGenreHandler} value={albumGenre}>
+          {styleOptionElements}
+        </select>
+      </div>
 
         <div className="form-control">
           <label htmlFor="create-album-description">Edit Album description</label>
