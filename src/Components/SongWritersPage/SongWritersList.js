@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react'
 import { SERVER } from '../Patrials/Config'
 import axios from 'axios'
 import './SongWritersList.css'
-import WriterItem from '../SingleComponents/WriterItem/WriterItem'
+import WriterItem from '../SongWritersPage/WriterItem/WriterItem'
 import CreateSongWriter from '../../CreateComponents/CreateSongWriter/CreateSongWriter'
 import { toast } from 'react-toastify'
 

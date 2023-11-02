@@ -1,6 +1,12 @@
 .song-writer-page-wrapper .song-writer-name {
   text-align: center;
 }
+.song-writer-page-wrapper .song-writer-age {
+  display: block;
+  background-color: black;
+  text-align: center;
+  color: white;
+}
 .song-writer-page-wrapper .song-writer-photo {
   display: block;
   -o-object-fit: contain;

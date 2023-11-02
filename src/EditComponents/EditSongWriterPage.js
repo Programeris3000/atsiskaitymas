@@ -3,7 +3,6 @@ import { useEffect, useState } from "react"
 import axios from 'axios'
 import { Link, useNavigate, useParams } from 'react-router-dom'
 import { toast } from 'react-toastify'
-// import './EditSongWriterPage.css'
 
 
 
@@ -107,6 +106,8 @@ const EditSongWriterPage = () => {
           <input
             required
             type="number"
+            min="10"
+            max="110"
             id="songwriter-age"
             name="songwriter-age"
             onChange={ageHandler}

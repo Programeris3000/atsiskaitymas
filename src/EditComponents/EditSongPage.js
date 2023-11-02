@@ -98,10 +98,10 @@ const EditSongPage = () => {
     const editedSong = {
       albumId: Number(selectedAlbum),
       youtubeUrl,
-      songwriterId: selectedUser,
+      songwriterId: Number(selectedUser),
       songTitle: songTitle,
       musicStyle: musicStyle,
-      release: songRelease,
+      release: Number(songRelease),
       lyrics: songLyrics,
       songThumbnail: songThumbnail
     }
@@ -160,7 +160,9 @@ const EditSongPage = () => {
         <label htmlFor="edit-song-release">Enter song release date</label>
         <input
           required
-          type="text"
+          type="number"
+          min="1950"
+          max="2023"
           id="edit-song-release"
           name="edit-song-release"
           onChange={songReleaseHandler}

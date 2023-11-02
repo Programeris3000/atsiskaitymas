@@ -43,6 +43,7 @@ const WriterPage = () => {
         <div className="song-writer-page-wrapper">
           <button className="button-1" onClick={backButtonHandler}>Get back to Song writers...</button>
           <h1 className="song-writer-name">{name}</h1>
+          <span className="song-writer-age">{age} years old</span>
           <img className="song-writer-photo" src={photoUrl} alt={name}/>
           <h2 className="singer-activity-years-title">Activity years</h2>
           <span className="singer-activity-years">{activityYears}</span>

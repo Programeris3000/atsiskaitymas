@@ -8,9 +8,9 @@ import React from 'react'
 import ReactPlayer from 'react-player/youtube'
 
 const SongPage = () => {
-  const [song, setSong] = useState('')
+  const [song, setSong] = useState([])
   const {ID} = useParams()
-  const {album, release, lyrics, musicStyle, songThumbnail, songTitle, songwriter, youtubeUrl} = song
+  const {album, release, lyrics, musicStyle, songTitle, songwriter, youtubeUrl} = song
   console.log(youtubeUrl)
   useEffect(()=>{
     const getSong = async () => {

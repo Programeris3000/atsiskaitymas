@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react'
 import axios from 'axios'
 import './SongsList.css'
 import { SERVER } from '../Patrials/Config'
-import SongItem from '../SingleComponents/SongItem/SongItem'
+import SongItem from '../SongsPage/SongItem/SongItem'
 import CreateSongPage from '../../CreateComponents/CreateSongPage/CreateSongPage'
 import { toast } from 'react-toastify'
 

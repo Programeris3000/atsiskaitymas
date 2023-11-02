@@ -6,8 +6,7 @@ import { SERVER } from '../../Patrials/Config'
 import { TailSpin } from 'react-loader-spinner'
 
 const AlbumPage = () => {
-  // const [album, setAlbum] = useState('')
-  // const [songWriter, setSongWriter] = useState('')
+
   const [album, setAlbum] = useState({
     description: '',
     genre: '',
@@ -17,7 +16,6 @@ const AlbumPage = () => {
     title: '',
     songwriterId: ''
   });
-  console.log(album)
   const [songWriter, setSongWriter] = useState({
     activityYears: '',
     age: '',
@@ -27,9 +25,8 @@ const AlbumPage = () => {
     songs: ''
   });
 
-  const {description, genre, id ,photoUrl, realeaseDate, title, songwriterId, songs} = album
-  const {activityYears, age, biography, born, name} = songWriter
-  // const {activityYears, age, biography, born, name} = album.songwriter
+  const {description, genre ,photoUrl, releaseDate, title, songwriterId, songs} = album
+  const { name} = songWriter
 
 
   const {ID} = useParams()
@@ -69,7 +66,7 @@ const AlbumPage = () => {
             <span className="album-genre">Genre {genre}</span>
             <p className="album-description">{description}</p>
             {songsCheck}
-            <span className="album-release-date">Release date: {realeaseDate}</span>
+            <span className="album-release-date">Release date: {releaseDate}</span>
             <img className="album-image" src={photoUrl} alt={title}/>
           </div>
         </div>

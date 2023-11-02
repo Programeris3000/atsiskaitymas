@@ -25,11 +25,11 @@
       "biography": "Justin Bieber is a Canadian singer, songwriter, and actor who gained international fame at a young age. He is known for his hit albums like 'My World 2.0' and 'Purpose.' Bieber has received numerous awards, including multiple Grammy Awards, and has a massive global fanbase. He is recognized for his contribution to the pop music industry."
     },
     {
-      "name": "Miley cyrus`",
-      "age": "28",
-      "activityYears": "1990-2000",
-      "photoUrl": "https://people.com/thmb/GF5OuwLXHLZYL0n64XZkBn74S9s=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():focal(704x239:706x241)/Miley-Cyrus-01-012023-4675da2e4ee6497787a6d028bd65a413.jpg",
-      "biography": "Miley Cyrus, ss in full Miley Ray Cyrus, original name Destiny Hope Cyrus, (born November 23, 1992, Franklin, Tennessee, U.S.), American singer and actress whose performance on the television show Hannah Montana (200611) and its related soundtrack albums catapulted her into stardom.",
+      "name": "Selena Gomez",
+      "age": 26,
+      "activityYears": "2006 - until now",
+      "photoUrl": "https://m.media-amazon.com/images/M/MV5BMjAwNTE2MDMyMl5BMl5BanBnXkFtZTgwMjAyODM3MTI@._V1_FMjpg_UX1000_.jpg",
+      "biography": "Actress and singer Selena Gomez was born on July 22, 1992 in Grand Prairie, Texas. She is the daughter of Mandy Teefey and Ricardo Gomez. Her mother is of part Italian ancestry, and her father is of Mexican descent. She was named after Tejano singer Selena, who died in 1995.",
       "id": 4
     }
   ],
@@ -39,26 +39,26 @@
       "id": 2,
       "title": "Pasion",
       "photoUrl": "https://images.pexels.com/photos/6877350/pexels-photo-6877350.jpeg?auto=compress&cs=tinysrgb&w=600",
-      "realeaseDate": "2023-05-16",
-      "genre": "rock",
-      "description": "In 2010, the scrappy Chino punks in Abe Vigoda shared a producer with Beach House, tour dates with Vampire Weekend, and a cinematic ’80s revivalism with the year’s buzziest bands. With its hyperkinetic “tropical punk” draped in Pretty in Pink pastels, Crush was the most commercially appealing album to emerge from Los Angeles DIY venue the Smell and, therefore, the biggest challenge to its egalitarian philosophy. But whether Abe Vigoda were truly going for the gold was a moot point: They quietly disbanded a year later and Crush remained a hidden gem that sounded like nothing else. At least until now, as Michael Vidal and Juan Velasquez reunite as Cupid & Psyche on the alluring Romantic Music, sounding like “the next Abe Vigoda album” but with a sober, measured perspective that required another decade to access."
+      "releaseDate": 2023,
+      "genre": "Rock",
+      "description": "Commercially appealing album to emerge from Los Angeles DIY venue the Smell and, therefore, the biggest challenge to its egalitarian philosophy. But whether Abe Vigoda were truly going for the gold was a moot point: They quietly disbanded a year later and Crush remained a hidden gem that sounded like nothing else. At least until now, as Michael Vidal and Juan Velasquez reunite as Cupid & Psyche on the alluring Romantic Music, sounding like “the next Abe Vigoda album” but with a sober, measured perspective that required another decade to access."
     },
     {
       "songwriterId": 1,
       "id": 3,
       "title": "Amber city",
       "photoUrl": "https://images.pexels.com/photos/9264012/pexels-photo-9264012.jpeg?auto=compress&cs=tinysrgb&w=600",
-      "realeaseDate": "2023-05-16",
-      "genre": "rock",
-      "description": "In 2010, the scrappy Chino punks in Abe Vigoda shared a producer with Beach House, tour dates with Vampire Weekend, and a cinematic ’80s revivalism with the year’s buzziest bands. With its hyperkinetic “tropical punk” draped in Pretty in Pink pastels, Crush was the most commercially appealing album to emerge from Los Angeles DIY venue the Smell and, therefore, the biggest challenge to its egalitarian philosophy. But whether Abe Vigoda were truly going for the gold was a moot point: They quietly disbanded a year later and Crush remained a hidden gem that sounded like nothing else. At least until now, as Michael Vidal and Juan Velasquez reunite as Cupid & Psyche on the alluring Romantic Music, sounding like “the next Abe Vigoda album” but with a sober, measured perspective that required another decade to access."
+      "releaseDate": 2023,
+      "genre": "Punk",
+      "description": "Remained a hidden gem that sounded like nothing else. At least until now, as Michael Vidal and Juan Velasquez reunite as Cupid & Psyche on the alluring Romantic Music, sounding like “the next Abe Vigoda album” but with a sober, measured perspective that required another decade to access."
     },
     {
       "songwriterId": 1,
       "id": 4,
       "title": "Night city sky",
       "photoUrl": "https://images.pexels.com/photos/7422154/pexels-photo-7422154.jpeg?auto=compress&cs=tinysrgb&w=600",
-      "realeaseDate": "2023-05-16",
-      "genre": "rock",
+      "releaseDate": 2021,
+      "genre": "Funk",
       "description": "In 2010, the scrappy Chino punks in Abe Vigoda shared a producer with Beach House, tour dates with Vampire Weekend, and a cinematic ’80s revivalism with the year’s buzziest bands. With its hyperkinetic “tropical punk” draped in Pretty in Pink pastels, Crush was the most commercially appealing album to emerge from Los Angeles DIY venue the Smell and, therefore, the biggest challenge to its egalitarian philosophy. But whether Abe Vigoda were truly going for the gold was a moot point: They quietly disbanded a year later and Crush remained a hidden gem that sounded like nothing else. At least until now, as Michael Vidal and Juan Velasquez reunite as Cupid & Psyche on the alluring Romantic Music, sounding like “the next Abe Vigoda album” but with a sober, measured perspective that required another decade to access."
     },
     {
@@ -66,35 +66,35 @@
       "id": 5,
       "title": "Ocean trip",
       "photoUrl": "https://images.pexels.com/photos/7464824/pexels-photo-7464824.jpeg?auto=compress&cs=tinysrgb&w=600",
-      "realeaseDate": "2023-05-16",
-      "genre": "rock",
-      "description": "In 2010, the scrappy Chino punks in Abe Vigoda shared a producer with Beach House, tour dates with Vampire Weekend, and a cinematic ’80s revivalism with the year’s buzziest bands. With its hyperkinetic “tropical punk” draped in Pretty in Pink pastels, Crush was the most commercially appealing album to emerge from Los Angeles DIY venue the Smell and, therefore, the biggest challenge to its egalitarian philosophy. But whether Abe Vigoda were truly going for the gold was a moot point: They quietly disbanded a year later and Crush remained a hidden gem that sounded like nothing else. At least until now, as Michael Vidal and Juan Velasquez reunite as Cupid & Psyche on the alluring Romantic Music, sounding like “the next Abe Vigoda album” but with a sober, measured perspective that required another decade to access."
+      "releaseDate": 2019,
+      "genre": "Pop",
+      "description": "80s revivalism with the years buzziest bands. With its hyperkinetic “tropical punk” draped in Pretty in Pink pastels, Crush was the most commercially appealing album to emerge from Los Angeles DIY venue the Smell and, therefore, the biggest challenge to its egalitarian philosophy. But whether Abe Vigoda were truly going for the gold was a moot point: They quietly disbanded a year later and Crush remained a hidden gem that sounded like nothing else. At least until now, as Michael Vidal and Juan Velasquez reunite as Cupid & Psyche on the alluring Romantic Music, sounding like “the next Abe Vigoda album” but with a sober, measured perspective that required another decade to access."
     },
     {
       "songwriterId": 2,
       "id": 6,
       "title": "Yellow bus",
       "photoUrl": "https://images.pexels.com/photos/18176526/pexels-photo-18176526/free-photo-of-books-in-bookstore.jpeg?auto=compress&cs=tinysrgb&w=600",
-      "realeaseDate": "2023-05-16",
-      "genre": "rock",
-      "description": "In 2010, the scrappy Chino punks in Abe Vigoda shared a producer with Beach House, tour dates with Vampire Weekend, and a cinematic ’80s revivalism with the year’s buzziest bands. With its hyperkinetic “tropical punk” draped in Pretty in Pink pastels, Crush was the most commercially appealing album to emerge from Los Angeles DIY venue the Smell and, therefore, the biggest challenge to its egalitarian philosophy. But whether Abe Vigoda were truly going for the gold was a moot point: They quietly disbanded a year later and Crush remained a hidden gem that sounded like nothing else. At least until now, as Michael Vidal and Juan Velasquez reunite as Cupid & Psyche on the alluring Romantic Music, sounding like “the next Abe Vigoda album” but with a sober, measured perspective that required another decade to access."
+      "releaseDate": 2022,
+      "genre": "Jazz",
+      "description": "Los Angeles DIY venue the Smell and, therefore, the biggest challenge to its egalitarian philosophy. But whether Abe Vigoda were truly going for the gold was a moot point: They quietly disbanded a year later and Crush remained a hidden gem that sounded like nothing else. At least until now, as Michael Vidal and Juan Velasquez reunite as Cupid & Psyche on the alluring Romantic Music, sounding like “the next Abe Vigoda album” but with a sober, measured perspective that required another decade to access."
     },
     {
       "songwriterId": 2,
       "id": 7,
       "title": "Roses are red",
       "photoUrl": "https://images.pexels.com/photos/3550240/pexels-photo-3550240.jpeg?auto=compress&cs=tinysrgb&w=400",
-      "realeaseDate": "2023-05-16",
-      "genre": "rock",
-      "description": "In 2010, the scrappy Chino punks in Abe Vigoda shared a producer with Beach House, tour dates with Vampire Weekend, and a cinematic ’80s revivalism with the year’s buzziest bands. With its hyperkinetic “tropical punk” draped in Pretty in Pink pastels, Crush was the most commercially appealing album to emerge from Los Angeles DIY venue the Smell and, therefore, the biggest challenge to its egalitarian philosophy. But whether Abe Vigoda were truly going for the gold was a moot point: They quietly disbanded a year later and Crush remained a hidden gem that sounded like nothing else. At least until now, as Michael Vidal and Juan Velasquez reunite as Cupid & Psyche on the alluring Romantic Music, sounding like “the next Abe Vigoda album” but with a sober, measured perspective that required another decade to access."
+      "releaseDate": 1999,
+      "genre": "Dub-step",
+      "description": "This album is a carefully curated collection of songs that tells a unique story, a sonic narrative that encapsulates the artist's vision and creativity. Each track is a brushstroke on the canvas of sound, offering a glimpse into the artist's heart and mind."
     },
     {
       "songwriterId": 3,
       "id": 8,
       "title": "Dark moon",
       "photoUrl": "https://images.pexels.com/photos/1173648/pexels-photo-1173648.jpeg?auto=compress&cs=tinysrgb&w=400",
-      "realeaseDate": "2023-05-16",
-      "genre": "rock",
+      "releaseDate": 2021,
+      "genre": "Pop-Rock",
       "description": "In 2010, the scrappy Chino punks in Abe Vigoda shared a producer with Beach House, tour dates with Vampire Weekend, and a cinematic ’80s revivalism with the year’s buzziest bands. With its hyperkinetic “tropical punk” draped in Pretty in Pink pastels, Crush was the most commercially appealing album to emerge from Los Angeles DIY venue the Smell and, therefore, the biggest challenge to its egalitarian philosophy. But whether Abe Vigoda were truly going for the gold was a moot point: They quietly disbanded a year later and Crush remained a hidden gem that sounded like nothing else. At least until now, as Michael Vidal and Juan Velasquez reunite as Cupid & Psyche on the alluring Romantic Music, sounding like “the next Abe Vigoda album” but with a sober, measured perspective that required another decade to access."
     },
     {
@@ -102,54 +102,36 @@
       "id": 9,
       "title": "Expresso",
       "photoUrl": "https://images.pexels.com/photos/4200747/pexels-photo-4200747.jpeg?auto=compress&cs=tinysrgb&w=400",
-      "realeaseDate": "2023-05-16",
-      "genre": "rock",
+      "releaseDate": 2023,
+      "genre": "Jazz",
       "description": "In 2010, the scrappy Chino punks in Abe Vigoda shared a producer with Beach House, tour dates with Vampire Weekend, and a cinematic ’80s revivalism with the year’s buzziest bands. With its hyperkinetic “tropical punk” draped in Pretty in Pink pastels, Crush was the most commercially appealing album to emerge from Los Angeles DIY venue the Smell and, therefore, the biggest challenge to its egalitarian philosophy. But whether Abe Vigoda were truly going for the gold was a moot point: They quietly disbanded a year later and Crush remained a hidden gem that sounded like nothing else. At least until now, as Michael Vidal and Juan Velasquez reunite as Cupid & Psyche on the alluring Romantic Music, sounding like “the next Abe Vigoda album” but with a sober, measured perspective that required another decade to access."
-    },
-    {
-      "id": 10,
-      "title": "Roses are red(edited)twicasdasde",
-      "photoUrl": "https://u-static.fotor.com/images/text-to-image/result/PRO-337abcac1efe42a48dc21fb1607fa4b4.jpg",
-      "realeaseDate": "21212",
-      "genre": "dasdas",
-      "description": "adadadadadadadasdasdsadqweqweqweqweqwrqwrqwrqwrqwrqwrqwrqwrqwrqwrqwrqwrqwr",
-      "songwriterId": 1
-    },
-    {
-      "title": "asddasdsa",
-      "photoUrl": "https://u-static.fotor.com/images/text-to-image/result/PRO-337abcac1efe42a48dc21fb1607fa4b4.jpg",
-      "realeaseDate": "21212",
-      "genre": "pop",
-      "description": "adadasdasdasdasdasdasdasd",
-      "songwriterId": 4,
-      "id": 11
-    },
-    {
-      "title": "Vasaros naktys",
-      "photoUrl": "https://egomuzika.lt/photobanks/modules/1542x936x85/uploads/default/katalogas/9e249abadbc65f3cd089bb09cb3444e9.jpg",
-      "realeaseDate": "2023-05-01",
-      "genre": "pop",
-      "description": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
-      "songwriterId": 4,
-      "id": 13
     },
     {
       "title": "Pink is pink",
       "photoUrl": "https://media.self.com/photos/609178a2d5e53b0def108089/4:3/w_2560%2Cc_limit/1131124258",
-      "realeaseDate": "21212",
+      "releaseDate": 2021,
       "genre": "Rock",
-      "description": "blablablablablablablabalbalbalbalbalbalbalbalbalbababab",
+      "description": "Diverse in style and rich in emotion, the album weaves a tapestry of melodies that evoke a range of feelings – from the joyous highs of upbeat anthems to the reflective depths of soulful ballads. It's a musical kaleidoscope that mirrors the human experience, touching on themes of love, life, and the myriad emotions that shape our existence.",
       "songwriterId": 3,
       "id": 14
     },
     {
       "id": 15,
-      "title": "asddasdsaasdasa",
-      "photoUrl": "asdasd",
-      "realeaseDate": "asdasdas",
-      "genre": "dasdas",
-      "description": "dasdasd",
+      "title": "Piston battle",
+      "photoUrl": "https://images.pexels.com/photos/10974994/pexels-photo-10974994.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "releaseDate": 2022,
+      "genre": "Rock",
+      "description": "The production quality is impeccable, with every instrument, voice, and sound element meticulously crafted to perfection. The album is a testament to the dedication of the artists and their unwavering commitment to delivering a listening experience that is nothing short of extraordinary.",
       "songwriterId": 3
+    },
+    {
+      "id": 16,
+      "title": "Night riders",
+      "photoUrl": "https://www.linearity.io/blog/content/images/2022/03/611b830385d20348a9809a8e_Cover-Album-Covers--1-.png",
+      "releaseDate": 2018,
+      "genre": "Punk",
+      "description": "Our latest music album is a captivating and immersive experience that will transport you to a world of melody, emotion, and artistry. From the very first note, it takes you on a musical odyssey that transcends boundaries and resonates with the depths of your soul.\nThis album is a carefully curated collection of songs that tells a unique story, a sonic narrative that encapsulates the artist's vision and creativity. Each track is a brushstroke on the canvas of sound, offering a glimpse into the artist's heart and mind.",
+      "songwriterId": 4
     }
   ],
   "songs": [
@@ -157,10 +139,10 @@
       "albumId": 6,
       "youtubeUrl": "https://www.youtube.com/watch?v=BKGJCiEtFrc&ab_channel=Ash",
       "songwriterId": "2",
-      "songTitle": "accusamus (edited)",
-      "musicStyle": "Electronic(edited)",
-      "release": "2.3(edited)",
-      "lyrics": "asdasdasdasdasdasdasdasdasdasdasdasdasd",
+      "songTitle": "Accusamus (edited)",
+      "musicStyle": "Electronic",
+      "release": 2010,
+      "lyrics": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
       "songThumbnail": "https://images.pexels.com/photos/2034851/pexels-photo-2034851.jpeg?",
       "id": 1
     },
@@ -171,8 +153,8 @@
       "youtubeUrl": "https://www.youtube.com/watch?v=YbLoCiIwEcs&ab_channel=johnmayerVEVO",
       "songTitle": "similique qui sunt",
       "musicStyle": "Pop",
-      "release": 3.1,
-      "lyrics": "qqeqeeeeeeeeeeeeeee",
+      "release": 2015,
+      "lyrics": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?",
       "songThumbnail": "https://images.pexels.com/photos/1035841/pexels-photo-1035841.jpeg"
     },
     {
@@ -182,7 +164,7 @@
       "youtubeUrl": "https://www.youtube.com/watch?v=yiHWkVtsPI4&ab_channel=Evolve",
       "songTitle": "accusamus beatae ad ",
       "musicStyle": "Dub-step",
-      "release": 2.39,
+      "release": 2013,
       "lyrics": "13131312asdasdasdasd",
       "songThumbnail": "https://images.pexels.com/photos/2240763/pexels-photo-2240763.jpeg"
     },
@@ -193,7 +175,7 @@
       "youtubeUrl": "https://www.youtube.com/watch?v=ySuJcFsiz_Q&ab_channel=DecSilas",
       "songTitle": " ad facilis cum similique q",
       "musicStyle": "Pop-Regi",
-      "release": 2.35,
+      "release": 2022,
       "lyrics": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
       "songThumbnail": "https://images.pexels.com/photos/1886640/pexels-photo-1886640.jpeg"
     },
@@ -204,7 +186,7 @@
       "youtubeUrl": "https://www.youtube.com/watch?v=IZ3XMOdOdKM&ab_channel=MileyCyrusVEVO",
       "songTitle": "aarrri sunt",
       "musicStyle": "Funk",
-      "release": 2.31,
+      "release": 2021,
       "lyrics": "eeeeeeeeeeeeeeeeeee",
       "songThumbnail": "https://images.pexels.com/photos/2091383/pexels-photo-2091383.jpeg"
     },
@@ -215,7 +197,7 @@
       "youtubeUrl": "https://www.youtube.com/watch?v=A9hcJgtnm6Q&ab_channel=MarkRonsonVEVO",
       "songTitle": "accusamus bqeqessaffi sunt",
       "musicStyle": "Koko",
-      "release": 2.31,
+      "release": 2011,
       "lyrics": "asdasdasdqeeeee",
       "songThumbnail": "https://images.pexels.com/photos/2247678/pexels-photo-2247678.jpeg?auto=compress&cs=tinysrgb&w=600"
     },
@@ -226,7 +208,7 @@
       "youtubeUrl": "https://www.youtube.com/watch?v=20XP1kOqnUs&ab_channel=MileyCyrus",
       "songTitle": "asdascasdcasd facilis cum siasdue qui sunt",
       "musicStyle": "Electronic-Modern",
-      "release": 2.1,
+      "release": 2023,
       "lyrics": "123123assadasd",
       "songThumbnail": "https://images.pexels.com/photos/814049/pexels-photo-814049.jpeg?auto=compress&cs=tinysrgb&w=600"
     },
@@ -237,7 +219,7 @@
       "youtubeUrl": "https://www.youtube.com/watch?v=QNv8iODCAwE&ab_channel=MileyCyrusVEVO",
       "songTitle": "qui sunt",
       "musicStyle": "Electronic",
-      "release": 2.59,
+      "release": 2000,
       "lyrics": "asda312323asdeasd",
       "songThumbnail": "https://images.pexels.com/photos/7086286/pexels-photo-7086286.jpeg?auto=compress&cs=tinysrgb&w=600"
     },
@@ -248,7 +230,7 @@
       "youtubeUrl": "https://www.youtube.com/watch?v=wOwblaKmyVw&ab_channel=MileyCyrus",
       "songTitle": "aaas  qeqe cilis cum similique qui sunt",
       "musicStyle": "Electronic",
-      "release": 1.3,
+      "release": 2005,
       "lyrics": "asd12312asdasdasd",
       "songThumbnail": "https://images.pexels.com/photos/3389099/pexels-photo-3389099.jpeg?auto=compress&cs=tinysrgb&w=600"
     },
@@ -259,7 +241,7 @@
       "youtubeUrl": "https://www.youtube.com/watch?v=UdM9hLGZ1-M&ab_channel=MileyCyrusVEVO",
       "songTitle": "Laba qui sunt",
       "musicStyle": "Electronic",
-      "release": 2.3,
+      "release": 2013,
       "lyrics": "asdd123123asdasd",
       "songThumbnail": "https://images.pexels.com/photos/3450887/pexels-photo-3450887.jpeg?auto=compress&cs=tinysrgb&w=600"
     },
@@ -270,7 +252,7 @@
       "youtubeUrl": "https://www.youtube.com/watch?v=RJrqD_bmxsQ&ab_channel=MileyCyrus-Smilers",
       "songTitle": "cum similique qui simoni kalss sunt",
       "musicStyle": "Electronic",
-      "release": 2.3,
+      "release": 2015,
       "lyrics": "asdasd12312312asdsa",
       "songThumbnail": "https://images.pexels.com/photos/1713997/pexels-photo-1713997.jpeg?auto=compress&cs=tinysrgb&w=600"
     },
@@ -279,7 +261,7 @@
       "songwriterId": 2,
       "songTitle": "pardaise ocean t",
       "musicStyle": "Electronic",
-      "release": 2.3,
+      "release": 2016,
       "youtubeUrl": "https://www.youtube.com/watch?v=sszhfvkM1IQ&ab_channel=MileyCyrus-Topic",
       "lyrics": "asdasd123123asdasdasdaaffafaf",
       "songThumbnail": "https://images.pexels.com/photos/1327426/pexels-photo-1327426.jpeg?auto=compress&cs=tinysrgb&w=600",
@@ -291,32 +273,21 @@
       "id": 14,
       "songTitle": "adaddmilique qui sunt",
       "musicStyle": "Electronic",
-      "release": 2.3,
+      "release": 2013,
       "youtubeUrl": "https://www.youtube.com/watch?v=v_4fljfr2r4&ab_channel=MileyCyrusVEVO",
       "lyrics": "agagagagttrtruyrt",
       "songThumbnail": "https://images.pexels.com/photos/18771000/pexels-photo-18771000/free-photo-of-singer-in-shirt-standing-by-microphone-and-in-headphones.jpeg?auto=compress&cs=tinysrgb&w=600"
     },
     {
       "albumId": 8,
-      "songwriterId": 3,
-      "id": 15,
       "youtubeUrl": "https://www.youtube.com/watch?v=6jiqO5IgfLk&ab_channel=RagnBoneManVEVO",
-      "songTitle": "accusamus beatae ad faqweqweilique qui sunt",
-      "musicStyle": "Electronic",
-      "release": 2.3,
-      "lyrics": "rurtuyjhkjhjkh",
-      "songThumbnail": "https://images.pexels.com/photos/18762052/pexels-photo-18762052/free-photo-of-singer-in-music-studio.jpeg?auto=compress&cs=tinysrgb&w=600"
-    },
-    {
-      "albumId": 8,
       "songwriterId": 3,
-      "id": 16,
-      "youtubeUrl": "https://www.youtube.com/watch?v=wDjeBNv6ip0&list=RDMM&index=16&ab_channel=LP",
-      "songTitle": "accusamus qeqeeqqeqeqe milique qui sunt",
+      "songTitle": "Accusamus beatae",
       "musicStyle": "Electronic",
-      "release": 2.3,
-      "lyrics": "ghjnmmghjgh",
-      "songThumbnail": "https://images.pexels.com/photos/9524941/pexels-photo-9524941.jpeg?auto=compress&cs=tinysrgb&w=600"
+      "release": 2003,
+      "lyrics": "\"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?\"",
+      "songThumbnail": "https://images.pexels.com/photos/18762052/pexels-photo-18762052/free-photo-of-singer-in-music-studio.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "id": 15
     },
     {
       "albumId": 9,
@@ -325,7 +296,7 @@
       "youtubeUrl": "https://www.youtube.com/watch?v=1Al-nuR1iAU&ab_channel=RagnBoneManVEVO",
       "songTitle": "accusamus e qui sunt",
       "musicStyle": "Electronic",
-      "release": 2.3,
+      "release": 1993,
       "lyrics": "tweweds",
       "songThumbnail": "https://images.pexels.com/photos/342520/pexels-photo-342520.jpeg?auto=compress&cs=tinysrgb&w=600"
     },
@@ -336,7 +307,7 @@
       "youtubeUrl": "https://www.youtube.com/watch?v=ir6nk2zrMG0&ab_channel=CalvinHarrisVEVO",
       "songTitle": "accusamus bea sunt",
       "musicStyle": "Electronic",
-      "release": 2.3,
+      "release": 2000,
       "lyrics": "https://via.placeholder.com/600/92c952",
       "songThumbnail": "https://images.pexels.com/photos/9789893/pexels-photo-9789893.jpeg?auto=compress&cs=tinysrgb&w=600"
     },
@@ -346,10 +317,32 @@
       "songwriterId": 3,
       "songTitle": "Hello(edited)",
       "musicStyle": "Habib rock",
-      "release": "2022",
+      "release": 2022,
       "lyrics": "Gimme gimme gimme some time to think\nI’m in the bathroom looking at me\nFace in the mirror is all I need\nWait until the reaper takes my life\nNever gonna get me out alive\nI will live a thousand million lives\n\nMy patience is waning\nIs this entertaining?\nMy patience is waning\nIs this entertaining?\n\nI got this feeling yeah you know\nWhere I’m losing all control\nCause there’s magic in my bones\nI got this feeling in my soul\nGo ahead and throw your stones\nCause there’s magic in my bones\n\nPlaying with a stick of dynamite\nThere was never grey in black and white\nThere was never wrong till there was right\nFeeling like a boulder hurdling\nSeeing all the vultures circling\nBurning in the flames I’m working in\nTurning in a bed that’s darkening\n\nMy patience is waning\nIs this entertaining?\nMy patience is waning\nIs this entertaining?\n\nI got this feeling yeah you know\nWhere I’m losing all control\nCause there’s magic in my bones\nI got this feeling in my soul\nGo ahead and throw your stones\nCause there’s magic in my bones\n\nCause there’s magic in my bones\n\nLook in the mirror of my mind\nTurning the pages of my life\nWalking the path so many paced a million times\nDrown out the voices in the air\nLeaving the ones that never cared\nPicking the pieces up and building to the sky\n\nMy patience is waning\nIs this entertaining?\nMy patience is waning\nIs this entertaining?\n\nI got this feeling yeah you know\nWhere I’m losing all control\nCause there’s magic in my bones\nI got this feeling in my soul\nGo ahead and throw your stones\nCause there’s magic in my bones\n\nThere goes my mind, don’t mind\nThere goes my mind\nThere goes my mind, don’t mind\nThere goes my mind\nCause there’s magic in my bones",
       "songThumbnail": "https://images.pexels.com/photos/4113688/pexels-photo-4113688.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
       "id": 19
+    },
+    {
+      "albumId": 15,
+      "youtubeUrl": "https://youtu.be/eaZyC4_W1Wg",
+      "songwriterId": 3,
+      "songTitle": "Nestok traukiny",
+      "musicStyle": "pop",
+      "release": 2022,
+      "lyrics": "adadadadadad",
+      "songThumbnail": "https://images.pexels.com/photos/7209396/pexels-photo-7209396.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load",
+      "id": 20
+    },
+    {
+      "albumId": 16,
+      "youtubeUrl": "https://www.youtube.com/watch?v=EUwynJ-WHGo&ab_channel=johnmayerVEVO",
+      "songwriterId": 4,
+      "songTitle": "Wild blue",
+      "musicStyle": "Rock",
+      "release": 2023,
+      "lyrics": "Never seen the sun before\nLyin' on the ocean floor\nI'm walkin' through the wilderness\nAnd livin' off the loneliness\nOh wild blue, deeper than I ever knew\nWild blue on a bed of grey\nOh baby, what a wild blue\nI found myself when I lost you\nAll the tears I meant to cry\nDance across the evening sky\nAnd in my sorrow I can see\nThat missin' you belongs to me\nOh wild blue, deeper than I ever knew\nWild blue on a bed of grey\nOh baby, what a wild blue\nI found myself when I lost you\nWild blue, deeper than I ever knew\nIt's a wild blue since you went away\nOh baby, what a wild blue\nI found myself when I lost you",
+      "songThumbnail": "https://www.nme.com/wp-content/uploads/2021/08/John-Mayer-Wild-Blue.jpg",
+      "id": 21
     }
   ],
   "studioAwards": [
@@ -378,12 +371,20 @@
       "companyName": "Melodic Milestones Awards company"
     },
     {
-      "id": 4,
       "awardTitle": "SoundWave Accolades",
       "awardDescription": "The jury, comprised of industry experts, musicians, and critics, was profoundly impressed by Studio X's dedication to delivering sonic excellence. The exceptional sound quality and professional service provided by Studio X have made them a clear standout in the competitive world of recording studios. Their commitment to innovation and unwavering passion for music and sound have earned them this well-deserved recognition.",
       "awardPhoto": "https://assets.apraamcos.com.au/images/Awards/_1200x630_crop_center-center_82_none/MUSIC_Generic-3_2.jpg",
       "companyLogo": "https://graphicsfamily.com/wp-content/uploads/2020/10/Free-music-logo-design-on-wall-presentation-scaled.jpg",
-      "companyName": "SoundWave Accolades awards company"
+      "companyName": "SoundWave Accolades awards company",
+      "id": 4
+    },
+    {
+      "awardTitle": "iHeart radio music awards 2023",
+      "awardDescription": "This prestigious ceremony is a magnificent spectacle, where the brightest stars and the most extraordinary talents from across the globe come together to be honored and applauded for their remarkable contributions to the world of music. From symphonic orchestras to electrifying rock bands, from soulful ballads to heart-pounding beats, the Music Award Extravaganza embraces the entire spectrum of musical genres and styles.",
+      "awardPhoto": "https://cdn.qw.iheartmedia.com/header/2023-01/1200x628Awards.png",
+      "companyLogo": "https://i.pinimg.com/736x/0f/d8/57/0fd8577fe8c1c38f28280f9cc3e8d237.jpg",
+      "companyName": "Worldwide iHeart music awards company",
+      "id": 5
     }
   ],
   "galery": [

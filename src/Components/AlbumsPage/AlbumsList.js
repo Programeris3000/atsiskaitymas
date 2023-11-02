@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react'
 import axios from 'axios'
 import { SERVER } from '../Patrials/Config'
-import AlbumItem from '../SingleComponents/AlbumItem/AlbumItem'
+import AlbumItem from '../AlbumsPage/AlbumItem/AlbumItem'
 import { toast } from 'react-toastify'
 import CreateAlbumPage from '../../CreateComponents/CreateAlbum/CreateAlbumPage'
 import './AlbumList.css'

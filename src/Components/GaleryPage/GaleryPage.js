@@ -60,8 +60,8 @@ const GaleryPage = () => {
 
               {galery.map(item => 
               <div className="image-wrapper" key={item.id}>
-                <img className="carousel-img"  src={item.photoUrl} alt={item.alt} />
                 <button className="button-1" onClick={()=> buttonDeleteHandler(item.id)}>Delete image</button>
+                <img className="carousel-img"  src={item.photoUrl} alt={item.alt} />
               </div>)}
 
             </Carousel>

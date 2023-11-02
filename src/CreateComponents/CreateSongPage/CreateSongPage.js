@@ -14,11 +14,11 @@ const CreateSongPage = ({ onCreateSongHandler }) => {
   const [songRelease, setSongRelease] = useState('')
   const [songLyrics, setSongLyrics] = useState('')
   const [songThumbnail, setSongThumbnail] = useState('')
-  const [songWriters, setSongWriters] = useState('')
+  const [songWriters, setSongWriters] = useState([])
   const [youtubeUrl, setYoutubeUrl] = useState('')
 
 
-  const [songWriter, setSongWriter] = useState('')
+  const [songWriter, setSongWriter] = useState({})
   const [selectedAlbum, setSelectedAlbum] = useState('')
 
   const [selectedUser, setSelectedUser] = useState('')
@@ -77,7 +77,7 @@ const CreateSongPage = ({ onCreateSongHandler }) => {
       songwriterId: Number(selectedUser),
       songTitle: songTitle,
       musicStyle: musicStyle,
-      release: songRelease,
+      release: Number(songRelease),
       lyrics: songLyrics,
       songThumbnail: songThumbnail
     }
@@ -121,7 +121,9 @@ const CreateSongPage = ({ onCreateSongHandler }) => {
         <label className="label-element" htmlFor="create-song-release">Enter song release date</label>
         <input
           required
-          type="text"
+          type="number"
+          min="1950"
+          max="2023"
           id="create-song-release"
           name="create-song-release"
           onChange={songReleaseHandler}

@@ -5,9 +5,9 @@ import MainPage from "./Components/MainPage/MainPage";
 import Container from "./Components/Container/Container";
 import AlbumsList from "./Components/AlbumsPage/AlbumsList";
 import SongsList from "./Components/SongsPage/SongsList";
-import WriterPage from "./Components/SingleComponents/WriterPage/WriterPage";
-import AlbumPage from "./Components/SingleComponents/AlbumPage/AlbumPage";
-import SongPage from "./Components/SingleComponents/SongPage/SongPage";
+import WriterPage from "./Components/SingularComponents/WriterPage/WriterPage";
+import AlbumPage from "./Components/SingularComponents/AlbumPage/AlbumPage";
+import SongPage from "./Components/SingularComponents/SongPage/SongPage";
 import { ToastContainer} from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 

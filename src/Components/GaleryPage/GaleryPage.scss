@@ -1,7 +1,7 @@
 @use '../StyleComponents/variables';
 @use '../StyleComponents/responsive';
 
-.studio-galery-title{
+.studio-galery-title {
   background-image: url("/src/Images/pexels-vishnu-r-nair-1105666.jpg");
   object-fit: contain;
   width: 100%;
@@ -14,43 +14,45 @@
   margin-top: 20px;
   font-size: 30px;
   text-transform: uppercase;
+
   @include responsive.s {
     text-align: center;
     font-size: 24px;
   }
 }
-.galery-page-wrapper{
+
+.galery-page-wrapper {
   margin-top: 20px;
   border: 1px solid;
   padding: 20px;
-  .carousel{
-    .image-wrapper{
 
-      .carousel-img{
+  .carousel {
+    .image-wrapper {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      .carousel-img {
         max-width: 600px;
         height: 300px;
         object-fit: contain;
         position: relative;
+
         @include responsive.m {
           height: unset;
         }
 
       }
-      .button-1{
-        position: absolute;
-        right: 31%;
-        top: 3%;
-        font-size: 14px;
+
+      .button-1 {
+        align-self: flex-end;
+        margin-right: 30px;
+        padding-top: 0px;
+        padding-bottom: 0px;
 
         @include responsive.l {
-          right: 24%;
-          top: 3%;
-        }
-        @include responsive.m {
-          right: 9%;
-          top: 3%;
-          font-size: 12px;
-
+          align-self: center;
+          margin-right: 0px;
         }
       }
     }

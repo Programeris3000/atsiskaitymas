@@ -75,6 +75,8 @@ const CreateSongWriter = ({ onCreateSongWriterHandler }) => {
             required
             type="number"
             id="songwriter-age"
+            min="10"
+            max="110"
             name="songwriter-age"
             onChange={ageHandler}
             value={age}

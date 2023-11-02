@@ -12,7 +12,7 @@ const EditAlbumPage = () => {
 
   const [albumTitle, setAlbumTitle] = useState('')
   const [albumCover, setAlbumCover] = useState('')
-  const [albumRealease, setAlbumRealease] = useState('')
+  const [albumRelease, setAlbumRelease] = useState('')
   const [albumGenre, setAlbumGenre] = useState('')
   const [albumDescription, setAlbumDescription] = useState('')
   const [selectedUser, setSelectedUser] = useState('')
@@ -21,7 +21,7 @@ const EditAlbumPage = () => {
 
   const albumTitleHandler = event => setAlbumTitle(event.target.value)
   const albumCoverHandler = event => setAlbumCover(event.target.value)
-  const albumRealeaseHandler = event => setAlbumRealease(event.target.value)
+  const albumReleaseHandler = event => setAlbumRelease(event.target.value)
   const albumGenreHandler = event => setAlbumGenre(event.target.value)
   const albumDescriptionHandler = event => setAlbumDescription(event.target.value)
   const albumUserHandler = event => setSelectedUser(event.target.value)
@@ -40,10 +40,10 @@ const EditAlbumPage = () => {
     const getAlbumToEdit = async () => {
       const { data } = await axios(`${SERVER}/albums/${ID}`)
       console.log(data)
-      const { title, songwriterId, realeaseDate, photoUrl, genre, description } = data
+      const { title, songwriterId, releaseDate, photoUrl, genre, description } = data
       setAlbumTitle(title)
       setAlbumCover(photoUrl)
-      setAlbumRealease(realeaseDate)
+      setAlbumRelease(releaseDate)
       setAlbumGenre(genre)
       setAlbumDescription(description)
       setSelectedUser(songwriterId)
@@ -65,7 +65,7 @@ const EditAlbumPage = () => {
 
     console.log(albumTitle)
     console.log(albumCover)
-    console.log(albumRealease)
+    console.log(albumRelease)
     console.log(albumGenre)
     console.log(albumDescription)
 
@@ -73,7 +73,7 @@ const EditAlbumPage = () => {
       id: Number(ID),
       title: albumTitle,
       photoUrl: albumCover,
-      realeaseDate: albumRealease,
+      releaseDate: Number(albumRelease),
       genre: albumGenre,
       description: albumDescription,
       songwriterId: Number(selectedUser)
@@ -99,7 +99,7 @@ const EditAlbumPage = () => {
         <div className="form-control">
           <label htmlFor="create-album-title">Edit Album title</label>
           <input
-            // required
+            required
             type="text"
             id="create-album-title"
             name="create-album-title"
@@ -111,7 +111,7 @@ const EditAlbumPage = () => {
         <div className="form-control">
           <label htmlFor="create-album-cover">Edit Cover Photo Url</label>
           <input
-            // required
+            required
             type="text"
             id="create-album-cover"
             name="create-album-cover"
@@ -121,21 +121,23 @@ const EditAlbumPage = () => {
         </div>
 
         <div className="form-control">
-          <label htmlFor="create-album-realease">Edit Album Realease date</label>
+          <label htmlFor="create-album-release">Edit Album Release date</label>
           <input
-            // required
-            type="text"
-            id="create-album-realease"
-            name="create-album-realease"
-            onChange={albumRealeaseHandler}
-            value={albumRealease}
+            required
+            type="number"
+            min="1950"
+            max="2023"
+            id="create-album-release"
+            name="create-album-release"
+            onChange={albumReleaseHandler}
+            value={albumRelease}
           />
         </div>
 
         <div className="form-control">
           <label htmlFor="create-album-genre">Edit Album genre</label>
           <input
-            // required
+            required
             type="text"
             id="create-album-genre"
             name="create-album-genre"
@@ -147,7 +149,7 @@ const EditAlbumPage = () => {
         <div className="form-control">
           <label htmlFor="create-album-description">Edit Album description</label>
           <textarea
-            // required
+            required
             type="text"
             id="create-album-description"
             name="create-album-description"

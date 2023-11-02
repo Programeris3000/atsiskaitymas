@@ -23,7 +23,7 @@ const AlbumItem = ({data, key, onDeleteAlbumHandler}) => {
       setSongWriter(data)
     }
     getSongWriter()
-  },[])
+  },[songwriterId])
 
   
 

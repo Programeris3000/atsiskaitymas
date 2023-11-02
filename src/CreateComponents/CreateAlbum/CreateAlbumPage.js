@@ -54,7 +54,7 @@ const CreateAlbumPage = ({ onCreateAlbumHandler }) => {
     const newAlbum = {
       title: albumTitle,
       photoUrl: albumCover,
-      realeaseDate: albumRealease,
+      releaseDate: Number(albumRealease),
       genre: albumGenre,
       description: albumDescription,
       songwriterId: Number(selectedUser)
@@ -102,7 +102,9 @@ const CreateAlbumPage = ({ onCreateAlbumHandler }) => {
         <label className="create-album-label-element" htmlFor="create-album-realease">Enter Album Realease date</label>
         <input
           required
-          type="text"
+          type="number"
+          min="1950"
+          max="2023"
           id="create-album-realease"
           name="create-album-realease"
           onChange={albumRealeaseHandler}
