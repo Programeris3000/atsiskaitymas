@@ -51,7 +51,7 @@ const SongWritersList = () => {
 
   const splitWriters = writers.map((data, index) => {
     return (
-      <WriterItem onDeleteSongWriterHandler={deleteSongWriterHandler} data={data} key={index} />
+      <WriterItem key={data.id} onDeleteSongWriterHandler={deleteSongWriterHandler} data={data}/>
     )
   })
 

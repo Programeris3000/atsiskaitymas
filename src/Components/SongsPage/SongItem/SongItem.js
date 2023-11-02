@@ -1,18 +1,18 @@
 import { Link } from 'react-router-dom'
 import './SongItem.css'
+import { TailSpin } from 'react-loader-spinner'
 
-const SongItem = ({ data, index, onDeleteSongHandler }) => {
-
+const SongItem = ({ data,  onDeleteSongHandler }) => {
   const { songTitle, release, songwriter, songThumbnail, id, album} = data
-
+  
   const deleteSongHandler = () => {
     onDeleteSongHandler(id)
   }
-
+  
   return (
     <>
       {data ? (
-        <div className="song-item-wrapper" key={index}>
+        <div className="song-item-wrapper" >
 
           <div className="content-wrapper">
             <Link className="button-1" to={`/project/songslist/${id}`}>Read more about this song...</Link>
@@ -29,7 +29,16 @@ const SongItem = ({ data, index, onDeleteSongHandler }) => {
             <button className="button-1" onClick={deleteSongHandler}>Delete song</button>
           </div>
 
-        </div>) : (<p></p>)}
+        </div>) : (<TailSpin
+          height="80"
+          width="80"
+          color="#4fa94d"
+          ariaLabel="tail-spin-loading"
+          radius="1"
+          wrapperStyle={{}}
+          wrapperClass=""
+          visible={true}
+        />)}
     </>
   )
 }

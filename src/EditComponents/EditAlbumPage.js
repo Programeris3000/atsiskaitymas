@@ -149,8 +149,8 @@ const EditAlbumPage = () => {
           />
         </div>
 
-        <div className="select-element-wrapper">
-        <label className="select-element-label" htmlFor="create-album-genre">Select album music style</label>
+        <div className="form-control">
+        <label className="create-album-select-element" htmlFor="create-album-genre">Select album music style</label>
         <select id="create-album-genre" onChange={albumGenreHandler} value={albumGenre}>
           {styleOptionElements}
         </select>

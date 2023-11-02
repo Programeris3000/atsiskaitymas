@@ -11,7 +11,7 @@ const CreateAlbumPage = ({ onCreateAlbumHandler }) => {
 
   const [albumTitle, setAlbumTitle] = useState('')
   const [albumCover, setAlbumCover] = useState('')
-  const [albumRealease, setAlbumRealease] = useState('')
+  const [albumRealease, setAlbumRealease] = useState(2000)
   const [albumGenre, setAlbumGenre] = useState('')
   const [albumDescription, setAlbumDescription] = useState('')
   const [selectedUser, setSelectedUser] = useState('')
@@ -31,6 +31,7 @@ const CreateAlbumPage = ({ onCreateAlbumHandler }) => {
     const getMusicStyles = async ()=>{
       const {data} = await axios(`${SERVER}/musicStyles`)
       setMusicStyles(data)
+      setAlbumGenre(data[0])
     }
     getMusicStyles()
   },[])

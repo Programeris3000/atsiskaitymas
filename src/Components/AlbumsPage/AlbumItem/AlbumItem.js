@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom'
 import { TailSpin } from 'react-loader-spinner'
 
 
-const AlbumItem = ({data, key, onDeleteAlbumHandler}) => {
+const AlbumItem = ({data, onDeleteAlbumHandler}) => {
 
   const {title, id, songwriterId, photoUrl} = data
   const [songWriter, setSongWriter] = useState([])
@@ -32,7 +32,7 @@ const AlbumItem = ({data, key, onDeleteAlbumHandler}) => {
   return (
     <>
     {data ? (
-      <div className="album-element-wrapper" key={key}>
+      <div className="album-element-wrapper">
         <Link className="album-link-wrapper" to={`/project/albumslist/${id}`}>
         <h2 className="album-title">{title}</h2>
         <span className="album-creator-name">Created by {songWriter.name}</span>

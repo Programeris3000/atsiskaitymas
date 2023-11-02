@@ -39,6 +39,7 @@ const CreateSongPage = ({ onCreateSongHandler }) => {
     const getMusicStyles = async ()=>{
       const {data} = await axios(`${SERVER}/musicStyles`)
       setMusicStyles(data)
+      setMusicStyle(data[0])
     }
     getMusicStyles()
   },[])
@@ -97,7 +98,6 @@ const CreateSongPage = ({ onCreateSongHandler }) => {
     }
     onCreateSongHandler(newSong)
     setSongTitle('')
-    setMusicStyle('')
     setSongRelease('')
     setSongLyrics('')
     setSongThumbnail('')

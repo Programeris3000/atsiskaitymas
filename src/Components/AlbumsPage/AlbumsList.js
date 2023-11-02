@@ -54,7 +54,7 @@ const AlbumsList = () => {
 
   const splitAlbums = albums && albums.map((album, index) => {
     return (
-      <AlbumItem onDeleteAlbumHandler={deleteAlbumHandler} data={album} key={index} />
+      <AlbumItem key={album.id} onDeleteAlbumHandler={deleteAlbumHandler} data={album} />
     )
   })
 

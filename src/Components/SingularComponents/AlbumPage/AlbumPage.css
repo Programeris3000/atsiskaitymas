@@ -53,10 +53,14 @@
 .album-page-wrapper .single-album-item .album-image {
   max-width: 400px;
   height: 400px;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 @media (max-width: 450px) {
   .album-page-wrapper .single-album-item .album-image {
     width: 100%;
     height: unset;
+    -o-object-fit: unset;
+       object-fit: unset;
   }
 }/*# sourceMappingURL=AlbumPage.css.map */

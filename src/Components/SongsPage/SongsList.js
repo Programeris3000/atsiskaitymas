@@ -7,7 +7,7 @@ import CreateSongPage from '../../CreateComponents/CreateSongPage/CreateSongPage
 import { toast } from 'react-toastify'
 
 const SongsList = () => {
-  const [songs, setSongs] = useState('')
+  const [songs, setSongs] = useState([])
 
   useEffect(()=>{
     const getSongs = async () => {
@@ -20,14 +20,14 @@ const SongsList = () => {
 
   const createSongHandler = async song => {
     const res = await axios.post(`${SERVER}/songs`, song)
-        console.log(song)
         if (res.statusText === 'Created') {
-          toast.success('Song successfully created')
-          setSongs(prevState => [res.data,...prevState])
+          toast.success('Song successfully created')      
+              setSongs(prevState => [res.data,...prevState])
         } else {
           toast.error('Something went wrong')
         }
   }
+  
 
 
 
@@ -49,9 +49,9 @@ const SongsList = () => {
   }
 
 
-  const splitSongs = songs && songs.map((song, index)=>{
+  const splitSongs = songs && songs.length > 0 && songs.map(song=>{
     return(
-      <SongItem onDeleteSongHandler={deleteSongHandler} data={song} index={index}/>
+      <SongItem key={song.id} onDeleteSongHandler={deleteSongHandler} data={song}/>
     )
   })
 

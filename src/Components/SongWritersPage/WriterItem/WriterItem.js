@@ -2,7 +2,7 @@ import { Link } from "react-router-dom"
 import { TailSpin } from "react-loader-spinner"
 import './WriterItem.css'
 
-const WriterItem = ({ data, key, onDeleteSongWriterHandler }) => {
+const WriterItem = ({ data, onDeleteSongWriterHandler }) => {
   const { biography, id, name, photoUrl } = data
 
 
@@ -12,7 +12,7 @@ const WriterItem = ({ data, key, onDeleteSongWriterHandler }) => {
     <>
       {data && name ? (
 
-        <div key={key} className="song-writer-item">
+        <div className="song-writer-item">
           <div className="song-writer-content-wrapper">
             <h2 className="song-writer-name">{name}</h2>
             {data.photoUrl && <div className="song-writer-image-content-wrapper">
