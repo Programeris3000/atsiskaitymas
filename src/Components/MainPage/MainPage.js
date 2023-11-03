@@ -53,13 +53,11 @@ const MainPage = () => {
 
   const displayAwards = awards && awards.length > 0 ? (awards.map((data, index) => {
     const { awardTitle, awardDescription, awardPhoto, companyLogo, companyName, id } = data
-    
     if (!awardTitle) {
       return null 
     }
-    return (
-      
 
+    return (
       <div key={index} className="award-element-wrapper">
 
         <div className="buttons-wrapper">
@@ -67,9 +65,7 @@ const MainPage = () => {
           <Link className="button-1" to={`/project/${id}/editalbumpage`}>Edit Award</Link>
         </div>
 
-
         {awardTitle ? <h2 className="award-title">{awardTitle}</h2>: ('')}
-
 
         {awardPhoto ? (
           <div className="award-image-content-wrapper">
@@ -81,7 +77,6 @@ const MainPage = () => {
             <img className="award-logo" src={companyLogo} alt={companyName} />
             <h3 className="award-image-title">{companyName}</h3>
           </div>) : ('')}
-
 
         <p className="award-description">{awardDescription}</p>
 
